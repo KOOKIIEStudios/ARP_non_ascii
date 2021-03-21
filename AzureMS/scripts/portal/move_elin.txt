@@ -1,0 +1,1 @@
+Line 23:     pi.getPlayer().dropMessage(5, "시간의 문을 통과합니다.");

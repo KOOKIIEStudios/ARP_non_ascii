@@ -1,0 +1,29 @@
+Line 11:     COINCODE = 4033247; // 코인코드
+
+Line 12:     COINQTY = 30; // 코인개수
+
+Line 21:         말 = "#fn나눔고딕 Extrabold# 의자을 뽑아 보라구! 95% 확률로 하나를 줄게~\r\n리스트는 아래와 같아.\r\n"
+
+Line 22: 		        말+= "#fn나눔고딕 Extrabold# 랜덤으로 뽑을래? (#i"+COINCODE+"# #z"+COINCODE+"# "+COINQTY+"개 필요)\r\n"
+
+Line 23:         말+= "#L0# #b의자#k를 뽑아볼래요!\r\n"
+
+Line 24: 		        말+= "\r\n"
+
+Line 27:             말+= "#i"+ reals + "#"
+
+Line 29:                 말+= "\r\n"
+
+Line 32:         말+= "\r\n"
+
+Line 33:         //말+= "랜덤으로 뽑을래? (#i"+COINCODE+"# #z"+COINCODE+"# "+COINQTY+"개 필요)\r\n\r\n"
+
+Line 34:         //말+= "#L0# #d의자을 뽑을래!"
+
+Line 35:         cm.sendSimple(말);
+
+Line 43:                 cm.sendOk("#i"+reals+"# #z"+reals+"# 의자을 획득하셨습니다.");
+
+Line 45:                 cm.sendOk("안타깝게도 꽝이시네요.");
+
+Line 50:             cm.sendOk("의자을 뽑기 위한 코인이 부족합니다.");

@@ -1,0 +1,7 @@
+Line 3: 카이(kai__)
+
+Line 5: 세호(kast1a)
+
+Line 31: 	    var cps ="포기하고 나가시겠습니까?\r\n";
+
+Line 32: 	    cps += "#L1#포기한다.\r\n";		  

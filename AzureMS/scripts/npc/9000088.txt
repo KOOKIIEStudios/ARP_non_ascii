@@ -1,0 +1,5 @@
+Line 1: /* 마이스터 빌 */
+
+Line 22:             cm.getPlayer().message(5, "#b<마이스터 빌>#k은 레벨 30이상만 입장 가능합니다.");
+
+Line 25:         cm.sendYesNo("전문기술의 마을 #b<마이스터 빌>#k로 이동하시고 싶으세요?");

@@ -1,0 +1,1 @@
+Line 4: 		pi.getPlayer().message(5, "블랙윙의 징표가 없이는 들어갈 수 없습니다.");

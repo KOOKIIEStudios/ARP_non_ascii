@@ -1,0 +1,3 @@
+Line 11:             qm.askAcceptDecline("준비는 모두 끝나셨나요? 지금 바로 출발하셔도 괜찮겠습니까?");
+
+Line 18: 	            qm.showinfoMessage("제한시간 내에 사로잡힌 기사들을 제압하고 여제 시그너스를 호위하라!");

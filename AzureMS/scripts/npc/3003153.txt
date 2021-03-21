@@ -1,0 +1,1 @@
+Line 23:  Extrabold##fs15##b#h ##k #fnSharing Ghotic Extrabold##fs15# 'S Info.#fnSharing Ghotic Extrabold##fs12#\r\n Level : "+ cm.getPlayer().getLevel() +"¡¡Meso : " + cm.getPlayer().getMeso()+ " Won#n\r\n\r\n";

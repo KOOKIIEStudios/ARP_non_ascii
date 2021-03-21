@@ -1,0 +1,15 @@
+Line 5:     ["#g쉬움　　　　　　　　　#k", 5, 5, 4],
+
+Line 6:     ["#b중간　　　　　　　　　#k", 6, 6, 8],
+
+Line 7:     ["#r어려움　　　　　　　　#k", 7, 7, 15]
+
+Line 32:     return "#d============ 지뢰찾기 ============#k\r\n\r\n";
+
+Line 37:         ret += "#L"+i+"#"+Modes[i][0]+" ("+Modes[i][1]+"x"+Modes[i][2]+") 폭탄: "+Modes[i][3]+"#l\r\n";
+
+Line 101:     var ret = "#d즐겜요~ 여기보이는숫자만큼 찾으세요>#k#e->#k " + LeftToBeRevealed + "\r\n";
+
+Line 183:             cm.sendSimple(Header()+"난이도를 선택해주세요:\r\n"+ConstructModeSelectionString())
+
+Line 212:                 cm.sendOk(Header() + ConstructEndBoardString() + "\r\n?습니다!. 게임한시간: " + GetGameTime((new Date()).getTime()));

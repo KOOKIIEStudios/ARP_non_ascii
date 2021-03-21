@@ -1,0 +1,121 @@
+Line 2: 제작자 : ljw5992@naver.com / dbg_yeane@nate.com
+
+Line 3: 메모 스크립트
+
+Line 4: 주석 삭제 금지
+
+Line 27: 	var d = "일요일";
+
+Line 30: 	var d = "월요일";
+
+Line 33: 	var d = "화요일";
+
+Line 36: 	var d = "수요일";
+
+Line 39: 	var d = "목요일";
+
+Line 42: 	var d = "금요일";
+
+Line 45: 	var d = "토요일";
+
+Line 88: 		str += "#l#e후원 신청 게시판입니다.#n\r\n"
+
+Line 89: 		str += "#L1##b후원 신청 하기\r\n";
+
+Line 90: 		str += "#L7##b후원 신청 삭제\r\n";
+
+Line 91: 		str += "#L8##b자신의 후원신청글 보기#k\r\n\r\n";
+
+Line 93: 			str += "#l#eGM전용#n\r\n"
+
+Line 94: 			str += "#L100##b게시글 초기화\r\n";
+
+Line 95: 		str += "#L2##b게시글 보기\r\n";
+
+Line 96: 		str += "#L7##b게시글 삭제";
+
+Line 97: 		str += "#L4##b작성자 검색\r\n";
+
+Line 98: 		str += "#L3##b제목 검색　\r\n";
+
+Line 99: 		str += "#L5##b내용 검색　\r\n";
+
+Line 100: 		str += "#L6##b댓글 검색　#k\r\n\r\n\r\n";
+
+Line 105: 			cm.sendGetText("후원신청 양식입니다.\r\n문상 종류 / 핀번호 / 후원금액\r\n\r\nex) 해피머니 / 123-123-123-123 / 2만원\r\n");
+
+Line 113: 				string.append("#L"+title.getInt("id")+"#("+title.getInt("id")+")#e 제목 : #n").append(title.getString("title").replace('\r\n','')).append("#b (").append(Integer(title.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 118: 				cm.sendOk("글이 없습니다.");
+
+Line 123: 			cm.sendGetText("검색할 제목을 입력해주세요");
+
+Line 126: 			cm.sendGetText("검색할 작성자를 입력해주세요.");
+
+Line 129: 			cm.sendGetText("그외 다른 할말을 요청사항을 말씀해주세요.");
+
+Line 132: 			cm.sendGetText("검색할 댓글을 입력해주세요.");
+
+Line 136: 			cm.sendOk("메모 초기화를 완료했습니다.");
+
+Line 146: 				string.append("#L"+b.getInt("id")+"##e제목 : #n").append(b.getString("title").replace('\r\n','')).append("#b (").append(Integer(b.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 149: 				cm.sendSimple("삭제할 게시글을 선택해주세요.\r\n"+string.toString());
+
+Line 152: 				cm.sendOk("글이 없습니다.");
+
+Line 163: 				string.append("#L"+b.getInt("id")+"##e제목 : #n").append(b.getString("title").replace('\r\n','')).append("#b (").append(Integer(b.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 166: 				cm.sendSimple("#h0#님이 작성한 글 목록입니다.\r\n"+string.toString());
+
+Line 169: 				cm.sendOk("글이 없습니다.");
+
+Line 178: 				cm.sendGetText("그외 운영진에게 부탁할점을 적어주세요.");
+
+Line 182: 				cm.sendOk("제목은 25자이상 입력할 수 없습니다.");
+
+Line 197: 			string.append("#e작성 일자 : #n").append(mc.getString("date")).append("\r\n#e작성자 : #n").append(mc.getString("name")).append("\r\n#e제목 : #n").append(mc.getString("title")).append("\r\n\r\n#e내용 : #n").append(mc.getString("memo")).append("\r\n");
+
+Line 199: 				stringg.append("#b└#k ").append(mc.getString("reply").split(",,,")[z]).append("\r\n");
+
+Line 201: 			cm.sendGetText(string.toString()+""+stringg.toString()+"\r\n#Cgray#댓글을 입력해 주세요");
+
+Line 213: 				string.append("#L"+title.getInt("id")+"##e제목 : #n").append(title.getString("title").replace('\r\n','')).append("#b (").append(Integer(title.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 218: 				cm.sendOk("검색어 : "+cm.getText()+"\r\n\r\n일치하는 제목을 찾을 수 없습니다.");
+
+Line 231: 				string.append("#L"+title.getInt("id")+"##e제목 : #n").append(title.getString("title").replace('\r\n','')).append("#b (").append(Integer(title.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 236: 				cm.sendOk("검색어 : "+cm.getText()+"\r\n\r\n일치하는 작성자를 찾을 수 없습니다.");
+
+Line 249: 				string.append("#L"+title.getInt("id")+"##e제목 : #n").append(title.getString("title").replace('\r\n','')).append("#b (").append(Integer(title.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 254: 				cm.sendOk("검색어 : "+cm.getText()+"\r\n\r\n일치하는 내용을 찾을 수 없습니다.");
+
+Line 267: 				string.append("#L"+title.getInt("id")+"##e제목 : #n").append(title.getString("title").replace('\r\n','')).append("#b (").append(Integer(title.getString("reply").split(",,,").length-1)).append(")#k\r\n");
+
+Line 272: 				cm.sendOk("검색어 : "+cm.getText()+"\r\n\r\n일치하는 댓글을 찾을 수 없습니다.");
+
+Line 282: 		cm.sendOk("게시글을 삭제했습니다.");
+
+Line 292: 				insert.setString(3,""+year+"년 "+month+"월 "+date+"일 "+d+" "+apm+""+hour+" : "+min+" : "+sec+"");
+
+Line 297: 				cm.sendOk("후원신청이 완료되었습니다. 최대한 빠르시일내 확인후 지급해드리겠습니다.");
+
+Line 298: 			//	WorldBroadcasting.broadcast(UIPacket.showInfo("제목 : "+tit));
+
+Line 299: 			//	WorldBroadcasting.broadcast(UIPacket.showInfo(cm.getPlayer().getName()+"님이 자유게시판에 글을 작성하셨습니다."));
+
+Line 302: 				cm.sendOk("글을 남기기 위해선 10만메소가 필요합니다.");
+
+Line 319: 				cm.sendOk("성공적으로 댓글을 달았습니다.");
+
+Line 322: 				cm.sendOk("아무것도 적지 않았습니다.");
+
+Line 335: 			string.append("#e작성 일자 : #n").append(mc.getString("date")).append("\r\n#e작성자 : #n").append(mc.getString("name")).append("\r\n#e제목 : #n").append(mc.getString("title")).append("\r\n\r\n#e내용 : #n").append(mc.getString("memo")).append("\r\n");
+
+Line 337: 				stringg.append("#b└#k ").append(mc.getString("reply").split(",,,")[z]).append("\r\n");
+
+Line 339: 			cm.sendGetText(string.toString()+""+stringg.toString()+"\r\n#Cgray#댓글을 입력해 주세요");
+
+Line 353: 			cm.sendOk("성공적으로 댓글을 달았습니다.");	

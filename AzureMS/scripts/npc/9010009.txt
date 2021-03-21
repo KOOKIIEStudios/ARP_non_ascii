@@ -1,0 +1,3 @@
+Line 186: 			FileoutputUtil.log(FileoutputUtil.택배로그, "Caller : " + cm.getPlayer().getName() + " / Receiver : " + text + " [ " + itemName + " 1개 ] Send");
+
+Line 248: 			FileoutputUtil.log(FileoutputUtil.택배로그, "Caller : " + cm.getPlayer().getName() + " / Receiver : " + name + " [ " + itemName + " " + item.getQuantity() + "개 ] send");

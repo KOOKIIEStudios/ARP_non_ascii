@@ -1,0 +1,17 @@
+Line 28:         choose += "#fnSharing Ghotic Extrabold##fs15#\r\n\r\n\r\n#k#n#e《《『 지 엠 시 스 템 』》》#k#n #r(운영자만 보이는 메뉴)#k#n\r\n";
+
+Line 29:         choose += "#r#L5#"+time+" 후원제작#k";
+
+Line 30:         choose += "#b#L6#"+time+" 복구제작#k";
+
+Line 31:         choose += "#g#L15#"+time+" 선물하기#k\r\n";
+
+Line 32:         choose += "#d#L7#"+time+" 운영자맵#k";
+
+Line 33:         choose += "#d#L8#"+time+" 모두소환#K";
+
+Line 34:         choose += "#d#L9#"+time+" 팅맵해제#K\r\n";        
+
+Line 35:         choose += "#d#L10#"+time+" 현접종료#k";
+
+Line 36:         choose += "#d#L11#"+time+" 총메세지#k"; 

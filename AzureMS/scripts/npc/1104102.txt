@@ -1,0 +1,77 @@
+Line 26: 	        chat += "           #r#e현재 #b#h ##n#k 님의 #e#r#i4001187# 음치 갯수 #k#n #e#d"+ Lcoin +"#k #b마리#k #n\r\n\r\n"
+
+Line 27:                 chat += "           #r#e현재 #b#h ##n#k 님의 #e#r#i4001188# 몸치 갯수 #k#n #e#d"+ Lcoin2 +"#k #b마리#k #n\r\n\r\n"
+
+Line 28:                 chat += "           #r#e현재 #b#h ##n#k 님의 #e#r#i4001189# 박치 갯수 #k#n #e#d"+ Lcoin3 +"#k #b마리#k #n\r\n\r\n"
+
+Line 30: 	        chat += "\r\n\r\n     #L998##r#i4001187#  #e#r1000#k#n#e#r마리#k#n #L1# #i4031456# #b#e[#z4031456#]#k#n #e#r1개#k#n";
+
+Line 32: 	        chat += "\r\n\r\n     #L998##r#i4001187#  #e#r2000#k#n#e#r마리#k#n #L2# #i4031456# #b#e[#z4031456#]#k#n #e#r2개#k#n";
+
+Line 34: 	        chat += "\r\n\r\n     #L998##r#i4001187#  #e#r3000#k#n#e#r마리#k#n #L3# #i4031456# #b#e[#z4031456#]#k#n #e#r3개#k#n";
+
+Line 36: 	        chat += "\r\n\r\n     #L998##r#i4001188#  #e#r3000#k#n#e#r마리#k#n #L4# #i4031456# #b#e[#z4031456#]#k#n #e#r1개#k#n";
+
+Line 38: 	        chat += "\r\n\r\n     #L998##r#i4001188#  #e#r6000#k#n#e#r마리#k#n #L5# #i4031456# #b#e[#z4031456#]#k#n #e#r2개#k#n";
+
+Line 40: 	        chat += "\r\n\r\n     #L998##r#i4001188#  #e#r9000#k#n#e#r마리#k#n #L6# #i4031456# #b#e[#z4031456#]#k#n #e#r3개#k#n";
+
+Line 42: 	        chat += "\r\n\r\n     #L998##r#i4001189#  #e#r3000#k#n#e#r마리#k#n #L7# #i4031456# #b#e[#z4031456#]#k#n #e#r1개#k#n";
+
+Line 44: 	        chat += "\r\n\r\n     #L998##r#i4001189#  #e#r6000#k#n#e#r마리#k#n #L8# #i4031456# #b#e[#z4031456#]#k#n #e#r2개#k#n";
+
+Line 46: 	        chat += "\r\n\r\n     #L998##r#i4001189#  #e#r9000#k#n#e#r마리#k#n #L9# #i4031456# #b#e[#z4031456#]#k#n #e#r3개#k#n";
+
+Line 55: 		        cm.sendOk("#r음치#k로 #r#i4031456#[낚시 구슬] 1개를 구입 하셨습니다.");
+
+Line 60: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 64: 		    cm.sendOk("#r음치#k가 부족합니다.");
+
+Line 70: 		        cm.sendOk("#r음치#k로 #r#i4031456#[낚시 구슬] 2개를 구입 하셨습니다.");
+
+Line 75: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 79: 		    cm.sendOk("#r음치#k가 부족합니다.");
+
+Line 85: 		        cm.sendOk("#r음치#k로 #r#i4031456#[낚시 구슬] 3개를 구입 하셨습니다.");
+
+Line 90: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 94: 		    cm.sendOk("#r음치#k가 부족합니다.");
+
+Line 100: 		        cm.sendOk("#r몸치#k로 #r#i4031456#[낚시 구슬] 1개를 구입 하셨습니다.");
+
+Line 105: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 109: 		    cm.sendOk("#r몸치#k가 부족합니다.");
+
+Line 115: 		        cm.sendOk("#r몸치#k로 #r#i4031456#[낚시 구슬] 2개를 구입 하셨습니다.");
+
+Line 120: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 124: 		    cm.sendOk("#r몸치#k가 부족합니다.");
+
+Line 130: 		        cm.sendOk("#r박치#k로 #r#i4031456#[낚시 구슬] 3개를 구입 하셨습니다.");
+
+Line 135: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 139: 		    cm.sendOk("#r몸치#k가 부족합니다.");
+
+Line 145: 		        cm.sendOk("#r박치#k로 #r#i4031456#[낚시 구슬] 1개를 구입 하셨습니다.");
+
+Line 150: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 154: 		    cm.sendOk("#r박치#k가 부족합니다.");
+
+Line 160: 		        cm.sendOk("#r박치#k로 #r#i4031456#[낚시 구슬] 2개를 구입 하셨습니다.");
+
+Line 165: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 169: 		    cm.sendOk("#r박치#k가 부족합니다.");
+
+Line 175: 		        cm.sendOk("#r박치#k로 #r#i4031456#[낚시 구슬] 3개를 구입 하셨습니다.");
+
+Line 180: 		        cm.sendOk("기타창에 빈 공간이 없습니다.");
+
+Line 184: 		    cm.sendOk("#r박치#k가 부족합니다.");

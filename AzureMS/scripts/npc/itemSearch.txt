@@ -1,0 +1,25 @@
+Line 26:         cm.sendGetText("\r\n#fs11#구매를 원하는 아이템의 이름을 검색해주세요.\r\n\r\n아이템의 정확한 명칭을 모르시나요?\r\n#b아이템의 이름 일부분만 입력해도 검색이 가능합니다.#k\r\n#fs13#\r\n#r예) 카오스 자쿰의 투구 → '자쿰' 으로 검색이 가능합니다.#k\r\n\r\n");
+
+Line 29:             cm.sendOk("잘못 입력 하셨습니다.");
+
+Line 35:             cm.sendOk("검색된 결과가 없습니다.");
+
+Line 39:         cm.sendSimple("입력하신 [#b" + cm.getText() + "#k]의 검색 결과입니다.\r\n\r\n" + t);
+
+Line 49: 			var msg =  "'"+cm.getPlayer().getName()+"'이(가) 의심됨.\r\n";
+
+Line 50:            		msg += "'"+a.getFullYear()+"년 " + Number(a.getMonth() + 1) + "월 " + a.getDate() + "일'\r\n";
+
+Line 51: 			msg += "복사 시도 아이템코드 : "+selection+"\r\n";
+
+Line 52: 			msg += "사용자 캐릭터 아이디 : "+cm.getPlayer().getId()+"\r\n";
+
+Line 53: 			msg += "사용자 계정 : "+cm.getPlayer().getAccountID()+"\r\n";
+
+Line 56: 			cm.sendOk("오류가 발생 하였습니다.");
+
+Line 66: 		cm.sendOk("해당 아이템은 구매할 수 없습니다.");
+
+Line 70:         cm.sendYesNo("정말 선택하신 #i" + sel + "##b#t" + sel + "##k (을)를 지급 받으시겠습니까?");
+
+Line 73:             	cm.sendYesNo("선택하신 아이템을 지급 해 드렸습니다.\r\n추가로 더 검색을 원하시면 '예'를 눌러주세요.");

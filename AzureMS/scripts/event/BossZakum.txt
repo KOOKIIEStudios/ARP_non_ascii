@@ -1,0 +1,1 @@
+Line 103:      * -1 or less: Only people above a certain level remain면 유지이나, 파티장이 나가면 인스턴스 삭제

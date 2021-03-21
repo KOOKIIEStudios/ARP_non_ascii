@@ -1,0 +1,39 @@
+Line 0: var 주흔 = 4001832;
+
+Line 1: var 소비 = 1;
+
+Line 3: var 메소 = 25000;
+
+Line 28: 			m += " I am #z" + 주흔 + "# To exchange for Meso #p" + cm.getNpc() + "#is. Do you want to exchange? (25,000 meso each)\r\n"
+
+Line 29: 			m += "#b#L0#Yeah, #z" + 주흔 + "# I would like to exchange.#l\r\n"
+
+Line 33: 			개수 = cm.itemQuantity(주흔);
+
+Line 34: 			회수 = parseInt(개수 / 소비);
+
+Line 35: 			최대 = Math.min(개수, 회수);
+
+Line 39: 			m += "- Item Count : " + 개수 + " QTY\r\n"
+
+Line 40: 			m += "- Exchangeable : " + 최대 + " time\r\n"
+
+Line 41: 			m += "- Max meso available : " + (최대 * 메소) + " Mesos\r\n\r\n"
+
+Line 42: 			m += "#h # Is currently #z" + 주흔 + "# Total " + 개수 + " You have " + 최대 + " Times.\r\n"
+
+Line 43: 			cm.sendGetNumber(m, 최대, 1, 회수);
+
+Line 55: 			m += "#h #The number of times you entered " + S + "Burned, total #z" + 주흔 + "# " + (소비 * S) + " QTY is consumed. Do you really want to exchange?\r\n"
+
+Line 59: 			if (개수 < (S * 소비) && S <= 0) {
+
+Line 64: 				if (cm.haveItem(주흔, S * 소비) && 개수 >= (S * 소비)) {
+
+Line 66: 					m += "Total consumption : #r" + (S * 소비) + " QTY#k\r\n"
+
+Line 67: 					m += "Total Acquisition Meso : #b" + (S * 메소) + " Mesos#k\r\n\r\n"
+
+Line 69: 					cm.gainItem(주흔, -S * 소비);
+
+Line 70: 					cm.gainMeso(메소 * S);

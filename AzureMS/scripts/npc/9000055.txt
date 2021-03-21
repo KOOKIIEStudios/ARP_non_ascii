@@ -1,0 +1,39 @@
+Line 6: var gun1 = 1000; // 화약통 이만큼 모으면 이벤트 발동!
+
+Line 11: 	con.setString(1, "시작")
+
+Line 29: 		var Jess = "히히~ 저에게 #e#r화약통#k#n을 줘보시겠어요?\r\n";
+
+Line 32:             Jess += "#b#L3#화약통 주기";
+
+Line 34: 			Jess += "현재까지 모인 #e#r화약통#k#n의 갯수는 #b" + total_gun + "개#k 에요~\r\n\r\n";
+
+Line 35: 			Jess += "#b#L1#화약통 주기";
+
+Line 38:         	Jess += "\r\n#r#L2#[GM]폭죽 버닝 종료\r\n";
+
+Line 39:             Jess += "#r#L0#[GM]폭죽 이벤트 시작\r\n";
+
+Line 40:             Jess += "#r#L4#[GM]폭죽 이벤트 종료\r\n";
+
+Line 46: 			cm.아르미끝();
+
+Line 51: 			insert.setString(1, "시작");
+
+Line 54: 			cm.sendOk("히히~ #r모두가 함께 폭죽을 터트리자!!#k 이벤트가 시작되었어요~");
+
+Line 57: 			cm.sendGetNumber("히히~ 몇개의 #r화약통#k을 주시겠어요?", 1, 1, 1000);
+
+Line 60: 			cm.sendOk("아직 폭죽 이벤트가 시작되지 않았답니다~");
+
+Line 64: 			cm.sendOk("폭죽 이벤트를 종료했습니다");
+
+Line 74: 			MYSQL.getConnection().prepareStatement("UPDATE boom SET gun = '" + plus_gun + "' WHERE status = '시작'").executeUpdate();
+
+Line 76: 				cm.sendOk("우와~~ 여러분 덕분에 #b예쁜 폭죽#k을 터트렸어요!!");
+
+Line 79: 				cm.아르미();
+
+Line 82: 				cm.sendOk(gun + "개의 화약통을 주셔서 #b" + plus_gun + "#k 개의 #e#r화약통#n#k이 모였어요~");
+
+Line 87: 			cm.sendOk("#e#r화약통#k#n갯수를 확인해봐주세요");

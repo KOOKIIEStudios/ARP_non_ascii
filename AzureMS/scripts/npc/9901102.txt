@@ -1,0 +1,49 @@
+Line 5: 　　　　status = -1;
+
+Line 6: 　　　　action (1, 0, 0);
+
+Line 12: 　　　　if (mode != 1) {
+
+Line 13: 　　　　　　　　cm.dispose();
+
+Line 14: 　　　　　　　　return;
+
+Line 15: 　　　　}
+
+Line 16: 　　　　if (mode == 1) {
+
+Line 17: 　　　　　　　　status++;
+
+Line 18: 　　　　}
+
+Line 19: 　　　　if (status == 0) {
+
+Line 20: 　　　　　　　　cm.sendGetText("#b鯵球験 紳虞昔 拭辞 莞革績聖 設公竺舛馬舎陥檎 郊蚊球軒為柔艦陥.#k");
+
+Line 21: 　　　　} else if (status == 1) {
+
+Line 22: 　　　　　　　　var name = cm.getText();
+
+Line 23: 　　　　if (name.length() > 2 && name.length() < 6)
+
+Line 24: 　　　　{
+
+Line 25: 　　　　　　　　cm.setName(name);
+
+Line 26: 　　　　　　　　cm.sendOk("#b" + name + "#k生稽 莞革績 痕井戚 刃戟 鞠醸柔艦陥.");
+
+Line 27: 　　　　　　　　cm.dispose();
+
+Line 28: 　　　　}
+
+Line 29: 　　　　else
+
+Line 30: 　　　　{
+
+Line 31: 　　　　　　　　cm.sendOk("#b2越切 戚馬 暁澗 6越切 戚雌 脊艦陥.#k");
+
+Line 32: 　　　　　　　　cm.dispose();
+
+Line 33: 　　　　　　　　}
+
+Line 34: 　　　　}

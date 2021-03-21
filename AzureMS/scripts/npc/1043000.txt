@@ -1,0 +1,41 @@
+Line 9: 	* ´Ü¹®¿£ÇÇ½Ã ÀÚµ¿Á¦ÀÛ ½ºÅ©¸³Æ®¸¦ ÅëÇØ ¸¸µé¾îÁø ½ºÅ©¸³Æ® ÀÔ´Ï´Ù.
+
+Line 13: 	½ºÇÇ¸´¸Å´ÏÀú ¿¡ ÀÇÇØ ¸¸µé¾î Á³½À´Ï´Ù.
+
+Line 15: 	¿£ÇÇ½Ã¾ÆÀÌµð : 1012007
+
+Line 17: 	¿£ÇÇ½Ã ÀÌ¸§ : ÇÁ·Îµå
+
+Line 19: 	¿£ÇÇ½Ã°¡ ÀÖ´Â ¸Ê : Çì³×½Ã½º : Æê»êÃ¥·Î (100000202)
+
+Line 21: 	¿£ÇÇ½Ã ¼³¸í : Á¶·Ã»ç
+
+Line 88: 			msg += "¡¡¡¡ Required DP : #r"+shop[i]['price']+"#k"+enter;
+
+Line 95: 		msg += "*- Count¡¡ : #r"+shop[seld]['qty']+" #k"+enter;
+
+Line 96: 		msg += "*- Price¡¡ : #i"+need+"##z"+need+"# #r"+shop[seld]['price']+"#k"+enter+enter;
+
+Line 110:                     cm.sendOk("¡Ú #rYou don't have enough donation points.");
+
+Line 126: var ï¿½ï¿½ï¿½ï¿½ = [
+
+Line 157: 		for (i = 0; i < ï¿½ï¿½ï¿½ï¿½.length; i++) msg += "#L"+i+"##b#i"+ï¿½ï¿½ï¿½ï¿½[i]['itemid']+"##z"+ï¿½ï¿½ï¿½ï¿½[i]['itemid']+"# "+ï¿½ï¿½ï¿½ï¿½[i]['qty']+" QTY#k"+enter+" ï¿½ï¿½Price : #b"+ï¿½ï¿½ï¿½ï¿½[i]['price']+"P#k"+enter;
+
+Line 164: 			msg += " Item : #b#i"+ï¿½ï¿½ï¿½ï¿½[seld]['itemid']+"##z"+ï¿½ï¿½ï¿½ï¿½[seld]['itemid']+"##k"+enter;
+
+Line 165: 			msg += " Count : #b"+ï¿½ï¿½ï¿½ï¿½[seld]['qty']+" QTY #k"+enter;
+
+Line 166: 			msg += " Price : "+ï¿½ï¿½ï¿½ï¿½[seld]['price']+"P#k"+enter;
+
+Line 168: 			msg += " Item : #b"+ï¿½ßµï¿½+"Additional Damage#k"+enter;
+
+Line 169: 			msg += " Price : #b"+ï¿½ßµï¿½ï¿½ï¿½ï¿½ï¿½+"P#k"+enter;
+
+Line 171: 		msg += " Please press 'ï¿½ï¿½' to really buy.";
+
+Line 174: 		item = ï¿½ï¿½ï¿½ï¿½[seld]['itemid'];
+
+Line 175: 		qty = ï¿½ï¿½ï¿½ï¿½[seld]['qty'];
+
+Line 176: 		price = ï¿½ï¿½ï¿½ï¿½[seld]['price'];

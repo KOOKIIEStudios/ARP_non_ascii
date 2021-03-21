@@ -1,0 +1,5 @@
+Line 121:     if (diff.equals("쉬움"))
+
+Line 125:     } else if (diff.equals("보통"))
+
+Line 129:     } else if (diff.equals("어려움"))

@@ -1,0 +1,51 @@
+Line 14: var level = -1, ap = -1, 누적 = -1, 환포 = -1;
+
+Line 16: var 승급 = false; // advancement
+
+Line 18: var 환생상점 = 2040030;
+
+Line 20: var 환생보상 = 3003325;
+
+Line 54: 		누적 = cm.getPlayer().getReborns();
+
+Line 55: 		환포 = cm.parseInt(en4.getCustomData());
+
+Line 62: 		msg += "#fs11##h #, Your Current RB Point is #r"+환포+"#k \r\n#eTier Rank : #r" + cm.getPlayer().getTierReborns() +
+
+Line 63:                         "\n#k  #eRebirthed : #r"+누적+"#k"+enter;
+
+Line 166:                         msg += enter+"#rPress '예' to confirm.";
+
+Line 193: 				msg +="#fs11#Rebirthed #b"+누적+" times.\r\n#k";
+
+Line 194: 				sss = ((getNeed(level) - 누적) < 0) ? 0 : (getNeed(level) - 누적);
+
+Line 198: 				if (canInc()) msg += "◎ In accordance with upgrade conditions, " + (level + 1) + "Get promoted to last name."+enter;
+
+Line 200: 				msg += enter+"#rPress '예' to confirm.";
+
+Line 219: 				cm.openNpc(환생상점);
+
+Line 223: 				cm.openNpc(환생보상);
+
+Line 267: 			승급 = true;
+
+Line 269: 		어포 = Randomizer.rand(1, getAq(cm.parseInt(cm.getQuestRecord(201801).getCustomData())));
+
+Line 270: 		지환 = Randomizer.rand(getPqmin(cm.parseInt(cm.getQuestRecord(201801).getCustomData())), getPqmax(cm.parseInt(cm.getQuestRecord(201801).getCustomData())));
+
+Line 273: 		if (승급) msg += "◎ Congratulations! "+(level + 1)+" Tier has been reached!"+enter;
+
+Line 274: 		//msg += "◎ 누적 AP : "+(ap+어포)+" #b(+"+어포+")#k"+enter;
+
+Line 275: 		msg += "◎ Rebirth Points : "+(지환+환포)+" #b(+"+지환+")#k";
+
+Line 283: 		cm.CountAdd("환생co", 1);
+
+Line 288: 		cm.getQuestRecord(201802).setCustomData((ap+어포)+"");
+
+Line 289: 		cm.getQuestRecord(201804).setCustomData((환포 + 지환) + "");
+
+Line 294: 		cm.getPlayer().gainAp(ap+어포); // Stat payment
+
+Line 401: 	return (누적 + 1) == getNeed(level) ? true : false;

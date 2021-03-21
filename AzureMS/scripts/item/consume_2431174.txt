@@ -1,0 +1,3 @@
+Line 22:             ¸í¼ºÄ¡·£´ý = Randomizer.rand(100, 500);
+
+Line 23:             cm.getPlayer().addInnerExp(¸í¼ºÄ¡·£´ý);

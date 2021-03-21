@@ -1,0 +1,9 @@
+Line 33: 	//chat += "#fnSharing Gothic ExtraBold#\r\n#L25##b#s13120003# #eTripling 윔#n Purchase #e#r(300000P)#l#n#k";
+
+Line 254: 		writelog("Tripling 윔");
+
+Line 268:            fFile1 = new File("property/Logs/후원스킬/"+t+"/"+temp+"_"+cn+".log");
+
+Line 272:            out1 = new FileOutputStream("property/Logs/후원스킬/"+t+"/"+temp+"_"+cn+".log",false);
+
+Line 274:            	msg += "'"+a.getFullYear()+"년 " + Number(a.getMonth() + 1) + " Month " + a.getDate() + " Date'\r\n";

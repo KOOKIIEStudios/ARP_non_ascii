@@ -1,0 +1,27 @@
+Line 1:  혼테일 파티퀘스트 열쇠 워프
+
+Line 2:  제작 : 주크블랙
+
+Line 10:     if (mapid == 240050101) { //첫번째 미로방
+
+Line 15:         rm.mapMessage(6, "열쇠가 어디론가 사라졌습니다.");
+
+Line 16:         map.broadcastMessage(MainPacketCreator.serverNotice(6, "반짝이는 빛과 함께 어딘가에서 열쇠가 나타났습니다."));
+
+Line 17:     } else if (mapid == 240050102) { //두번째 미로방
+
+Line 22:         rm.mapMessage(6, "열쇠가 어디론가 사라졌습니다.");
+
+Line 23:         map.broadcastMessage(MainPacketCreator.serverNotice(6, "반짝이는 빛과 함께 어딘가에서 열쇠가 나타났습니다."));
+
+Line 24:     } else if (mapid == 240050103) { //세번째 미로방
+
+Line 29:         rm.mapMessage(6, "열쇠가 어디론가 사라졌습니다.");
+
+Line 30:         map.broadcastMessage(MainPacketCreator.serverNotice(6, "반짝이는 빛과 함께 어딘가에서 열쇠가 나타났습니다."));
+
+Line 31:     } else if (mapid == 240050104) { //네번째 미로방
+
+Line 36:         rm.mapMessage(6, "열쇠가 어디론가 사라졌습니다.");
+
+Line 37:         map.broadcastMessage(MainPacketCreator.serverNotice(6, "반짝이는 빛과 함께 어딘가에서 열쇠가 나타났습니다."));

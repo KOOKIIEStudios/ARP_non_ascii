@@ -1,0 +1,3 @@
+Line 15: 		qm.sendNext("오, 달걀은 가져온 거야? 그럼 달걀을 건네줘. 그럼 부화기를 줄게.");
+
+Line 20: 	    qm.sendNext("자, 받으라고. 도대체 어디에 쓰려는 건지는 모르겠지만...\r\n\r\n#fUI/UIWindow.img/QuestIcon/8/0# 360 exp");

@@ -1,0 +1,19 @@
+Line 4: var 별 = "#fUI/FarmUI.img/objectStatus/star/whole#";
+
+Line 24: 	cm.sendOk("공사중입니다");
+
+Line 30:         choose += "#L2##rAzureMS Bull#k #d( ★ ) [ HP 300조 ] #i4032101# 10#k\r\n";
+
+Line 31:         choose += "#L3##rAzureMS Centipede#k #d( ★ ) [ HP 660조 ] #i4032101# 20#k \r\n";
+
+Line 32:         choose += "#L4##rAzureMS Reaper#k #d( ★ ) [ HP 1020조 ] #i4032101# 30\r\n";
+
+Line 33:         choose += "#L5##rSea dragon#k #d( ★★ ) [ HP 1740조 ] #i4032101# 50\r\n";
+
+Line 34:         //choose += "#L6##rAzureMS Wolf #k #d( ★★ ) [ HP 2160조 ] #i4032101# 60\r\n";
+
+Line 35:         choose += "#L7##rFake will #k #d( ★★ ) [ HP 2700조 ] #i4032101# 70\r\n";
+
+Line 36:         choose += "#L8##rSpirit of Harmony #k #d( ★★ ) [ HP 3300조 ] #i4032101# 80\r\n";
+
+Line 37:         //choose += "#L9##rDamien #k #d( ★★★ ) [ HP 4800조 ] #i4032101# 100\r\n";

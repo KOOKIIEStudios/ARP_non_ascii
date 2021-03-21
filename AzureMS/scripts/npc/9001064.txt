@@ -1,0 +1,23 @@
+Line 1: var 별 = "#fUI/FarmUI.img/objectStatus/star/whole#";
+
+Line 2: 별빨 = "#fUI/GuildMark.img/Mark/Pattern/00004001/1#"
+
+Line 3: 별파 = "#fUI/GuildMark.img/Mark/Pattern/00004001/11#"
+
+Line 4: 별보 = "#fUI/GuildMark.img/Mark/Pattern/00004001/13#"
+
+Line 5: 별회 = "#fUI/GuildMark.img/Mark/Pattern/00004001/15#"
+
+Line 16: 		var chat = "              #fn나눔고딕 Extrabold##fs17#"+별+" "+ServerConstants.serverName+" 환생시스템 "+별+"\r\n#fs10##Cgray#                                "+ServerConstants.serverName+"의 환생시스템입니다.#k\r\n\r\n#fs12##b▶ #h # 님의 환생횟수는 "+cm.Comma(cm.getReborns())+" 회입니다.#k\r\n#r▶ #h #님의 레벨은 "+cm.getPlayer().getLevel()+" 레벨 입니다.#k\r\n\r\n";
+
+Line 17: 	 	chat += "\r\n#L1##fs 13##s9001005##e#r  환생 시스템#d ( 환생,변생 이용하기 )\r\n";
+
+Line 18: 	 	chat += "\r\n#L6##fs 13##s80001082##e#r 각성 시스템#d ( 환생하면 할수있다! )\r\n";
+
+Line 19: 	 	chat += "\r\n#L2##fs 13##s9001005##e#r  환포 추뎀#d ( 환포추뎀 교환 )\r\n";
+
+Line 20: 	 	chat += "\r\n#L3##fs 13##s80001081##e#r  환코 검색캐시#d ( 환포추뎀 교환 )\r\n";
+
+Line 21: 		chat += "\r\n#L4##fs 13##s80001079##e#r  환생 상점이용#d ( 환생포인트 상점 )";
+
+Line 22: 		chat += "\r\n#L5##fs 13##s80001080##e#r  환코 후포교환#d ( 환코교환 상점 )";

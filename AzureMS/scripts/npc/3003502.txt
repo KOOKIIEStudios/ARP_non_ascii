@@ -1,0 +1,5 @@
+Line 2: 제작자 : 타임 (time_amd@nate.com)
+
+Line 30:          choose += "　#L2##fnSharing Ghotic Extrabold##fs18##i2434910##k　#bJustice Search Cash  #k#l#r\r\n";
+
+Line 32:          choose += "　#L3##fnSharing Ghotic Extrabold##fs18##i2436214##k　#bJustice Soul Random  #k#l#r\r\n";

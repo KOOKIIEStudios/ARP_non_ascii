@@ -1,0 +1,19 @@
+Line 21: var time = 25; // 제한시간
+
+Line 22: var deathcount = 20; // 데스카운트
+
+Line 23: var bossname = "루시드" // 한글로
+
+Line 24: var limit = 3; // 하루 입장 가능 회수
+
+Line 43: 		var 말 = "#fs11##d<#i2591590# :: #rLucid#k>#d"+enter;
+
+Line 44:                 말 += "<Boss Reward : #i4001915# >"+enter;
+
+Line 45: 		말 += "<Time Limit : #r"+time+" Mins#k #dDaily entries#k #d: #b"+cm.GetCount(bossname+"c", limit)+" Time#k / #r"+limit+" Times#k>#k"+enter;
+
+Line 46:                 말 += "#d<Death Count :#k #r10 Timnes#k>#k"+enter;
+
+Line 47: 		말 += "#L0##rI'm moving to kill the boss.#k";
+
+Line 48:         cm.sendSimple(말);

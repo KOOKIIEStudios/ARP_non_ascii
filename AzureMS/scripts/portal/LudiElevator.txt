@@ -1,0 +1,5 @@
+Line 21: /* 엘리베이터
+
+Line 40: 			cm.getPlayer().dropMessage(6, "도착할 층은 헬리오스 탑 2층, 아랫마을이 있는 층입니다.");
+
+Line 44: 			cm.getPlayer().dropMessage(6, "도착할 층은 헬리오스 탑 99층, 루디브리엄이 있는 층입니다.");

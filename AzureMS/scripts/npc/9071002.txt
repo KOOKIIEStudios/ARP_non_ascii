@@ -1,0 +1,33 @@
+Line 29: 	var chat = "안녕~ 날씨 참 좋지? 몬스터파크를 이용하려면 당연히 나를 찾아와야지. 내가 뭘 해주면 좋겠어?\r\n#b";
+
+Line 30: 	chat += "#L0# #i4001513#  #z4001513# 교환하기#l\r\n";
+
+Line 31: 	chat += "#L1# #i4001515#  #z4001515# 교환하기#l\r\n";
+
+Line 32: 	chat += "#L2# #i4001521#  #z4001521# 교환하기#l\r\n";
+
+Line 33: 	chat += "#L3# #i4031138# #r입장 티켓 구입하기#l\r\n";
+
+Line 43: 		cm.sendGetNumber("#b#z"+t_1+"##k 10장당 #b#z"+t_2+"##k 1장으로 교환할 수 있어. 몇 장 교환할래?", 1, 0, cm.itemQuantity(t_1)/10);
+
+Line 47: 		var chat = "음~원래 이러면 안되지만, 요새 내 기분이 좋아서 특별히 판매하는거야. #r티켓 종류와 상관없이 1인당 하루에 딱 20장#k만 팔꺼야. 참, 슈피겔만에겐 비밀이야! \r\n#b";
+
+Line 48: 		chat += "#L0##z4001514# 5만 메소#l\r\n";
+
+Line 49: 		chat += "#L1##z4001516# 10만 메소#l\r\n";
+
+Line 50: 		chat += "#L2##t4001522# 20만 메소#l#k";
+
+Line 60: 		cm.sendYesNo("정말 #b#z"+t_3+"# "+selection*10+"장#k를 #b#z"+t_4+"# "+selection+"장#k으로 교환할꺼야? 한 번 교환하면 다시 조각으로 바꾸긴 불가능하니까 신중히 결정해도록 해.");
+
+Line 70: 		cm.sendGetNumber("#b#z"+t_5+"##k를 구입하고 싶은거야? 한 장당 #b"+t_6/10000+"만 메소#k에 판매하고 있어. 몇 장 구입할래?",1,1,cm.getPlayer().getInventory(MapleInventoryType.ETC).getNumFreeSlot()*100);
+
+Line 80: 			cm.sendOk("네 인벤토리 기타탭이 꽉 찬것 같아. 비우고 다시 말을 걸어줘~");
+
+Line 85: 			cm.sendOk("#b#z"+spirit+"# "+buyitem+"개#k는 잘 받았지? 그럼 몬스터파크에서 즐거운 시간 보내도록 해~ 후후후.");
+
+Line 95: 			cm.sendOk("넌 이미 오늘 20장을 구입했어. 더 이상은 곤란해~ 이러다 슈피겔만이 눈치챈다구. 내일 다시 와~");
+
+Line 100: 					cm.sendOk("메소가 부족한걸? 나도 슈피겔만 몰래 장사하는거지만 이러는건 아니라고 생각해.");
+
+Line 103: 					cm.sendOk("#b#z"+ticket+"# "+selection+"개#k는 잘 받았지? 그럼 몬스터파크에서 즐거운 시간 보내도록 해~ 후후후.");

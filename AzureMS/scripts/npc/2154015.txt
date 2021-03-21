@@ -1,0 +1,1 @@
+Line 49: 			cm.getPlayer().dropMessage(5, "이미 엘리베이터에 누군가가 있는 것 같다.");

@@ -1,0 +1,1 @@
+Line 40: pi.getPlayer().Message(6,"맵에 있는 몬스터를 모두 처치해 주십시오.");

@@ -1,0 +1,125 @@
+Line 22:             cps = "#fUI/CashShop.img/CSStatus/BtN/normal/0# #fnSharing Gothic Extrabold##fs15##b#h ##k #fnSharing Gothic Extrabold##fs15# 'S Info.#fnSharing Gothic Extrabold##fs12#\r\n Level : "+ cm.getPlayer().getLevel() +"　Meso : " + cm.getPlayer().getMeso()+ " Won#n\r\n\r\n";
+
+Line 32:             "#k#L0#모자" +
+
+Line 33:             "#k#L1#상의" +
+
+Line 34:             "#k#L2#하의" +
+
+Line 35:             "#k#L3#신발" +
+
+Line 36:             "#k#L4#전신" +
+
+Line 37:             "#k#L5#장갑" +
+
+Line 38:             "#k#L6#방패\r\n\r\n\r\n\r\n" +
+
+Line 41:             "#k#L7#데스페라도" +
+
+Line 42:             "#k#L8#한손도끼" +
+
+Line 43:             "#k#L9#두손도끼" +
+
+Line 44:             "#k#L10#한손둔기\r\n" +
+
+Line 45:             "#k#L11#두손둔기" +
+
+Line 46:             "#k#L12#한손검" +
+
+Line 47:             "#k#L13#두손검" +
+
+Line 48:             "#k#L14#창" +
+
+Line 49:             "#k#L15#폴암" +
+
+Line 50:             "#k#L76#핸드캐논");
+
+Line 53:             "#k#L16#모자" +
+
+Line 54:             "#k#L7#전신" +
+
+Line 55:             "#k#L18#상의" +
+
+Line 56:             "#k#L19#하의" +
+
+Line 57:             "#k#L20#신발" +
+
+Line 58:             "#k#L21#장갑" +
+
+Line 59:             "#k#L22#방패\r\n\r\n\r\n\r\n" +
+
+Line 62:             "#k#L23#샤이닝로드" +
+
+Line 63:             "#k#L24#드래곤장비" +
+
+Line 64:             "#k#L25#완드" +
+
+Line 65:             "#k#L26#스태프");
+
+Line 68:             "#k#L27#모자" +
+
+Line 69:             "#k#L28#상의" +
+
+Line 70:             "#k#L29#하의" +
+
+Line 71:             "#k#L30#전신" +
+
+Line 72:             "#k#L31#신발" +
+
+Line 73:             "#k#L32#장갑\r\n\r\n\r\n\r\n" +
+
+Line 76:             "#k#L33#활" +
+
+Line 77:             "#k#L34#석궁" +
+
+Line 78:             "#k#L35#듀얼궁" +
+
+Line 79:             "#k#L36#마법화살" +
+
+Line 80:             "#k#L37#화살");
+
+Line 83:             "#l#L38##b모자" +
+
+Line 84:             "#k#L39##b상의" +
+
+Line 85:             "#k#L40##b하의" +
+
+Line 86:             "#k#L41##b전신" +
+
+Line 87:             "#k#L42##b신발" +
+
+Line 88:             "#l#L43##b장갑" +
+
+Line 89:             "#l#L44##b 방패\r\n\r\n\r\n\r\n" +
+
+Line 92:             "#l#L45#에너지소드" +
+
+Line 93:             "#l#L46#단검" +
+
+Line 94:             "#l#L47#아대" +
+
+Line 95:             "#l#L48#블레이드" +
+
+Line 96:             "#l#L49#케인" +
+
+Line 97:             "#l#L50#카드" +
+
+Line 98: 	    "#k\r\n#L51#표창");
+
+Line 101:             "#k#L52#모자" +
+
+Line 102:             "#k#L53#전신" +
+
+Line 103:             "#k#L54#신발" +
+
+Line 104:             "#k#L55#장갑\r\n\r\n\r\n\r\n" +
+
+Line 107:             "#k#L56#너클" +
+
+Line 108:             "#k#L57#총" +
+
+Line 109:             "#k#L58#핸드캐논" +
+
+Line 110:             "#l#L59#소울슈터" +
+
+Line 111:             "#k#L60#불릿");

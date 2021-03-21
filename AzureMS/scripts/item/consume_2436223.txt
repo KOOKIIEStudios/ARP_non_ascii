@@ -1,0 +1,7 @@
+Line 8: var 추뎀최소 = 50000000;
+
+Line 9: var 추뎀최대 = 200000000;
+
+Line 25: 		msg += "#fs11##bPlease press '예' to really use it.";
+
+Line 34: 		rc = Randomizer.rand(추뎀최소, 추뎀최대);
