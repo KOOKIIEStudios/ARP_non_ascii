@@ -1,7 +1,0 @@
-Line 140: 		cm.sendOk("#b"+cm.getPlayer().getName()+"#kHas always been grateful for・ I know it well, but I can't help you anymore・.");
-
-Line 150: 	if (recoms_num == 0) cm.sendOk("・Unfortunately this time #b"+cm.getPlayer().getName()+"#kNo one supports you. However・ It's coming soon, so don't be disappointed. In fact, support rate is・ . It's nothing special."), cm.dispose();
-
-Line 152: 		cm.sendOk("I knew it・ That's amazing. #b"+cm.getPlayer().getName()+"#kI think you have more support every time you come to me. this time "+recoms_num+" players "+recom_person(cm.getPlayer().getName())+"#kSupported by.\ ");
-
-Line 172: 		cm.sendOk("戚闇 #b"+cm.getPlayer().getName()+"#kThis is my little castle. It will be a great help for your future trip..");

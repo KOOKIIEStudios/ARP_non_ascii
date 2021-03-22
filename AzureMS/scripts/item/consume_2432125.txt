@@ -1,1 +1,0 @@
-Line 12:         cm.sendGetText("\r\n#ePlease enter the name of the cash item to be acquired.#n\r\n#Cgray#- We can't refund items that were purchased inadvertently.#k\r\n\r\n#b You gain a Cache Item granted with [All Stats 600].#k\r\n\r\n#r¡Ø If you don't know the exact name, just enter the word included.");

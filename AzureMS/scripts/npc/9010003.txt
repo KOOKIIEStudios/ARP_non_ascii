@@ -1,1 +1,0 @@
-Line 61:         //cm.getClient().getChannelServer().getPlayerStorage().getCharacterByName("¿µÄï").setMonitored(true);

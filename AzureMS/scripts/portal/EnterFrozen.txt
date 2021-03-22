@@ -1,3 +1,0 @@
-Line 9:         cm.sendOk("잘 생각했어YO! 더 놀다오도록 해YO!");
-
-Line 13:         cm.sendYesNo("행성 #b#e아이스콜드#k#n에 착륙하시겠나YO?");

@@ -1,7 +1,0 @@
-Line 8: var 후포최소 = 2000;
-
-Line 9: var 후포최대 = 5000;
-
-Line 25: 		msg += "#fs11##bPlease press '예' To really use .";
-
-Line 34: 		rc = Randomizer.rand(후포최소, 후포최대);

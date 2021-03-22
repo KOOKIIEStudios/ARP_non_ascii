@@ -1,1 +1,0 @@
-Line 34: 	//eim.broadcastPlayerMsg(-7, player.getName() + " ¥‘¿Ã ¿‘¿Â«œºÃΩ¿¥œ¥Ÿ.");

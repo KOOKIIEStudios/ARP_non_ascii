@@ -1,3 +1,0 @@
-Line 40:         var ask = "#b式式式式式式式式式式式式式式式式式式式式式式式式式式#k\r\n                #fUI/CashShop.img/CSEffect/specialLabel/0##fnSharing Ghotic Extrabold##fs16##b#e Boost sponsorship#n  \\r\n#b式式式式式式式式式式式式式式式式式式式#k\r\n#k #r  #k OBJ:#rStar force 0 ~ 25Castle equip\r\n\r\n#k #r  #k Ascension:#rAll Stats+8#k #b ATT,M.ATT+15\r\n\r\n#k #r  #k Success probability:#e#d100%#n#k \r\n #r< at once #i4310070# 1 is consumed. >#k#n\r\n\r\n               ";
-
-Line 115: WorldBroadcasting.broadcast(MainPacketCreator.getGMText(5, "AzureMS◇ "+ cm.getPlayer().getName()+" ◆ Has completed □Support Enhancement■. Congratulations."));

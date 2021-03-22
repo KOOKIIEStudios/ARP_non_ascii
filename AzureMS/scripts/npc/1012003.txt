@@ -1,1 +1,0 @@
-Line 15:             cm.sendYesNo("#e<Defeat Dorothy's Illusion!>#n\r\n\r\n#e#d #fUI/UIWindow2.img/MobGage/Mob/9309208# Dorothy's Illusion#n#k#n#k   Acquisition Item #i4310034# (12~18 QTY)\r\n                                                #i4000985#(15~40개)\r\n\r\n#e#r이동하시겠습니까?\r\n[파티를구성하지 않으면 입장이 불가능합니다.]\r\n#e#b#n#k#n#k\r\n");

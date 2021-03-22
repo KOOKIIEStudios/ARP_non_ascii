@@ -1,1 +1,0 @@
-Line 5: 	pi.dropMessage("튜토리얼을 완료해야 나갈 수 있습니다.");

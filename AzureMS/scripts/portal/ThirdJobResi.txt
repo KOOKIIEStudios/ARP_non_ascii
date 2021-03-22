@@ -1,3 +1,0 @@
-Line 7: 	    pi.playerMessage("이미 다른 누군가가 퀘스트를 진행하고 있습니다.");
-
-Line 10: 	pi.playerMessage("퀘스트를 진행 중 일때만 입장이 가능합니다.");

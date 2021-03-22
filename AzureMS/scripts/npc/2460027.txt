@@ -1,5 +1,0 @@
-Line 15:             cm.sendYesNo("#e<혼란에 빠진 미스틱 필드를 구원해주세요!>#n\r\n\r\n#e#rNo.F#n#k #fUI/UIWindow2.img/MobGage/Mob/9300600# #e#r미스틱 힐라#n#k  획득아이템 #i4033304# (1~2개)\r\n\r\n#e#d이동하시겠습니까?\r\n[파티를구성하지 않으면 입장이 불가능합니다.]\r\n#e#b#n#k#n#k\r\n");
-
-Line 19:                     cm.sendOk("지금 미스틱 레이드에 도전 중인 플레이어가 있습니다.");
-
-Line 28: 		cm.sendOk("파티를 만들어 주시길 바랍니다.");

@@ -1,1 +1,0 @@
-Line 8: 	rm.mapMessage("원석의 힘으로 자쿰이 소환됩니다.");

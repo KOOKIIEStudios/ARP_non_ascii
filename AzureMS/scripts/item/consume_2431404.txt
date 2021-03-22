@@ -1,5 +1,0 @@
-Line 2:  * 프로젝트 : 1.2.214 SpiritStyle
-
-Line 4:  * Script Author : 하요(ifhayo)
-
-Line 6:  * 이 주석은 지우지 않아주셨으면 좋겠습니다.

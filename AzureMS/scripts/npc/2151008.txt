@@ -1,3 +1,0 @@
-Line 16: 	var chat = "재규어서식지로이동한다. #b"+ cm.getPlayer().getName() + "#k  크긍#r";
-
-Line 17:         chat += "\r\n#r#L6##i2431267# 재규어맵#l #d#L10# 대화를 그만 한다.";

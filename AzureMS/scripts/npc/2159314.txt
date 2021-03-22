@@ -1,5 +1,0 @@
-Line 17: 		cm.sendOk("선택한 재규어로 변경이 완료 되었으니 한번 확인해봐!");
-
-Line 32: 	var chat = "원하는 재규어를 선택해봐!\r\n\r\n";
-
-Line 35: 	chat += "\r\n#L" + jagure[i] + "# #b이 재규어로 변경 하겠습니다.#l";

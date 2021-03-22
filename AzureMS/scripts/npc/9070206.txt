@@ -1,1 +1,0 @@
-Line 24:        cm.sendGetNumber("캐시충전을 할 수 있는 컴퓨터다.\r\n모니터 창에 #r1캐시당 150메소#k라고 써져 있는 것 같다.",1,1,numberset);

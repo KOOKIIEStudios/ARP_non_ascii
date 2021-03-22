@@ -1,5 +1,0 @@
-Line 134: 	var msg = "'"+boss+"'보스가 격파되었습니다.\r\n";
-
-Line 135: 	msg += "해당 원정대 파티장 : "+leader+"\r\n";
-
-Line 136: 	msg += "격파 시각 : "+a.getFullYear()+"년 "+Number(a.getMonth() + 1)+" 월 "+a.getDate()+"일 "+a.getHours()+"시 "+a.getMinutes()+"분 "+a.getSeconds()+"초\r\n";

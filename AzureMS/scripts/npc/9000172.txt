@@ -1,7 +1,0 @@
-Line 15: 별 = "#fUI/UIToolTip/Item/Equip/Star/Star#"
-
-Line 17: 별 = "#fUI/UIToolTip/Item/Equip/Star/Star#"
-
-Line 18:         choose += "#fn나눔고딕 Extrabold##fs16##fs16#"+별+"#b봄온라인#k#l상점시스템#k"+별+"#l";
-
-Line 19:         choose += "\r\n#L0##e#i5044000##g 캐시샵 이용하기#l\r\n\r\n";

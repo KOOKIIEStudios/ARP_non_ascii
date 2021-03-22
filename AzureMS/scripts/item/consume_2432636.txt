@@ -1,3 +1,0 @@
-Line 69:  text += "¡¡ - Currently applied damage skin"+Xx+" #b"+showN+""+Yy+"\r\n\r\n";
-
-Line 71:  text += "¡¡ - Currently saved damage skin"+xX+" #b"+showS+""+yY+"";

@@ -1,1 +1,0 @@
-Line 79:               cm.sendGetText("#fs11##r#e< Select event duration >#n#k\\r\n#i1122017# #b[Honey Premium]\r\n x per hour #i4000047# 100°³#k\r\nAre you sure? Please enter your preferred date range.\r\nIf you don't want to buy #rESC#kPlease press.\r\n#b(Immediately after purchase.)\r\n");

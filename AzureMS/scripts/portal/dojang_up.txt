@@ -1,1 +1,0 @@
-Line 2: 	pi.playerMessage("아직 몬스터가 남아있습니다.");

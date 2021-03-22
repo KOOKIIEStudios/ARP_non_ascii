@@ -1,5 +1,0 @@
-Line 17: var win = "　　　#fUI/UIWindow.img/RpsGame/win#"; 
-
-Line 18: var lose = "　　　#fUI/UIWindow.img/RpsGame/lose#"; 
-
-Line 19: var draw = "　　　#fUI/UIWindow.img/RpsGame/draw#"; 

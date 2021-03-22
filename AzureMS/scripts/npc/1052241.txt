@@ -1,9 +1,0 @@
-Line 18: // chance = 확률, 100이 1퍼, 10000이 100퍼
-
-Line 29: var 얻은아이템 = [];
-
-Line 48: 		msg += "#dNeed/Have : #r#i"+xitemcode+"##z"+xitemcode+"# "+xqty+"개#b"+enter+enter;
-
-Line 94: 				//얻은아이템.push(최종아이템[a]);
-
-Line 99:                 Packages.tools.LoggerChatting.writeLog("오브깐새끼.txt", "[ "+cm.getItemName(xitemcode)+" "+xqty+"개 ] NickName : "+cm.getPlayer().getName()+" /  AccountID : "+cm.getPlayer().getAccountID());

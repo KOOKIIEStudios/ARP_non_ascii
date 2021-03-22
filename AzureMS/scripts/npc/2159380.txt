@@ -1,5 +1,0 @@
-Line 14:         cm.sendYesNo("#e<스우를 해방시켜주세요!>#n\r\n\r\n#bStage.1 #fUI/UIWindow2.img/MobGage/Mob/8240097# 이볼빙 스우    \r\nStage.2 #fUI/UIWindow2.img/MobGage/Mob/8240098# 깨어난 스우     \r\nStage.3 #fUI/UIWindow2.img/MobGage/Mob/8240099# 각성한 스우\r\n\r\n#k#e<획득아이템>#n#k\r\n\r\n#b#z4033076# (6~22개)");
-
-Line 18:                 cm.sendOk("지금 스우에 도전 중인 파티가 있습니다.");
-
-Line 33:             cm.sendOk("파티를 만들어 주시길 바랍니다.");

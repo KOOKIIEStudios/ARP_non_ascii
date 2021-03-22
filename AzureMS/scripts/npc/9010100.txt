@@ -1,1 +1,0 @@
-Line 34:         choose += "#fnSharing Ghotic Extrabold##fs15#\r\n\r\n\r\n#k#n#e¡¶¡¶¡º GM System ¡»¡·¡·#k#n #r(Menu only visible to moderators)#k#n\r\n";

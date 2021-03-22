@@ -1,1 +1,0 @@
-Line 4: 	pi.showinfoMessage("몬스터가 " + pi.getMonsterCount(pi.getMapId()) + "마리 남았습니다.");

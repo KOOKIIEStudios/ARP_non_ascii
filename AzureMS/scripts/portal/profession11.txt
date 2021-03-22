@@ -1,1 +1,0 @@
-Line 2: 	pi.getPlayer().message(5, "레벨 30이상만 입장 가능합니다.");

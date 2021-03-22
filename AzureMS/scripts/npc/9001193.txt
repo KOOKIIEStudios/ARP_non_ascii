@@ -1,1 +1,0 @@
-Line 50: 			cm.sendGetText("\r\n#ePlease enter the name of the cash item to be acquired                              #dJustice [400]#n\r\n#Cgray#- We can't refund items that were purchased inadvertently..#k\r\n\r\n#b [All Stats 650 ATT 200] Obtain a Cash item granted the attack.#k\r\n\r\n#r�� If you don't know the exact name, just enter the word included.");

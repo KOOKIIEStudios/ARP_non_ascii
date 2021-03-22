@@ -1,3 +1,0 @@
-Line 9: var º° = "#fUI/FarmUI.img/objectStatus/star/whole#";
-
-Line 22: 		var txt = "#fnSharing Ghotic Extrabold##fs17#"+º°+" AzureMS Disposal "+º°+"\r\n#fs10##Cgray# Please select your desired inventory window.#k\r\n#fs12#";

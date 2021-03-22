@@ -1,7 +1,0 @@
-Line 2: 히트맨온라인 쥬얼
-
-Line 26: 		var jessica = "#fn나눔고딕 Extrabold##d쥬얼크래프트#k 를 이용 해보시겠어요?\r\n";
-
-Line 27: 		jessica += "#L0##b쥬얼크래프트 상점#k\r\n";
-
-Line 28:                 jessica += "#L1##r쥬얼크래프트 합성#k";
