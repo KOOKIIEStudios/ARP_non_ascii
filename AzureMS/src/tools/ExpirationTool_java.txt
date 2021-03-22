@@ -1,0 +1,73 @@
+Line 9:      * 현재 시간에 <code>minute</code>분 만큼의 시간을 더합니다.
+
+Line 11:      * @param minute 더할 분
+
+Line 12:      * @return 더해진 시간
+
+Line 19:      * 현재 시간에 <code>hour</code>시간 만큼의 시간을 더합니다.
+
+Line 21:      * @param hour 더할 시간
+
+Line 22:      * @return 더해진 시간
+
+Line 29:      * 현재 시간에 <code>hour</code>시간 만큼의 시간을 더하고 <code>deafults</code>가 true일 경우 그
+
+Line 30:      * 이하의 시간을 초기화 합니다. <br>
+
+Line 31:      * 예를 들어 hour가 2일 경우 초기화 전 : 2010/2/12 12:52:48 초기화 후 : 2010/2/12 14:00:00
+
+Line 34:      * @param hour 더할 시간
+
+Line 35:      * @param deafults 초기화 여부
+
+Line 36:      * @return 더해진 시간
+
+Line 46:      * 현재 시간에 <code>day</code>일 만큼의 시간을 더합니다.
+
+Line 48:      * @param day 더할 일
+
+Line 49:      * @return 더해진 시간
+
+Line 56:      * 현재 시간에 <code>day</code>일 만큼의 시간을 더하고 <code>deafults</code>가 true일 경우 그
+
+Line 57:      * 이하의 시간을 초기화 합니다. <br>
+
+Line 58:      * 예를 들어 day가 1일 경우 초기화 전 : 2010/2/12 12:52:48 초기화 후 : 2010/2/13 00:00:00
+
+Line 61:      * @param hour 더할 시간
+
+Line 62:      * @param deafults 초기화 여부
+
+Line 63:      * @return 더해진 시간
+
+Line 73:      * 현재 시간에 <code>hour</code>시간 <code>minute</code>분 만큼의 시간을 더합니다. 단, 초기화는 할 수
+
+Line 74:      * 없습니다.
+
+Line 76:      * @param hour 더할 시간
+
+Line 77:      * @param minute 더할 분
+
+Line 78:      * @return 더해진 시간
+
+Line 86:      * 현재 시간에 <code>day</code>일 <code>hour</code>시간 만큼의 시간을 더합니다. 단, 초기화는 할 수
+
+Line 87:      * 없습니다.
+
+Line 89:      * @param day 더할 시간
+
+Line 90:      * @param hour 더할 분
+
+Line 91:      * @return 더해진 시간
+
+Line 99:      * 현재 시간에 <code>day</code>일 <code>hour</code>시간 <code>minute</code>분 만큼의 시간을
+
+Line 100:      * 더합니다. 단, 초기화는 할 수 없습니다.
+
+Line 102:      * @param day 더할 일
+
+Line 103:      * @param hour 더할 시간
+
+Line 104:      * @param minute 더할 분
+
+Line 105:      * @return 더해진 시간

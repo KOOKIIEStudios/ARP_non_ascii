@@ -1,0 +1,37 @@
+Line 299:             player.getMap().broadcastMessage(MainPacketCreator.스플릿미스텔(player, monsters, 3301009));
+
+Line 322:                 player.getMap().broadcastMessage(MainPacketCreator.에디셔널디스차지(player, monsters, 3300005));
+
+Line 336:             player.getClient().send(MainPacketCreator.스플릿미스텔(player, monsters, 3321037));
+
+Line 434:                         player.getMap().broadcastMessage(MainPacketCreator.퀴버풀버스트(player, monster, 400031029));
+
+Line 1150:                 if (totDamageToOneMonster > 0) { // Tripling 윔
+
+Line 1279:                         if (oakid == 4) { // 암흑 확률 상승
+
+Line 1638:                         if (player.마법잔해 >= 0 && player.마법잔해 < 15) {
+
+Line 1639:                             player.마법잔해++;
+
+Line 1640:                             player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.마법잔해));
+
+Line 1643:                         if (player.마법잔해 >= 0 && player.마법잔해 < 15) {
+
+Line 1644:                             player.마법잔해++;
+
+Line 1645:                             player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.마법잔해));
+
+Line 1743:                         && attack.skill != 13100022 && attack.skill != 13100027 && attack.skill != 13101022 && attack.skill != 13110022 && attack.skill != 13110027 && attack.skill != 13120003 && attack.skill != 13120010 //Tripling 윔
+
+Line 2349:                                 if (player.마법잔해 >= 0 && player.마법잔해 < 15) {
+
+Line 2350:                                     player.마법잔해++;
+
+Line 2351:                                     player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22170070, player.마법잔해));
+
+Line 2354:                                 if (player.마법잔해 >= 0 && player.마법잔해 < 15) {
+
+Line 2355:                                     player.마법잔해++;
+
+Line 2356:                                     player.getMap().broadcastMessage(MainPacketCreator.Evanruins(player, monster.getPosition(), 22141017, player.마법잔해));

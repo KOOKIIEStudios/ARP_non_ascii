@@ -1,0 +1,1 @@
+Line 2019: 						+ (cserv.getChannel() == 0 ? 1 : cserv.getChannel() == 1 ? "20ºº¿ÃªÛ" : cserv.getChannel()) + " ("

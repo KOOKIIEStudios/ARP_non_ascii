@@ -1,0 +1,91 @@
+Line 19:                     job = "검사";
+
+Line 22:                     job = "마법사";
+
+Line 25:                     job = "궁수";
+
+Line 28:                     job = "도적";
+
+Line 31:                     job = "해적";
+
+Line 37:                     job = "파이터";
+
+Line 43:                     job = "페이지";
+
+Line 49:                     job = "스피어맨";
+
+Line 55:                     job = "마법사(불, 독)";
+
+Line 61:                     job = "마법사(썬, 콜)";
+
+Line 67:                     job = "클레릭";
+
+Line 73:                     job = "헌터";
+
+Line 79:                     job = "사수";
+
+Line 85:                     job = "어쌔신";
+
+Line 91:                     job = "시프";
+
+Line 99:                     job = "듀얼블레이드";
+
+Line 105:                     job = "인파이터";
+
+Line 111:                     job = "건슬링거";
+
+Line 117:                     job = "캐논슈터";
+
+Line 124:                     job = "소울마스터";
+
+Line 131:                     job = "플레임위자드";
+
+Line 138:                     job = "윈드브레이커";
+
+Line 145:                     job = "나이트워커";
+
+Line 152:                     job = "스트라이커";
+
+Line 160:                     job = "아란";
+
+Line 174:                     job = "에반";
+
+Line 182:                     job = "메르세데스";
+
+Line 190:                     job = "팬텀";
+
+Line 198:                     job = "은월";
+
+Line 206:                     job = "루미너스";
+
+Line 213:                     job = "데몬슬레이어";
+
+Line 221:                     job = "데몬어벤져";
+
+Line 228:                     job = "배틀메이지";
+
+Line 235:                     job = "와일드 헌터";
+
+Line 242:                     job = "메카닉";
+
+Line 249:                     job = "제논";
+
+Line 256:                     job = "블래스터";
+
+Line 264:                     job = "미하일";
+
+Line 272:                     job = "카이저";
+
+Line 280:                     job = "엔젤릭버스터";
+
+Line 289:                     job = "제로";
+
+Line 294:                     job = "핑크빈";
+
+Line 302:                     job = "키네시스";
+
+Line 306:                     job = "미확인";
+
+Line 308:             print.append("#b"+i).append("위#k ").append(fame.getString("name")).append(" #r인기도 :#k ").append(fame.getInt("fame")).append(" #d직업 :#k ").append(job).append("\r\n");
+
+Line 310:     cm.sendOk("#fn나눔고딕 Extrabold#"+ServerConstants.serverName+" #b실시간 랭킹#k 입니다.\r\n현재 랭킹은 #fs15##r인기도#k #fs12#로 집계 됩니다.\r\n\r\n"+print.toString());

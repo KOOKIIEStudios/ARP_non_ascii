@@ -1,0 +1,17 @@
+Line 16:  상대가위바위보 = ["#fUI/UIWindow.img/RpsGame/Frock#","#fUI/UIWindow.img/RpsGame/Fscissor#","#fUI/UIWindow.img/RpsGame/Fpaper#"]
+
+Line 17:  자기가위바위보 = ["#fUI/UIWindow.img/RpsGame/rock#","#fUI/UIWindow.img/RpsGame/scissor#","#fUI/UIWindow.img/RpsGame/paper#"]
+
+Line 27:         cm.sendYesNo("#b"+cm.getPlayer().getKeyValue("Rockgiver")+"#k님께서, 가위바위보 대결 신청을 하셨습니다.\r\n수락하시겠습니까?");
+
+Line 31:          cm.sendSimple("아래에서 선택해주세요.\r\n\r\n"
+
+Line 37:          cm.sendSimple(cm.getPlayer().getKeyValue("Rockresult")+"결과발표를 하고 있습니다...\r\n#L0# #b결과가 발표되었는지 확인");
+
+Line 44:                 cm.sendOk("     #b상대#k"+상대가위바위보[Yourresult]+"VS"+자기가위바위보[Myresult]+"#r#h #\r\n"+win);
+
+Line 47:  		cm.sendOk("     #b상대#k"+상대가위바위보[Yourresult]+"VS"+자기가위바위보[Myresult]+"#r#h #\r\n"+draw);
+
+Line 50: 		cm.sendOk("     #b상대#k"+상대가위바위보[Yourresult]+"VS"+자기가위바위보[Myresult]+"#r#h #\r\n"+lose);
+
+Line 56:             cm.sendOk("아직 결과가 집계되지 않았습니다.");

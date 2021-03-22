@@ -1,0 +1,9 @@
+Line 6: var need = 2436105, qty = 1; // 상자 코드, 개수
+
+Line 8: var 후포최소 = 30000;
+
+Line 9: var 후포최대 = 100000;
+
+Line 25: 		msg += "#fs11##bPlease press '예' to really use it.";
+
+Line 34: 		rc = Randomizer.rand(후포최소, 후포최대);

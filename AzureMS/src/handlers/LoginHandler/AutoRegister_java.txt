@@ -1,0 +1,5 @@
+Line 14:     private static int ENABLE_IP_COUNT = 0; // 허용 가능한 IP갯수
+
+Line 17: 	 * 중복된 계정이 있는지 체크 후 아이피 확인
+
+Line 19: 	 * 0 : 생성 가능한 상태 1 : 최대 횟수를 넘은 IP 2 : 이미 존재하는 계정

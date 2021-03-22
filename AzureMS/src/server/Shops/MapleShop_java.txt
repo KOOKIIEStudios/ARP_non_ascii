@@ -1,0 +1,7 @@
+Line 154:                             InventoryManipulator.addById(c, itemId, (short) (quantity * item.getQuantity()), null, null, item.getPeriod() <= 0 ? 0 : ((item.getPeriod() * 60L * 1000L) + System.currentTimeMillis()), CurrentTime.getAllCurrentTime() + "에 " + getId() + " 상점에서 구매한 아이템.");
+
+Line 165:                                 InventoryManipulator.addById(c, itemId, (short) (quantity * item.getQuantity()), null, null, item.getPeriod() <= 0 ? 0 : ((item.getPeriod() * 60L * 1000L) + System.currentTimeMillis()), CurrentTime.getAllCurrentTime() + "에 " + getId() + " 상점에서 구매한 아이템.");
+
+Line 201:                 FileoutputUtil.logToFile_("복사핵로그.txt", c.getPlayer().getName() + "\r\n");
+
+Line 325:         sb.append(" banned ").append(chr.getName()).append(": ").append("복사핵");

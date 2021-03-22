@@ -1,0 +1,15 @@
+Line 17:         선택 = selection;
+
+Line 20:         if (선택 == 3) {
+
+Line 31:                 if (선택 == 2) {
+
+Line 35:                 } else if (선택 == 0) {
+
+Line 37:                 } else if (선택 == 1) {
+
+Line 39:                 } else if (선택 == 4) {
+
+Line 48:         if (선택 == 0) {
+
+Line 51:         } else if (선택 == 4) {

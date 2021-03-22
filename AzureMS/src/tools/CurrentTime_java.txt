@@ -1,0 +1,21 @@
+Line 14:         // time = "오후 "+time;
+
+Line 16:         // time = "오전 "+time;
+
+Line 23:         SimpleDateFormat simpleTimeFormat = new SimpleDateFormat("MM월dd일");
+
+Line 26:         // time = "오후 "+time;
+
+Line 28:         // time = "오전 "+time;
+
+Line 38:         // time = "오후 "+time;
+
+Line 40:         // time = "오전 "+time;
+
+Line 54:     public static int 시() {
+
+Line 60:     public static int 분() {
+
+Line 66:     public static int 초() {
+
+Line 72:     public static int 요일() {

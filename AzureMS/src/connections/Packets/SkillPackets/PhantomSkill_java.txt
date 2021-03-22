@@ -1,0 +1,3 @@
+Line 28: 		 * 0 : 등록 1 : 실패 2 : ? 3 : 삭제
+
+Line 42:                 packet.writeInt(0); // 마스터레벨?

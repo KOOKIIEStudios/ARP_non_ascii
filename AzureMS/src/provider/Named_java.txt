@@ -1,0 +1,11 @@
+Line 34:     public static String namedTime = "-분 --초";
+
+Line 82:             String countdown_clock = countdown_ii + "분 " + countdown_ss + "초";
+
+Line 93:                     date = date.split("-")[0] + "월" + date.split("-")[1] + "일";
+
+Line 98:                     //WorldBroadcasting.broadcastMessage(MainPacketCreator.OnAddPopupSay(9001198, 3000, "#r" + times + "#k회차 네임드 홀,짝 결과는\r\n[#b" + getScoreString(start_point + " " + line_count + " " + odd_even) + "#k] 입니다.", ""));
+
+Line 157:         date = date.split("-")[0] + "월" + date.split("-")[1] + "일";
+
+Line 340:                             text += "item : #z" + rs1.getInt("itemid") + "# " + rs1.getInt("quantity") + "개";

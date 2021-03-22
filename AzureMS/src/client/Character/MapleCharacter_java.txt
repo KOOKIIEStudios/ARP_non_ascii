@@ -1,0 +1,49 @@
+Line 198:     public boolean 탐지기 = false;
+
+Line 286:             isExitBuff = true, EnergyCharge = false, 에너지차지 = false;
+
+Line 294:             exeedCount = 0, exeedSkill = 0, exeedAttackCount = 0, dualBrid = 0, unitiyOfPower = 0, lightning = 0, 에너지차지구분 = 0, blackJack = 0;
+
+Line 976:                     //    System.out.println("[Notice] 캐릭터 인벤토리리 불러오는중");
+
+Line 2684:                 item.setGMLog(CurrentTime.getAllCurrentTime() + "에 " + gm_log);
+
+Line 2688:                         CurrentTime.getAllCurrentTime() + "에 " + getName() + "Items obtained by the gainItem script called on.");
+
+Line 3030:             } else if (effect.getSourceId() == 3111005 || effect.getSourceId() == 3211005 || effect.getSourceId() == 3311009) { //패파 3311009 레이븐
+
+Line 3426:     public List<MapleBuffValueHolder> getAllBuffs() { // 후원 버프
+
+Line 4682:         if (WorldCommunity.사피) {
+
+Line 5771:             equip.setGMLog("Secondary weapon"); // Was 보조무기 
+
+Line 6982:     public void updateCombo(short combo, long curr) { //아란 콤보
+
+Line 7463:             System.err.println("[오류] 커스텀 값들을 저장하는데 실패했습니다.");
+
+Line 7829:             str += "#L" + (o++) + "#" + "#z" + d.getLeft() + "# " + d.getRight() + "개#l\r\n";
+
+Line 7938: 	 * 0 : 카리스마 1 : 통찰력 2 : 의지 3 : 손재주 4 : 감성 5 : 매력
+
+Line 9933:                 chr.ban("ETC 조작 감지", true, true);
+
+Line 9946:                         if (탐지기 == false) {
+
+Line 9949:                             탐지기 = true;
+
+Line 11220:     public void 귀문진시작(SkillStatEffect eff) {
+
+Line 11232:                     MapleSummon summon = new MapleSummon(chr, 400051023, a.getDuration(), chr.summonxy, SummonMovementType.귀문진, System.currentTimeMillis());
+
+Line 11321:     public int 마법잔해 = 0;
+
+Line 11829:         if (stat == null) { // key ?곗??곌?  null
+
+Line 11839:             if (s.startsWith(key + "=")) { // 湲곗〈??議댁???? ?곗??????
+
+Line 11846:         stat.setCustomData(stat.getCustomData()); // 湲곗〈 ?ㅻ꺼瑜?? ???곗???異??.
+
+Line 11853:         if (stat == null) { // key ?곗??곌?  null
+
+Line 11907:         return -1; // 誘몄〈?ъ? -1

@@ -1,0 +1,1 @@
+Line 21:                 text += "#k#L0#Á¶1 into 10 pieces #z2049401#Exchange with.#l\r\n";

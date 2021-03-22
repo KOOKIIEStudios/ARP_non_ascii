@@ -1,0 +1,7 @@
+Line 38: 			msg += "#L"+i+"##r#i"+shop[i]['itemid']+"##z"+shop[i]['itemid']+"# "+shop[i]['qty']+"개#k"+enter;
+
+Line 39: 			msg += "　　 Required number : #b#i4310185# Purple Orb #r"+shop[i]['price']+"개#k"+enter;
+
+Line 46: 		msg += "*- Count　 : #r"+shop[seld]['qty']+"개 #k"+enter;
+
+Line 47: 		msg += "*- Price　 : #i"+need+"##z"+need+"# #r"+shop[seld]['price']+"개#k"+enter+enter;

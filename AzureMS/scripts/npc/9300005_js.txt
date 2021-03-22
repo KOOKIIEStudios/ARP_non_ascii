@@ -1,0 +1,131 @@
+Line 23: 	//cm.sendSimple("#fn나눔고딕 Extrabold##fs13# 안녕하세요, 저는 일반 강화 엔피시 입니다.\r\n#r황금단풍잎 <6개 소모>#k#l\r\n#b#L0#올스텟을 강화하겠습니다.\r\n#L1#공 마를 강화하겠습니다.\r\n");
+
+Line 24:         var chat = "#fn나눔고딕 Extrabold##fs13# #r#e" + cm.getPlayer().getName() + "#n#k님 안녕하세요, 저는 메소 강화 엔피시입니다.#l\r\n";
+
+Line 25:         chat += "#b#L0#올스텟을 강화하겠습니다.#k#l\r\n";
+
+Line 26:         chat += "#b#L1#공격력/마력을 강화 하겠습니다.#k#l\r\n";
+
+Line 31:         sel = selection == 0 ? "올스텟" : "공격력/마력";
+
+Line 33:         text = "#b#e"+sel+"#fn나눔고딕 Extrabold##fs13# 강화#n#k를 선택 하셧습니다.\r\n강화할 아이템을 선택 해 주세요.\r\n";
+
+Line 45:             cm.sendOk("#fn나눔고딕 Extrabold##fs13# 강화에 필요한 메소가 부족합니다.");
+
+Line 51:             cm.sendYesNo("#fn나눔고딕 Extrabold##fs13# 현재 강화 상태 : #b"+state+"#k\r\n선택한 스탯 : "+sel+"\r\n다음 강화로 올라갈때 실패확률은 40%며 수치는 강화횟수에 따라 주어집니다.\r\n강화를 진행 하시겠습니까?");
+
+Line 55:             cm.sendOk("#fn나눔고딕 Extrabold##fs13# 아이템 강화에 실패 하였습니다.");
+
+Line 64:         if (sel.equals("올스텟")) {
+
+Line 71:             cm.sendOk("강화에 성공하여 올스텟 "+amount+"이 추가되고 "+level+" 이 되었습니다.");
+
+Line 79: 	    cm.sendOk("강화에 성공하여 공마 "+amount+" 이 추가되고 "+level+" 이 되었습니다."); 
+
+Line 88:     if (eq.getOwner().equals("1강")) {
+
+Line 89:         lev = "2강";
+
+Line 90:     } else if (eq.getOwner().equals("2강")) {
+
+Line 91:         lev = "3강";
+
+Line 92:     } else if (eq.getOwner().equals("3강")) {
+
+Line 93:         lev = "4강";
+
+Line 94:     } else if (eq.getOwner().equals("4강")) {
+
+Line 95:         lev = "5강";
+
+Line 96:     } else if (eq.getOwner().equals("5강")) {
+
+Line 97:         lev = "6강";
+
+Line 98:     } else if (eq.getOwner().equals("6강")) {
+
+Line 99:         lev = "7강";
+
+Line 100:     } else if (eq.getOwner().equals("7강")) {
+
+Line 101:         lev = "8강";
+
+Line 102:     } else if (eq.getOwner().equals("8강")) {
+
+Line 103:         lev = "9강";
+
+Line 104:     } else if (eq.getOwner().equals("9강")) {
+
+Line 105:         lev = "10강";
+
+Line 107:         lev = "1강";
+
+Line 114: 	if(eq.getOwner().equals("1강")) { // 1강 - 2강 넘어갈때 스텟
+
+Line 115: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(15, 15);
+
+Line 116: 	} else if(eq.getOwner().equals("2강")) { // 2강 - 3강 넘어갈때 스텟
+
+Line 117: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(20, 20);	
+
+Line 118: 	} else if(eq.getOwner().equals("3강")) { // 3강 - 4강 넘어갈때 스텟
+
+Line 119: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(25, 25);	
+
+Line 120: 	} else if(eq.getOwner().equals("4강")) { // 4강 - 5강 넘어갈때 스텟
+
+Line 121: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(30, 30);	
+
+Line 122: 	} else if(eq.getOwner().equals("5강")) { // 5강 - 6강 넘어갈때 스텟
+
+Line 123: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(35, 35);	
+
+Line 124: 	} else if(eq.getOwner().equals("6강")) { // 6강 - 7강 넘어갈때 스텟
+
+Line 125: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(40, 40);	
+
+Line 126:         } else if(eq.getOwner().equals("7강")) { // 6강 - 7강 넘어갈때 스텟
+
+Line 127: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(45, 45);	
+
+Line 128:         } else if(eq.getOwner().equals("8강")) { // 6강 - 7강 넘어갈때 스텟
+
+Line 129: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(50, 50);	
+
+Line 130:         } else if(eq.getOwner().equals("9강")) { // 6강 - 7강 넘어갈때 스텟
+
+Line 131: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(60, 60);	         
+
+Line 132: 	} else { // 1강으로 갈때 스텟
+
+Line 133: 		stat = sel == "올스텟" ? Randomizer.rand(8, 50) : Randomizer.rand(10, 10);	
+
+Line 139:     if (eq.getOwner().equals("1★")) {
+
+Line 140:         cm.sendOk("#fn나눔고딕 Extrabold##fs13# 해당아이템은 황금 단풍잎 강화를 진행하여 메소 강화를 할 수 없습니다.");
+
+Line 144:     if (eq.getOwner().equals("10강")) {
+
+Line 145:         cm.sendOk("#fn나눔고딕 Extrabold##fs13# 해당 아이템은 강화를 더이상 할 수 없습니다.");
+
+Line 154:     if (eq.getOwner().equals("1강")) {
+
+Line 156:     } else if (eq.getOwner().equals("2강")) {
+
+Line 158:     } else if (eq.getOwner().equals("3강")) {
+
+Line 160:     } else if (eq.getOwner().equals("4강")) {
+
+Line 162:     } else if (eq.getOwner().equals("5강")) {
+
+Line 164:     } else if (eq.getOwner().equals("6강")) {
+
+Line 166:     } else if (eq.getOwner().equals("7강")) {
+
+Line 168:     } else if (eq.getOwner().equals("8강")) {
+
+Line 170:     } else if (eq.getOwner().equals("9강")) {
+
+Line 180:         if(eq.getOwner().equals(i+"강")) {
+
+Line 186:         return "#r강화안함#k";

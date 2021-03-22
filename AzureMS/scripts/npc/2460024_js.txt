@@ -1,0 +1,5 @@
+Line 21: 		var jessica = "#fn나눔고딕 Extrabold##r따보#k 의 부탁을 포기하고 #b퀘스트의 전당#k 으로 가겠나..?\r\n";
+
+Line 22: 		jessica += "#L0##r[포기]#k #b퀘스트의 전당 으로 이동할게요.#k\r\n";
+
+Line 25: 	   cm.sendOk("#fn나눔고딕 Extrabold#이거.. 참 고민이 많군..");

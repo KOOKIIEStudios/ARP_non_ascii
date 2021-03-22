@@ -1,0 +1,27 @@
+Line 35: 	var change = "난 드레스업 코디를 담당하고있는 #b엔젤릭버스터#k라고 해!!#b#n\r\n\r\n";
+
+Line 36: 	change += "#L1##i5150057# 머리 모양#l ";
+
+Line 37: 	change += "#L3##i5152057# 얼굴#l ";
+
+Line 38: 	change += "#L5##i1051291# 드레스\r\n\r\n";
+
+Line 39: 	change += "#L0##i5153015# 피부 색깔#l  ";
+
+Line 40: 	change += "#L2##i5151036##e #n염색#l";
+
+Line 41: 	change += "#L4##i5152100# 컬러렌즈#l";
+
+Line 45: 		cm.sendOk("#b엔젤릭버스터#k 직업군만 사용이 가능한 기능이야");
+
+Line 51: 		cm.askAvatar("마음에 드는걸 선택해봐", skin);
+
+Line 62: 		cm.askAvatar("마음에 드는걸 선택해봐", hairnew);
+
+Line 74: 		cm.askAvatar("마음에 드는걸 선택해봐", haircolor);
+
+Line 85: 		cm.askAvatar("마음에 드는걸 선택해봐", facenew);
+
+Line 96: 		cm.askAvatar("마음에 드는걸 선택해봐", colors);
+
+Line 99: 		cm.sendSimple("마음에 드는걸 선택해봐\r\n#b#L91##i1051291# #z1051291##l\r\n#L94##i1051294# #z1051294##l\r\n#L95##i1051295# #z1051295##l\r\n#L96##i1051296# #z1051296##l");

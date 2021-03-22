@@ -1,0 +1,8 @@
+[WARNING]
+This file is neither x-windows-949 not UTF-8 encoding.
+This might be a sign that the encoding is broken,
+or that the author had attempted to mix encoding via faulty
+copy-paste actions.
+Alternatively this file may be in neither English nor Korean,
+and is using some kind of platform-specific encoding.
+*PLEASE CHECK THROUGH ITS CONTENTS MANUALLY*

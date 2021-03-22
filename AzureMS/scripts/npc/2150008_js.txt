@@ -1,0 +1,17 @@
+Line 8: var arriveMap = "여섯갈래 정거장으로";
+
+Line 27: 		cm.sendSimple("여섯갈래 정거장과 오르비스로 운행하고 있지. 어디로 가보고 싶어?\r\n\r\n#b#L0#여섯갈래 정거장으로 가기#l\r\n#L1#오르비스로 가기#l#k");
+
+Line 36: 		var msg = arriveMap+" 지금 출발합니다! 탑승하시겠습니까?#b\r\n\r\n#L0#"+arriveMap+" 가기 (-"+normalprice+"메소)#l\r\n";
+
+Line 38: 			msg += "#L1#나무비행기 사용 (-3000메소)#l\r\n";
+
+Line 41: 			msg += "#L2#빨간비행기 사용 (-5000메소)#l\r\n";
+
+Line 48: 			cm.sendYesNo("요금은 #b"+normalprice+" 메소#k고, 소요시간은 #b"+normaltime/60+"분#k 이에요. 지금 출발해 보시겠어요?");
+
+Line 56: 				cm.sendOk("메소가 부족하신것 같은데요!");
+
+Line 66: 				cm.sendOk("메소가 부족하신것 같은데요!");
+
+Line 77: 			cm.sendOk("이봐이봐.. "+normalprice+" 메소는 제대로 갖고 있는거야?");

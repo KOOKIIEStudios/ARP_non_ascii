@@ -1,0 +1,45 @@
+Line 16:      * 메탈아머 : 휴먼
+
+Line 23:      * @return - 패킷값을 보냄.
+
+Line 129:      * 메탈아머 : 휴먼 캔슬모션
+
+Line 131:      * @param skillId - 패킷값 구분.
+
+Line 132:      * @return - 패킷값을 보냄.
+
+Line 147:      * 메탈아머 : 탱크 캔슬모션
+
+Line 149:      * @param skillId - 패킷값 구분.
+
+Line 150:      * @return - 패킷값을 보냄.
+
+Line 165:      * 메탈아머 : 휴먼, 탱크 공통 스탯
+
+Line 167:      * @param skillId - 패킷값 구분.
+
+Line 168:      * @return - 패킷값을 보냄.
+
+Line 211:      * 메카닉 오픈게이트 소환 패킷
+
+Line 213:      * @param door - 메카닉의 오픈게이트 클래스를 불러옴.
+
+Line 214:      * @param active - 작동하는지 안하는지 여부를 물음.
+
+Line 215:      * @return - 패킷값을 보냄.
+
+Line 238:      * 메카닉 오픈게이트 취소 패킷
+
+Line 240:      * @param door - 메카닉의 오픈게이트 클래스를 불러옴.
+
+Line 241:      * @param active - 작동하는지 안하는지 여부를 물음.
+
+Line 242:      * @return - 패킷값을 보냄.
+
+Line 255:      * 메카닉 포탈구현패킷
+
+Line 257:      * @param pos - 현재 플레이어의 위치.
+
+Line 258:      * @return - 패킷값을 보냄.
+
+Line 269:      * 메카닉 위장색

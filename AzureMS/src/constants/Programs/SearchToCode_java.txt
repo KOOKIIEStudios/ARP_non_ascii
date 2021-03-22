@@ -1,0 +1,119 @@
+Line 52:         검색어 = new javax.swing.JTextField();
+
+Line 53:         장비 = new javax.swing.JRadioButton();
+
+Line 54:         아이템 = new javax.swing.JRadioButton();
+
+Line 56:         출력L = new javax.swing.JList();
+
+Line 63:         jLabel1.setFont(new java.awt.Font("굴림", 1, 12)); // NOI18N
+
+Line 66:         장비.setText("Equip");
+
+Line 67:         장비.addActionListener(new java.awt.event.ActionListener() {
+
+Line 69:                 장비ActionPerformed(evt);
+
+Line 73:         아이템.setText(" item");
+
+Line 74:         아이템.addActionListener(new java.awt.event.ActionListener() {
+
+Line 76:                 아이템ActionPerformed(evt);
+
+Line 80:         jScrollPane1.setViewportView(출력L);
+
+Line 117:                         .addComponent(장비)
+
+Line 119:                         .addComponent(아이템)
+
+Line 124:                         .addComponent(검색어, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
+
+Line 135:                     .addComponent(검색어, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+
+Line 139:                     .addComponent(장비)
+
+Line 140:                     .addComponent(아이템))
+
+Line 155: 		String name = JOptionPane.showInputDialog(null, "파일명을 입력해 주십시오");
+
+Line 160: 			out.write(임시1.toString().getBytes());
+
+Line 174: 			JOptionPane.showMessageDialog(null, "저장이 완료되었습니다.");
+
+Line 178: 	private void 장비ActionPerformed(java.awt.event.ActionEvent evt)
+
+Line 179: 	{// GEN-FIRST:event_장비ActionPerformed
+
+Line 180: 		아이템.setSelected(false);
+
+Line 181: 		체크[1] = false;
+
+Line 182: 		체크[0] = true;
+
+Line 183: 	}// GEN-LAST:event_장비ActionPerformed
+
+Line 185: 	private void 아이템ActionPerformed(java.awt.event.ActionEvent evt)
+
+Line 186: 	{// GEN-FIRST:event_아이템ActionPerformed
+
+Line 187: 		장비.setSelected(false);
+
+Line 188: 		체크[0] = false;
+
+Line 189: 		체크[1] = true;
+
+Line 190: 	}// GEN-LAST:event_아이템ActionPerformed
+
+Line 194: 		if (!체크[0] && !체크[1])
+
+Line 196: 			JOptionPane.showMessageDialog(null, "분류를 선택해 주십시오.");
+
+Line 199: 		출력.clear();
+
+Line 200: 		출력L.setModel(출력);
+
+Line 201: 		임시1 = "";
+
+Line 202: 		임시2 = "";
+
+Line 206: 			if (itemPair.getRight().toLowerCase().contains(검색어.getText()))
+
+Line 208: 				if (체크[0])
+
+Line 212: 						임시1 = 임시1 + itemPair.getLeft() + ", ";
+
+Line 213: 						임시2 = 임시2 + itemPair.getLeft() + " - " + itemPair.getRight() + "\r\n";
+
+Line 217: 				else if (체크[1])
+
+Line 221: 						임시1 = 임시1 + itemPair.getLeft() + ", ";
+
+Line 222: 						임시2 = 임시2 + itemPair.getLeft() + " - " + itemPair.getRight() + "\r\n";
+
+Line 232: 				출력.addElement(singleRetItem.toString());
+
+Line 234: 			출력L.setModel(출력);
+
+Line 238: 			JOptionPane.showMessageDialog(null, "발견된 아이템이 없습니다.");
+
+Line 245: 		String name = JOptionPane.showInputDialog(null, "파일명을 입력해 주십시오");
+
+Line 250: 			out.write(임시2.toString().getBytes());
+
+Line 264: 			JOptionPane.showMessageDialog(null, "저장이 완료되었습니다.");
+
+Line 284: 	public static String 임시2 = "";
+
+Line 285: 	public static String 임시1 = "";
+
+Line 286: 	private boolean 체크[] = { false, false };
+
+Line 287: 	public static DefaultListModel 출력 = new DefaultListModel();
+
+Line 294:     private javax.swing.JTextField 검색어;
+
+Line 295:     private javax.swing.JRadioButton 아이템;
+
+Line 296:     private javax.swing.JRadioButton 장비;
+
+Line 297:     private javax.swing.JList 출력L;

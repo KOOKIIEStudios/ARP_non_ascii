@@ -1,0 +1,11 @@
+Line 15: 		this.setTitle("돌림판 아이템 추가");
+
+Line 44: 		jLabel1.setText("아이템코드 : ");
+
+Line 46: 		jLabel2.setText("아이템갯수 :");
+
+Line 48: 		jButton1.setText("추가");
+
+Line 57: 		jTextField1.setText("아이템코드");
+
+Line 59: 		jTextField2.setText("아이템갯수");

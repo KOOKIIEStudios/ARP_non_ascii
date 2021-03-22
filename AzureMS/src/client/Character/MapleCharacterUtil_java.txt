@@ -1,0 +1,1 @@
+Line 59:                 System.out.println("[ERROR] There was a problem closing the connection´Ù.  " + ex);

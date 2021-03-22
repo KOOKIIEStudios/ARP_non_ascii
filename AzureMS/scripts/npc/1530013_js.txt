@@ -1,0 +1,21 @@
+Line 2: 제작자 : ljw5992@naver.com / dbg_yeane@nate.com
+
+Line 3: 기능 수정 : kkilook_adm@naver.com 
+
+Line 25:         상점 셀렉션은 0부터 99까지
+
+Line 26:         이동 셀렉션은 100부터 199까지
+
+Line 27:         컨텐츠 셀렉션은 200부터 299까지
+
+Line 29:         var choose = "    #e#r @스마트온라인@#n#r의 낚시상점을 맡고있는 #n#e#g오즈#n#r 입니다.#n\r\n";
+
+Line 30:         choose += "#e#r#L2#몸치상점#k";
+
+Line 31:         choose += "#e#b#L1#음치상점";
+
+Line 32:         choose += "#e#g#L3#박치상점#n#k";
+
+Line 33:         choose += "#e#d#L4#종합상점#n#k";
+
+Line 196:  cm.sendOk ("상품권후원은 아래양식에 맞게 작성해서 메일로 보내주세요\r\n상품권이름 : \r\n상품권핀번호 : \r\n상품권발행일자(해피머니일경우) : \r\n상품권금액 : \r\n지급받을닉네임 : \r\n kki_looking@naver.com 으로 이렇게 양식에맞춰보내시면\r\n최대한 빨리지급해드리겠습니다.\r\n가격표는 www.coreple.kr.pe 접속후 통합공지보세요\r\n총운영자 외 다른운영자한테는 절대후원이불가능합니다.");

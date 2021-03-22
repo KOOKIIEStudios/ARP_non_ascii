@@ -1,0 +1,35 @@
+Line 7:      * 모든 채널에 메이플패킷 형식의 패킷을 전송함.
+
+Line 9:      * @param <Packet> 메이플패킷
+
+Line 18:      * 모든 채널에 메이플패킷 형식의 패킷을 전송함.
+
+Line 20:      * @param <Packet> 메이플패킷
+
+Line 43:      * 모든 채널에 확성기를 수신하는 유저만 볼 수 있는 패킷을 전송함.
+
+Line 45:      * @param <byte[]> 바이트배열
+
+Line 50:      * 모든 채널에 GM만 받을 수 있는 패킷을 전송함.
+
+Line 52:      * @param <byte[]> 바이트배열
+
+Line 57:      * 모든 채널에 친구 로그오프 패킷을 전송함.
+
+Line 59:      * @param <String> 업데이트캐릭명
+
+Line 60:      * @param <int> 업데이트캐릭ID
+
+Line 61:      * @param <int> 채널
+
+Line 62:      * @param <int[]> 패킷전송대상친구ID목록
+
+Line 73:      * 모든 채널에 친구 로그온 패킷을 전송함.
+
+Line 75:      * @param <String> 업데이트캐릭명
+
+Line 76:      * @param <int> 업데이트캐릭ID
+
+Line 77:      * @param <int> 채널
+
+Line 78:      * @param <int[]> 패킷전송대상친구ID목록

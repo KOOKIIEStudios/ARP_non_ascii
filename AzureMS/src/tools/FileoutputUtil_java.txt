@@ -1,0 +1,13 @@
+Line 16:             커넥터로그 = "Action/LogFile/커넥터로그/" + getDCurrentTime() + ".txt",
+
+Line 17:             감지로그 = "Action/LogFile/감지로그/" + getDCurrentTime() + ".txt",
+
+Line 18:             택배로그 = "Action/LogFile/택배로그/" + getDCurrentTime() + ".txt",
+
+Line 19:             보스로그 = "Action/LogFile/보스로그/" + getDCurrentTime() + ".txt",
+
+Line 20:             마켓로그 = "Action/LogFile/마켓로그/" + getDCurrentTime() + ".txt";
+
+Line 35: //            time = "오후 "+time;
+
+Line 37: //            time = "오전 "+time;

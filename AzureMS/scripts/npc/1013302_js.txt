@@ -1,0 +1,3 @@
+Line 36: 		for (i = 0; i < shop.length; i++) msg += "#fUI/FarmUI.img/objectStatus/star/whole20#"+"#L"+i+"##b#i"+shop[i]['itemid']+"##z"+shop[i]['itemid']+"# "+shop[i]['qty']+" QTY#k"+enter+" ��Price : #b"+shop[i]['price']+"P#k"+enter;
+
+Line 47: 		msg += " Please press '��' to really buy.";

@@ -1,0 +1,3 @@
+Line 1: 제작자 : 퐁퐁(pongpong___@naver.com / unfix_@naver.com)
+
+Line 22: 	cm.sendOk("감옥맵에선 사용할수 없습니다");

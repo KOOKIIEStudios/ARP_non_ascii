@@ -1,0 +1,233 @@
+Line 38: 		cm.sendSimple("#b\r\n#L"+LEVEL_RANK+"#레벨 랭킹 확인 하기 (내 순위 : "+getMYLevelRank(getIdByName(cm.getPlayer().getName()))+"위)"
+
+Line 39: 			+ "\r\n#L"+REBORN_RANK+"#환생 랭킹 확인 하기 (내 순위 : "+getMYRebornsRank(getIdByName(cm.getPlayer().getName()))+"위)"
+
+Line 40: 			+ "\r\n#L"+MESO_RANK+"#메소 랭킹 확인 하기 (내 순위 : "+getMYMesoRank(getIdByName(cm.getPlayer().getName()))+"위)"
+
+Line 41: 			+ "\r\n#L"+damage_RANK+"#추뎀 랭킹 확인 하기 (내 순위 : "+getMYdamageRank(getIdByName(cm.getPlayer().getName()))+"위)"
+
+Line 42: 			+ "\r\n#L"+damagehit_RANK+"#퍼뎀 랭킹 확인 하기 (내 순위 : "+getMYdamagehitRank(getIdByName(cm.getPlayer().getName()))+"위)"
+
+Line 43: 			+ "\r\n\r\n#r#L"+SEARCH_RANK+"#종합 랭킹 확인 하기");
+
+Line 148: 			cm.sendGetText("검색할 캐릭터의 닉네임을 입력해주세요. 일부 캐릭터는 검색이 제한될 수 있습니다.");
+
+Line 168: 				cm.sendOk("입력한 캐릭터는 존재하지 않습니다.");
+
+Line 172: 			cm.sendOk(""+targetName(getIdByName(cm.getText()))+" 캐릭터의 랭킹 정보입니다.#b"
+
+Line 173: 				+ "\r\n　레벨 랭킹 : #e"+getMYLevelRank(getIdByName(cm.getText()))+"#n위 (Lv."+targetLevel(getIdByName(cm.getText()))+")"
+
+Line 174: 				+ "\r\n　환생 랭킹 : #e"+getMYRebornsRank(getIdByName(cm.getText()))+"#n위 ("+targetReborns(getIdByName(cm.getText()))+" 번)"
+
+Line 175: 				+ "\r\n　추뎀 랭킹 : #e"+getMYdamageRank(getIdByName(cm.getText()))+"#n위 ("+Comma(targetdamage(getIdByName(cm.getText())))+" 추뎀)"
+
+Line 176: 				+ "\r\n　퍼뎀 랭킹 : #e"+getMYdamagehitRank(getIdByName(cm.getText()))+"#n위 ("+targetdamagehit(getIdByName(cm.getText()))+" 퍼뎀)"
+
+Line 177: 				+ "\r\n　메소 랭킹 : #e"+getMYMesoRank(getIdByName(cm.getText()))+"#n위 ("+Comma(targetMeso(getIdByName(cm.getText())))+" 메소)");
+
+Line 279: 	Sb.append("#fn돋움체#")
+
+Line 300: 	Sb.append("위#n#k")
+
+Line 303: 		Sb.append("　#rLv.").append(eval(Con.getInt("level"))).append("　#e");
+
+Line 308: 		Sb.append("　Lv.").append(eval(Con.getInt("level"))).append("　");
+
+Line 317: 	Sb.append("#fn돋움체#")
+
+Line 339: 	Sb.append("위#n#k")
+
+Line 342: 		Sb.append("　#r").append(eval(Con.getInt("reborns"))).append("　#e");
+
+Line 347: 		Sb.append("　").append(eval(Con.getInt("reborns"))).append("　");
+
+Line 356: 	Sb.append("#fn돋움체#")
+
+Line 379: 	Sb.append("위#n#k")
+
+Line 382: 		Sb.append("　#r#e").append(Comma(eval(Con.getLong("meso")))).append(" 메소　");
+
+Line 387: 		Sb.append("　").append(Comma(eval(Con.getLong("meso")))).append(" 메소　");
+
+Line 395: 	Sb.append("#fn돋움체#")
+
+Line 417: 	Sb.append("위#n#k")
+
+Line 420: 		Sb.append("　#r").append(eval(Con.getInt("damagehit"))).append("　#e");
+
+Line 425: 		Sb.append("　").append(eval(Con.getInt("damagehit"))).append("%　 ");
+
+Line 434: 	Sb.append("#fn돋움체#")
+
+Line 457: 	Sb.append("위#n#k")
+
+Line 460: 		Sb.append("　#r#e").append(Comma(eval(Con.getLong("damage")))).append(" 추뎀　");
+
+Line 465: 		Sb.append("　").append(Comma(eval(Con.getLong("damage")))).append(" 추뎀　");
+
+Line 483: 		Sb.append("#e닉네임#fs18# #fs12##n: #e#b").append(Con.getString("name")).append("#Cgray##n (생성일자 : ").append(Con.getString("createdate")).append(")#k\r\n");
+
+Line 484: 		Sb.append(" ㄴ#e레벨#n : #b").append(eval(Con.getInt("level"))).append("#k (");
+
+Line 487: 		Sb.append(" ㄴ#e스텟#n : #bSTR#k#fs11#(").append((eval(Con.getInt("str")))).append(")  #fs12##bDEX#k#fs11#(").append(eval(Con.getInt("dex")));
+
+Line 489: 		Sb.append("#e　　  　 #n#rHP#k[#r").append(Comma(eval(Con.getInt("hp")))).append("#k / #r").append(Comma(eval(Con.getInt("maxhp")))).append("#k]  ");
+
+Line 491: 		Sb.append(" ㄴ#e메소#n : #b").append(Comma(eval(Con.getLong("meso"))));
+
+Line 492: 		Sb.append(" ㄴ#e추뎀#n : #g").append(Comma(eval(Con.getLong("damage"))));
+
+Line 493: 		Sb.append(" ㄴ#b#e퍼뎀#n : #r").append(Comma(eval(Con.getInt("damagehit")))).append("%　 ");
+
+Line 502: 		cm.sendOk("없는 캐릭터의 정보가 입력되었습니다. 다시 시도해주세요.");
+
+Line 627: 		case 100: job = "검사"; break;
+
+Line 628: 		case 200: job = "마법사"; break;
+
+Line 629: 		case 300: job = "궁수"; break;
+
+Line 630: 		case 400: job = "도적"; break;
+
+Line 631: 		case 500: job = "해적"; break;
+
+Line 632: 		case 110: job = "파이터"; break;
+
+Line 633: 		case 111: job = "크루세이더"; break;
+
+Line 634: 		case 112: job = "히어로"; break;
+
+Line 635: 		case 120: job = "페이지"; break;
+
+Line 636: 		case 121: job = "나이트"; break;
+
+Line 637: 		case 122: job = "팔라딘"; break;
+
+Line 638: 		case 130: job = "스피어맨"; break;
+
+Line 639: 		case 131: job = "버서커"; break;
+
+Line 640: 		case 132: job = "다크나이트"; break;
+
+Line 641: 		case 210: job = "위자드(불, 독)"; break;
+
+Line 642: 		case 211: job = "메이지(불, 독)"; break;
+
+Line 643: 		case 212: job = "아크메이지(불,독)"; break;
+
+Line 644: 		case 220: job = "위자드(썬, 콜)"; break;
+
+Line 645: 		case 221: job = "메이지(썬, 콜)"; break;
+
+Line 646: 		case 222: job = "아크메이지(썬,콜)"; break;
+
+Line 647: 		case 230: job = "클레릭"; break;
+
+Line 648: 		case 231: job = "프리스트"; break;
+
+Line 649: 		case 232: job = "비숍"; break;
+
+Line 650: 		case 310: job = "헌터"; break;
+
+Line 651: 		case 311: job = "레인저"; break;
+
+Line 652: 		case 312: job = "보우마스터";  break;
+
+Line 653: 		case 320: job = "사수"; break;
+
+Line 654: 		case 321: job = "저격수"; break;
+
+Line 655: 		case 322: job = "신궁"; break;
+
+Line 656:                         case 330: job = "에인션트 아처"; break;
+
+Line 657:                         case 331: job = "체이서"; break;
+
+Line 658:                         case 332: job = "패스파인더"; break;
+
+Line 659: 		case 410: job = "어쌔신"; break;
+
+Line 660: 		case 411: job = "허밋"; break;
+
+Line 661: 		case 412: job = "나이트로드";  break;
+
+Line 662: 		case 420: job = "시프"; break;
+
+Line 663: 		case 421: job = "시프마스터"; break;
+
+Line 664: 		case 422: job = "섀도어"; break;
+
+Line 665: 		case 430: job = "세미듀어러"; break;
+
+Line 666: 		case 431: job = "듀어러"; break;
+
+Line 667: 		case 432: job = "듀얼마스터"; break;
+
+Line 668: 		case 433: job = "슬레셔"; break;
+
+Line 669: 		case 434: job = "듀얼블레이더";  break;
+
+Line 670: 		case 510: job = "인파이터"; break;
+
+Line 671: 		case 511: job = "버커니어"; break;
+
+Line 672: 		case 512: job = "바이퍼"; break;
+
+Line 673: 		case 520: job = "건슬링거"; break;
+
+Line 674: 		case 521: job = "발키리"; break;
+
+Line 675: 		case 522: job = "캡틴"; break;
+
+Line 676: 		case 530: job = "캐논슈터"; break;
+
+Line 677: 		case 531: job = "캐논블래스터"; break;
+
+Line 678: 		case 532: job = "캐논마스터"; break;
+
+Line 680: 		case 1100: case 1110: case 1111: case 1112: job = "소울마스터";  break;
+
+Line 681: 		case 1200: case 1210: case 1211: case 1212: job = "플레임위자드"; break;
+
+Line 682: 		case 1300: case 1310: case 1311: case 1312: job = "윈드브레이커"; break;
+
+Line 683: 		case 1400: case 1410: case 1411: case 1412: job = "나이트워커"; break;
+
+Line 684: 		case 1500: case 1510: case 1511: case 1512: job = "스트라이커"; break;
+
+Line 686: 		case 2100: case 2110: case 2111: case 2112: job = "아란"; break;
+
+Line 688: 		case 2214: case 2215: case 2216: case 2217: case 2218: job = "에반"; break;
+
+Line 689: 		case 2300: case 2310: case 2311: case 2312: job = "메르세데스"; break;
+
+Line 690: 		case 2400: case 2410: case 2411: case 2412: job = "팬텀";  break;
+
+Line 691: 		case 2700: case 2710: case 2711: case 2712: job = "루미너스"; break;
+
+Line 692: 		case 2500: case 2510: case 2511: case 2512: job = "은월"; break;
+
+Line 694: 		case 3100: case 3110: case 3111: case 3112: job = "데몬슬레이어"; break;
+
+Line 695: 		case 3101: case 3120: case 3121: case 3122: job = "데몬어벤져"; break;
+
+Line 696: 		case 3200: case 3210: case 3211: case 3212: job = "배틀메이지"; break;
+
+Line 697: 		case 3300: case 3310: case 3311: case 3312: job = "와일드헌터"; break;
+
+Line 698: 		case 3500: case 3512: case 3511: case 3512: job = "메카닉"; break;
+
+Line 699: 		case 3600: case 3610: case 3611: case 3612: job = "제논"; break;
+
+Line 700: 		case 3700: case 3710: case 3711: case 3712: job = "블래스터"; break;
+
+Line 702: 		case 5100: case 5110: case 5111: case 5112: job = "미하일"; break;
+
+Line 703: 		case 6100: case 6110: case 6111: case 6112: job = "카이저"; break;
+
+Line 704: 		case 6500: case 6510: case 6511: case 6512: job = "엔젤릭버스터"; break;
+
+Line 706: 		case 14200: case 14210: case 14211: case 14212: job = "키네시스"; break;	
+
+Line 707: 		default: "초보자"; break;

@@ -1,0 +1,1 @@
+Line 1955:             str.append((i + 1) + "µî : #b" + data.get(i).third + "#k #d" + data.get(i).first + "Ãş#k " + data.get(i).second + "ÃÊ\r\n");

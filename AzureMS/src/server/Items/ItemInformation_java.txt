@@ -1,0 +1,41 @@
+Line 1103:                                 return null; // Æã
+
+Line 1138:                 /* 8 äÅ Order, Justice Order */
+
+Line 1181:                                 return null; // Æã
+
+Line 1189:                             case 2046025: // 8 äÅ One-Hand Attack Damage Scroll 20%
+
+Line 1192:                             case 2046026: // 8 äÅ One-Hand Weapon Spell 20%
+
+Line 1195:                             case 2046340: // 8 äÅ Accessory Spell 20%
+
+Line 1198:                             case 2046341: // 8 äÅ Accessory Magic Spell 20%
+
+Line 1201:                             case 2046119: // 8 äÅ Two-Handed Weapon Attack Scroll 20%
+
+Line 1204:                             case 2046120: // 8 äÅ Two-Handed Magic Power Order 20%
+
+Line 1207:                             case 2046251: // 8 äÅ Armor Boost 20%
+
+Line 1410:                                 return null; // Æã
+
+Line 1543:                                     return null; // Æã
+
+Line 1689:                                 return null; // Æã
+
+Line 1769:                                         nEquip.setWatk((short) (nEquip.getWatk() + (GameConstants.isWeapon(nEquip.getItemId()) ? ¹«±â¸¶°ø°ø½Ä(nEquip.getWatk()) : ¹æ¾î±¸¸¶°ø°ø½Ä(nEquip.getWatk()))));
+
+Line 1775:                                         nEquip.setMatk((short) (nEquip.getMatk() + (GameConstants.isWeapon(nEquip.getItemId()) ? ¹«±â¸¶°ø°ø½Ä(nEquip.getMatk()) : ¹æ¾î±¸¸¶°ø°ø½Ä(nEquip.getMatk()))));
+
+Line 1880:                                     return null; // Æã
+
+Line 1910:                                         return null; // Æã
+
+Line 1942:                                     return null; // Æã
+
+Line 2083:     private final int ¹æ¾î±¸¸¶°ø°ø½Ä(int i) {
+
+Line 2099:     private final int ¹«±â¸¶°ø°ø½Ä(int i) {
+
+Line 3071:                 potential % 100000 == 42071 || potential % 100000 == 42009 || potential % 100000 == 30013 || potential % 100000 == 40005)) {   //Mikhail , µ¥¸ó º¸Á¶¹«±â

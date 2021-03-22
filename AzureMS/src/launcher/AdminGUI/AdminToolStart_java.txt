@@ -1,0 +1,285 @@
+Line 45:         서버정보불러오기();
+
+Line 46:         환율정보();
+
+Line 47:         채팅금지();
+
+Line 48:         벤();
+
+Line 49:         this.setTitle(ServerConstants.MAPLE_VERSION + " - 팜데일즈 :: 팩관리기");
+
+Line 106:         동시접속자 = new javax.swing.JList();
+
+Line 108:         접속자수 = new javax.swing.JLabel();
+
+Line 152:         jTabbedPane1.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 156:         jPanel3.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 159:         jButton1.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 168:         jTextField1.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 177:         jTextField2.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 186:         jLabel1.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 190:         jLabel2.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 206:         jLabel3.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 229:         jLabel4.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 252:         jLabel5.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 270:         jLabel6.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 293:         jLabel7.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 297:         jButton8.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 441:         Chat.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 447:         jLabel16.setFont(new java.awt.Font("맑은 고딕", 1, 14)); // NOI18N
+
+Line 479:         mesos.setFont(new java.awt.Font("맑은 고딕", 0, 14)); // NOI18N
+
+Line 483:         realcash.setFont(new java.awt.Font("맑은 고딕", 0, 14)); // NOI18N
+
+Line 488:         jLabel19.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 492:         jLabel20.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 495:         jLabel21.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 500:         chatban.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 519:         jLabel22.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 524:         ban.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 533:         jLabel17.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 537:         동시접속자.setBackground(new java.awt.Color(102, 102, 102));
+
+Line 538:         동시접속자.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 539:         동시접속자.setForeground(new java.awt.Color(255, 102, 102));
+
+Line 540:         동시접속자.addMouseListener(new java.awt.event.MouseAdapter() {
+
+Line 542:                 동시접속자MouseClicked(evt);
+
+Line 545:         jScrollPane5.setViewportView(동시접속자);
+
+Line 548:         jLabel18.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 552:         접속자수.setBackground(new java.awt.Color(204, 204, 204));
+
+Line 553:         접속자수.setFont(new java.awt.Font("굴림", 1, 12)); // NOI18N
+
+Line 554:         접속자수.setForeground(new java.awt.Color(204, 204, 204));
+
+Line 555:         접속자수.setText("0");
+
+Line 587:                                 .addComponent(접속자수)))
+
+Line 606:                             .addComponent(접속자수)))
+
+Line 636:         jLabel8.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 641:         jjj.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 647:         jLabel10.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 654:         drop.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 660:         meso.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 666:         exp.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 682:         serverMessage.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 695:         jButton14.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 706:         jLabel15.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 713:         jButton22.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 729:         jLabel12.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 733:         noticMessage.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 743:         jButton11.setFont(new java.awt.Font("굴림", 1, 12)); // NOI18N
+
+Line 771:         hottime.setFont(new java.awt.Font("맑은 고딕", 0, 12)); // NOI18N
+
+Line 775:         jLabel13.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 805:         jLabel14.setFont(new java.awt.Font("맑은 고딕", 1, 12)); // NOI18N
+
+Line 969:    public void 환율정보() {
+
+Line 994:     public void 벤() {
+
+Line 1009:     public void 채팅금지() {
+
+Line 1035:                 hp.dropMessage(5, "서버로 부터 [" + Integer.parseInt(this.jTextField2.getText()) + "] 후원 포인트를 지급 받으셨습니다.");
+
+Line 1036:                 JOptionPane.showMessageDialog(null, jTextField1.getText() + "님에게 후원 포인트를 지급 하였습니다.");
+
+Line 1037:                 초기화();
+
+Line 1042:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1058:                     hp.dropShowInfo("GM설정이 되었습니다.");
+
+Line 1059:                     JOptionPane.showMessageDialog(null, "GM설정을 하였습니다.");
+
+Line 1060:                     초기화();
+
+Line 1067:                     hp.dropShowInfo("GM설정이 해제 되었습니다.");
+
+Line 1068:                     JOptionPane.showMessageDialog(null, "GM설정이 해제 되었습니다");
+
+Line 1069:                     초기화();
+
+Line 1075:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1092:                 hp.dropMessage(1, "아이템을 지급 받으셨습니다.");
+
+Line 1093:                 JOptionPane.showMessageDialog(null, "아이템을 지급 하였습니다.");
+
+Line 1094:                 초기화();
+
+Line 1099:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1113:                 hp.dropMessage(1, "메소를 지급 받으셨습니다.");
+
+Line 1114:                 JOptionPane.showMessageDialog(null, "메소를 지급 하였습니다.");
+
+Line 1115:                 초기화();
+
+Line 1120:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1124:     public static void 서버정보불러오기() {
+
+Line 1145:                     player.getClient().send(MainPacketCreator.getNPCTalk(2007, (byte) 0, "서버로부터 #e" + this.jTextField8.getText() + "#n 사유로 #r밴#k 을 당하셨습니다.", "00 00", (byte) 0));
+
+Line 1146:                     JOptionPane.showMessageDialog(null, "[알림] "+this.jTextField10.getText()+" 플레이어를 정지 시켰습니다.");
+
+Line 1147:                     player.getClient().send(MainPacketCreator.getNPCTalk(2007, (byte) 0, "현 시간부로 영구정지 입니다.", "00 00", (byte) 0));
+
+Line 1148:                     player.getClient().send(MainPacketCreator.getNPCTalk(2007, (byte) 0, "자세한 사항은 GM에게 문의 하세요.", "00 00", (byte) 0));
+
+Line 1151:                     JOptionPane.showMessageDialog(null, "[알림] "+this.jTextField10.getText()+" 플레이어를 찾지 못하였습니다.");
+
+Line 1168:                 hp.dropMessage(1, "채팅 금지를 당하였습니다.");
+
+Line 1169:                 JOptionPane.showMessageDialog(null, "채팅 금지를 하였습니다.");
+
+Line 1172:                 초기화();
+
+Line 1177:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1191:                 hp.dropMessage(1, "채팅 금지가 해제 되었습니다.");
+
+Line 1192:                 JOptionPane.showMessageDialog(null, "채팅 금지를 해제 하였습니다.");
+
+Line 1195:                 초기화();
+
+Line 1200:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1207:             this.jButton8.setText("채팅 녹이기");
+
+Line 1208:             WorldBroadcasting.broadcastMessage(MainPacketCreator.serverNotice(1, "채팅이 얼었습니다."));
+
+Line 1209:             JOptionPane.showMessageDialog(null, "채팅을 얼렸습니다.");
+
+Line 1212:             this.jButton8.setText("채팅 얼리기");
+
+Line 1213:             WorldBroadcasting.broadcastMessage(MainPacketCreator.serverNotice(1, "채팅이 녹았습니다."));
+
+Line 1214:             JOptionPane.showMessageDialog(null, "채팅을 녹였습니다.");
+
+Line 1227:         WorldBroadcasting.broadcastMessage(MainPacketCreator.serverNotice(1, "핫타임 아이템을 지급 받았습니다."));
+
+Line 1228:         JOptionPane.showMessageDialog(null, "핫타임 아이템을 지급 하였습니다.");
+
+Line 1236:         공지사항(1, this.noticMessage.getText());
+
+Line 1240:         공지사항(5, this.noticMessage.getText());
+
+Line 1244:         공지사항(-1, this.noticMessage.getText());
+
+Line 1248:         공지사항(-2, this.noticMessage.getText());
+
+Line 1257:         JOptionPane.showMessageDialog(null, "모두 저장을 완료 하였습니다.");
+
+Line 1264:         JOptionPane.showMessageDialog(null, "모든 플레이어가 로그인 서버로 이동 되었습니다.");
+
+Line 1274:         JOptionPane.showMessageDialog(null, "서버를 종료 하였습니다.");
+
+Line 1285:         JOptionPane.showMessageDialog(null, "모두 광장으로 이동되었습니다.");
+
+Line 1300:     private void 동시접속자MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_동시접속자MouseClicked
+
+Line 1302:             if (동시접속자.getModel() != null) {
+
+Line 1303:                 String name = 동시접속자.getModel().getElementAt(동시접속자.getSelectedIndex()).toString();
+
+Line 1314:     }//GEN-LAST:event_동시접속자MouseClicked
+
+Line 1338:         JOptionPane.showMessageDialog(null, jTextField8.getText() + "님의 게임이용 제한을 해제 하였습니다.");
+
+Line 1339:         초기화();
+
+Line 1359:                     byte[] packet = MainPacketCreator.serverNotice(1, "버닝타임시작!\r\n경험치 2배 이벤트가 시작되었습니다!!");
+
+Line 1364:                         jButton20.setText("버닝종료(경험치2배이벤트종료)");
+
+Line 1365:                         JOptionPane.showMessageDialog(null, "버닝타임시작(경험치 2배 이벤트가 시작됩니다.");
+
+Line 1372:                     byte[] packet = MainPacketCreator.serverNotice(1, "버닝타임2배이벤트가종료됨");
+
+Line 1377:                         JOptionPane.showMessageDialog(null, "버닝타임종료(경험치 2배 이벤트가 종료됩니다.");
+
+Line 1378:                         jButton20.setText("버닝(경험치2배이벤트)");
+
+Line 1416:                 hp.dropMessage(5, "서버로 부터 [" + Integer.parseInt(this.jTextField12.getText()) + "] 홍보 포인트를 지급 받으셨습니다.");
+
+Line 1417:                 JOptionPane.showMessageDialog(null, jTextField11.getText() + "님에게 홍보 포인트를 지급 하였습니다.");
+
+Line 1418:                 초기화();
+
+Line 1423:             JOptionPane.showMessageDialog(null, "플레이어가 접속 중이지 않습니다.");
+
+Line 1447:     public String 아이피(String name) throws SQLException {
+
+Line 1460:     public void 초기화() {
+
+Line 1461:         String name = "닉네임";
+
+Line 1466:         jTextField8.setText("닉네임(해제는 계정)");
+
+Line 1470:     public void 공지사항(int i, String text) {
+
+Line 1478:         JOptionPane.showMessageDialog(null, "[" + text + "] 내용을 모든 플레이어에게 알렸습니다.");
+
+Line 1481:     public static void 동접(String a) {
+
+Line 1483:             현재접속자.addElement(a);
+
+Line 1484:             동시접속자.setModel(현재접속자);
+
+Line 1490:     public static void 동접제거(String a) {
+
+Line 1491:         현재접속자.removeElement(a);
+
+Line 1492:         동시접속자.setModel(현재접속자);
+
+Line 1499:     public static DefaultListModel 현재접속자 = new DefaultListModel();
+
+Line 1583:     public static javax.swing.JList 동시접속자;
+
+Line 1584:     public static javax.swing.JLabel 접속자수;

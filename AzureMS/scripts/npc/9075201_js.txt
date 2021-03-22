@@ -1,0 +1,35 @@
+Line 5: 	오딘 KMS 팀 소스의 스크립트 입니다.
+
+Line 7: 	엔피시아이디 : 1012123
+
+Line 9: 	엔피시 이름 : 써니
+
+Line 11: 	엔피시가 있는 맵 : 헤네시스헤어샵
+
+Line 13: 	엔피시 설명 : 안드로이드메이크업
+
+Line 25: 	성형 엔피시
+
+Line 56:             cm.sendOk("안드로이드가 없는 분은 안드로이드 메이크업을 하실 수 없습니다. 안드로이드와 함께 찾아와 주세요.");
+
+Line 61:             cm.sendOk("고급형 안드로이드만 성형과 머리손질이 가능합니다.");
+
+Line 65: 	    cm.sendSimple("모든 성형과 머리손질은#로 이용하실 수 있습니다. 원하시는 안드로이드 코디를 해보세요!\r\n\r\n#e#r※ 주의 : 눈 색 변경이나, 성형시 게임이 종료되는 경우는 다른 눈으로 성형을 하시기 바랍니다. (해당 성형에 맞는 눈색깔 이미지가 없을 경우 튕깁니다.)#e#n\r\n\r\n#L1##b머리#k#l\r\n#L2##b머리색#k#l\r\n#L3##b얼굴#k#l\r\n#L4##b눈색깔#k#l");
+
+Line 77: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", hairnew);
+
+Line 91: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", haircolor);
+
+Line 102: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", facenew);
+
+Line 114: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", colors);
+
+Line 123: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", hairnew);
+
+Line 131: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", haircolor);
+
+Line 138: 		cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", facenew);
+
+Line 147: 		} cm.askAvatarAndroid("원하는 아바타를 선택해주세요.", colors);
+
+Line 152:             cm.sendOk("아이템을 제대로 갖고 계신것이 맞는지 확인해 주세요.");

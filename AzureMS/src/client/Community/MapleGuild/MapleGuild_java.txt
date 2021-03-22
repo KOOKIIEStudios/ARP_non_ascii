@@ -1,0 +1,1 @@
+Line 858:                 PreparedStatement ps = con.prepareStatement("INSERT INTO `alliances` (notice, name, guild1, guild2, guild3, guild4, guild5, rank1, rank2, rank3, rank4, rank5, capacity, leaderid) VALUES ('', ?, ?, ?, 0, 0, 0, '마스터', '부마스터', '연합원', '연합원', '연합원', 5, ?)");

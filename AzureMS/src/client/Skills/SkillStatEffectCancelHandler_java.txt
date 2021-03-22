@@ -1,0 +1,7 @@
+Line 31:     private Skill _퓨리어스차지;
+
+Line 122:                         if (_퓨리어스차지 == null) {
+
+Line 123:                             _퓨리어스차지 = (Skill) SkillFactory.getSkill(400051042);
+
+Line 275:                             SkillStatEffect effect = _퓨리어스차지.getEffect(chr.getSkillLevel(400051042));

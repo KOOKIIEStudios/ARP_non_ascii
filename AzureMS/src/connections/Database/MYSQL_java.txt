@@ -1,0 +1,3 @@
+Line 96: //       System.err.println("[알림] DB Version : " + databaseName + "   " + databaseProductVersion);
+
+Line 97: //        System.err.println("[알림] MinConnection : " + connectionPool.getMaxIdle() + " MaxConnection : " + connectionPool.getMaxTotal() + "\r\n");

@@ -1,0 +1,169 @@
+Line 1:  * 테스피아 Project
+
+Line 3:  * 팬더 spirit_m@nate.com
+
+Line 4:  * 백호 softwarewithcreative@nate.com
+
+Line 33: /** 서버 전체에 커뮤니티 (메신저, 친구, 파티 등) 기능을 제공하는 함수들.
+
+Line 35:  * @author 티썬
+
+Line 42:     /** 메신저 방 만들기 - 월드 홀더에 메신저를 하나 생성함.
+
+Line 44:      * @param <mapleMultiChatCharacter> 메신저캐릭터
+
+Line 45:      * @return 메신저클래스
+
+Line 48:     public static boolean 사피 = false;
+
+Line 49:     private static java.util.Timer 사피타임 = null;
+
+Line 56:     /** 메신저 방 얻어냄 - 월드 홀더에서 메신저를 얻어냄.
+
+Line 58:      * @param <int> 메신저ID
+
+Line 59:      * @return 메신저클래스
+
+Line 68:     /** 메신저 방 떠남 - 월드 홀더에서 메신저를 얻어내서 메신저캐릭터 삭제.
+
+Line 70:      * @param <int> 메신저ID
+
+Line 71:      * @param <mapleMultiChatCharacter> 메신저캐릭터
+
+Line 91:     /** 메신저 방에 참여 - 기존 메신저 참여자들에게 패킷도 방송함.
+
+Line 93:      * @param <int> 메신저 ID
+
+Line 94:      * @param <mapleMultiChatCharacter> 메신저캐릭터
+
+Line 95:      * @param <String> 참여자 이름
+
+Line 96:      * @param <int> 참여자 채널
+
+Line 125:     /** 메신저 채팅 - 패킷방송
+
+Line 127:      * @param <int> 메신저 ID
+
+Line 128:      * @param <String> 채팅대화
+
+Line 129:      * @param <String> 송신자 이름
+
+Line 149:     /** 메신저 초대 거부
+
+Line 151:      * @param <String> 초대했던사람
+
+Line 152:      * @param <String> 거부한사람
+
+Line 166:     /** 메신저 업데이트 (룩 등이 바뀌었을때)
+
+Line 168:      * @param <int> 메신저ID
+
+Line 169:      * @param <String> 업데이트된 사람의 이름
+
+Line 170:      * @param <int> 업데이트된 사람의 현재 채널 
+
+Line 190:     /** 패킷을 방송하지 않고 메신저에서 플레이어 삭제
+
+Line 192:      * @param <int> 메신저ID
+
+Line 193:      * @param <mapleMultiChatCharacter> 메신저캐릭터
+
+Line 206:     /** 패킷을 방송하지 않고 메신저에 플레이어 참여
+
+Line 208:      * @param <int> 메신저ID
+
+Line 209:      * @param <mapleMUltiChatCharacter> 참여할 플레이어
+
+Line 210:      * @param <int> 참여되는 위치 (슬롯)
+
+Line 222:     /** 친구 채팅 패킷방송
+
+Line 224:      * @param <int[]> 수신되는 캐릭터 목록
+
+Line 225:      * @param <int> 송신자 캐릭터 ID
+
+Line 226:      * @param <String> 송신자 캐릭터명
+
+Line 227:      * @param <String> 채팅 데이터
+
+Line 244:     /** 접속중인 친구를 얻어옴.
+
+Line 246:      * @param <int> 요청자ID
+
+Line 247:      * @param <String> 대상자ID
+
+Line 248:      * @return 플레이어아이디, 채널 페어 클래스 배열
+
+Line 261:     /** 친구 추가 요청
+
+Line 263:      * @param <String> 추가이름
+
+Line 264:      * @param <int> 요청자 채널
+
+Line 265:      * @param <int> 요청자 ID
+
+Line 266:      * @param <String> 요청자 이름
+
+Line 267:      * @param <int> 요청자 레벨
+
+Line 268:      * @param <int> 요청자 직업
+
+Line 269:      * @return 친구 추가 결과 BuddyList.BuddyAddResult Enum값
+
+Line 292:     /** 파티 얻어냄 - 월드 홀더에서 해당파티ID의 파티를 얻어냄.
+
+Line 294:      * @param <int> 얻어낼 파티 ID
+
+Line 295:      * @return 월드홀더에서 얻어낸 파티
+
+Line 302:     /** 파티가 업데이트 될때 패킷 송출
+
+Line 304:      * @param <int> 파티ID
+
+Line 305:      * @param <maplePartyOperation> 파티업데이트 작업
+
+Line 306:      * @param <maplePartyCharacter> 업데이트되는 대상
+
+Line 338:     /** 파티 생성 - 월드홀더에 새 파티를 기억시킴.
+
+Line 340:      * @param <maplePartyCharacter> 파티장 파티캐릭터
+
+Line 341:      * @return 파티클래스
+
+Line 348:     /** 연합 채팅
+
+Line 350:      * @param <int> 길드아이디
+
+Line 351:      * @param <String> 송출자 이름
+
+Line 352:      * @param <int> 송출자 캐릭터ID
+
+Line 353:      * @param <String> 채팅 데이터
+
+Line 360:     /** 파티 채팅
+
+Line 362:      * @param <mapleParty> 채팅을 송출할 파티
+
+Line 363:      * @param <String> 채팅 데이터
+
+Line 364:      * @param <String> 송출자 캐릭터명
+
+Line 379:     public static boolean 사피제한 = false;
+
+Line 381:     public static void 사피() {
+
+Line 382:         사피 = true;
+
+Line 383:         사피제한 = true;
+
+Line 384:         사피캔슬();
+
+Line 388:     public static void 사피캔슬() {
+
+Line 394:                 사피제한();
+
+Line 395:                 사피 = false;
+
+Line 400:     public static void 사피제한() {
+
+Line 405:                 사피제한 = false;

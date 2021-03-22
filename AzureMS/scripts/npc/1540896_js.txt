@@ -1,0 +1,11 @@
+Line 166:                     선택지 = "#L" + i + "##d[Daily quest] #o" + questlist[i][0] + "# " + questlist[i][1] + "Marie fight#k"
+
+Line 169:                         dialogue2 += 선택지 + " (Can be completed)\r\n"
+
+Line 172:                         dialogue3 += 선택지 + " (Proceeding)\r\n"
+
+Line 175:                     선택지 = "#L" + i + "##d[Daily Quest] #z" + questlist[i][0] + "# " + questlist[i][1] + "QTY Collection#k"
+
+Line 178:                         dialogue2 += 선택지 + " (Can complete)\r\n"
+
+Line 181:                         dialogue3 += 선택지 + " (Proceeding)\r\n"

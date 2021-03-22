@@ -1,0 +1,7 @@
+Line 948:                             c.getSession().writeAndFlush(UIPacket.showInfo("Of keyboard [←], [→] Press to move."));
+
+Line 951:                             c.getSession().writeAndFlush(UIPacket.showInfo("Of keyboard [↑]Press to go to another world."));
+
+Line 2892:                 // 캐릭터 영상
+
+Line 2908:                 // 이펙트 쓰레드

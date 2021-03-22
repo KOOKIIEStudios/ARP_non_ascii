@@ -1,0 +1,9 @@
+Line 1303: 			AdminToolStart.동접제거(player.getName());
+
+Line 1304: 			AdminToolStart.접속자수.setText(String.valueOf((int) (Integer.parseInt(AdminToolStart.접속자수.getText()) - 1)));
+
+Line 1463: 					LoggerChatting.getDeleteLog("삭제", rs.getString("name"), accountName));
+
+Line 1787: 				builder.append(" (캐릭터식별코드: ");
+
+Line 1792: 				builder.append("(계정: ");

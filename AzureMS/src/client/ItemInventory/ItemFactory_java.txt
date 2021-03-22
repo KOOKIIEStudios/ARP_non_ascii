@@ -1,0 +1,7 @@
+Line 94:                     throw new MYSQLException("아이템 정보 삽입 실패.");
+
+Line 183:                 System.out.println("[커넥션ERROR] 커넥션을 닫는데 문제가 발생 하였습니다.  " + ex);
+
+Line 365:                 System.out.println("[커넥션ERROR] 커넥션을 닫는데 문제가 발생 하였습니다.  " + ex);
+
+Line 673:                 System.out.println("[커넥션ERROR] 커넥션을 닫는데 문제가 발생 하였습니다.  " + ex);

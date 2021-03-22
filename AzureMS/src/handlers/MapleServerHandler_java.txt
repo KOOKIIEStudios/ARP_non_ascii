@@ -1,0 +1,1 @@
+Line 569:                 rh.skip(2); // 선물받을 대상. (MapleAsciiString)

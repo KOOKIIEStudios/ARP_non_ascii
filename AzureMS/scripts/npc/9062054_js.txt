@@ -1,0 +1,21 @@
+Line 3: var ���� = [
+
+Line 34: 		for (i = 0; i < ����.length; i++) msg += "#L"+i+"##b#i"+����[i]['itemid']+"##z"+����[i]['itemid']+"# "+����[i]['qty']+" QTY#k"+enter+" ��Price : #b"+����[i]['price']+"P#k"+enter;
+
+Line 41: 			msg += " Item : #b#i"+����[seld]['itemid']+"##z"+����[seld]['itemid']+"##k"+enter;
+
+Line 42: 			msg += " Count : #b"+����[seld]['qty']+" QTY #k"+enter;
+
+Line 43: 			msg += " Price : "+����[seld]['price']+"P#k"+enter;
+
+Line 45: 			msg += " Item : #b"+�ߵ�+"Additional Damage#k"+enter;
+
+Line 46: 			msg += " Price : #b"+�ߵ�����+"P#k"+enter;
+
+Line 48: 		msg += " Please press '��' to really buy.";
+
+Line 51: 		item = ����[seld]['itemid'];
+
+Line 52: 		qty = ����[seld]['qty'];
+
+Line 53: 		price = ����[seld]['price'];

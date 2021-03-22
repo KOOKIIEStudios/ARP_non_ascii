@@ -1,0 +1,19 @@
+Line 53: var 파티보스피1 = 500000000000000;
+
+Line 54: var 파티보스피2 = 1000000000000000;
+
+Line 58: var 솔로보상 = 4001900, 개수 = 2;
+
+Line 72: 			boxmsg += "#b#i"+rewardlist[i]['item']+"##z"+rewardlist[i]['item']+"# "+qb+"개#k"+enter; 
+
+Line 92: 			cm.sendOk("패치중");
+
+Line 188: 				chr.setKeyValue("Patisseu 2", 파티보스피2+"");
+
+Line 196: 				chr.setKeyValue("Soloth reward", 솔로보상);
+
+Line 197: 				chr.setKeyValue("Solos", 개수);
+
+Line 210:                 eim.setProperty("PHp1", 파티보스피1);
+
+Line 211:                 eim.setProperty("PHp2", 파티보스피2);

@@ -1,0 +1,7 @@
+Line 29:             FileInputStream setting = new FileInputStream("property/데스카운트.properties");
+
+Line 33:             String[] mapcode = setting_.getProperty(toUni("보스")).split(",");
+
+Line 34:             String[] time = setting_.getProperty(toUni("시간")).split(",");
+
+Line 35:             String[] deathcount = setting_.getProperty(toUni("데카")).split(",");

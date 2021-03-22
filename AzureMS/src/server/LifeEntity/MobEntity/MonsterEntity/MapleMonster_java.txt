@@ -1,0 +1,5 @@
+Line 282:             from.send(MainPacketCreator.OnAddPopupSay(9000036, 3000, "누적 데미지 #e[#n#r" + Randomizer.Comma(from.getDamageMeter()) + "#k#e]", ""));
+
+Line 502:             if (killer.getLevel() - getStats().getLevel() <= 5) { // 몬스터레벨 보다 5이상 높으면드롭안됨
+
+Line 504:             } else if (killer.getLevel() - getStats().getLevel() <= -20) { // 몬스터레벨 보다 20이상 낮으면 더높게

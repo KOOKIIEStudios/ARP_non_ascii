@@ -1,0 +1,11 @@
+Line 37: 			BUY_ITEM_STORE3 = 38, MAINTANCE_OFF = 39, REMOVE_ITEM = 47, // +10 시작
+
+Line 43: 			MERCHANT_BLACKLIST_REMOVE = 58, // +10 v192 까지
+
+Line 253: 						 * "해당 상점을 이미 수용가능한 최대 인원이 보고 있습니다. 잠시 후 다시 시도해 주세요."); } else {
+
+Line 557: 				c.getPlayer().message(1, "The item does not already exist다.");
+
+Line 909: 																												// 되었습니다.
+
+Line 1037: 			{ // 가위바위보 게임 종료!

@@ -1,0 +1,31 @@
+Line 310:     public static Equip 환생의불꽃(Equip eq) {
+
+Line 1210:                 case 2435177: // Monotone Damage Skin    case 2435179: // 캔디 데미지 스킨
+
+Line 2271:                         //InventoryManipulator.addById(c, 2430915, (short) 1, null, null, 0, CurrentTime.getAllCurrentTime() + "에 " + c.getPlayer().getName() + "에서 호출된 " + itemId + " 아이템에서 마스터 미라클 큐브 조각으로 얻은 아이템.");
+
+Line 2400:             case 5521000: { // 쉐어 네임 택
+
+Line 2411:              * case 5060028: { // 판도라의 상자 ItemInformation ii =
+
+Line 2450:              * coin2[Randomizer.rand(0, coin2.length - 1)]; short 갯수 = (short)
+
+Line 2490:              * append("판도라의 열쇠로 판도라의 상자를 열었습니다.\r\n판도라의 상자를 한 번 더 열어보시겠습니까?\r\n#e현재 Fever게이지:#r"
+
+Line 2493:              * "##z").append(itemda).append("# 1개").toString(), "", (byte) 0));
+
+Line 2495:              * StringBuilder().append(c.getPlayer().getName()).append("님이 판도라상자 스페셜 에서 ").
+
+Line 2496:              * append(ii.getName(itemda)).append(" 를 얻었습니다.").toString())); } else {
+
+Line 2503:              * append("판도라의 열쇠로 판도라의 상자를 열었습니다.\r\n판도라의 상자를 한 번 더 열어보시겠습니까?\r\n#e현재 Fever게이지:#r"
+
+Line 2506:              * ("##z").append(itemda1).append("# 1개").toString(), "", (byte) 0)); } }
+
+Line 3131:                     // LoggerChatting.getChatLogType("뿌리기", c.getPlayer(), "[아이템:"+itemId+"]
+
+Line 3219:                                                         + " " + (short) rs.getInt("amount") + "개",
+
+Line 3675:                      * 2432391 - 경험치(소) 2432392 - 경험치(대) 2432393 - 메소(소) 2432394 - 메소(대) 2432395 -
+
+Line 3676:                      * 포션 2432396 - 방어구 2432397 - 무기 2432398 - 희귀 아이템

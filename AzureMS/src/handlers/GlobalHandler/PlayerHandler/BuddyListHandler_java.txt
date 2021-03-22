@@ -1,0 +1,9 @@
+Line 1:  * 테스피아 Project
+
+Line 3:  * 팬더 spirit_m@nate.com
+
+Line 4:  * 백호 softwarewithcreative@nate.com
+
+Line 144:                 //친구 추가.
+
+Line 278:                             buddylist.put(new BuddylistEntry(otherName, otherCid, "그룹 미지정", channel, true, otherLevel, otherJob));

@@ -1,0 +1,145 @@
+Line 117:     private static int 여우령 = 0, Rank = 0; // spirit Fox
+
+Line 403:                         c.getPlayer().getMap().broadcastMessage(MatrixPacket.플레임디스차지여우재생성(c.getPlayer(), monster)); // Flamedischarge Fox Regen
+
+Line 1036:         // 조커 : 카드 뽑기
+
+Line 1128:         if (entry.getSkillId() == 400041009) { // 팬텀 : 조커
+
+Line 1258:                     chr.마법잔해 = 0;
+
+Line 1399:                     chr.getMap().broadcastMessage(MainPacketCreator.에디셔널블래스트(c.getPlayer(), monsters, 3310004));
+
+Line 1402:                 chr.getMap().broadcastMessage(MainPacketCreator.카디널디스차지(chr, moblist, skillid));
+
+Line 1441:                     chr.getMap().broadcastMessage(MatrixPacket.플레임디스차지여우(c.getPlayer())); // Flamedischarged Fox
+
+Line 1488:             case 400021001: { // 도트퍼니셔
+
+Line 1651:                 여우령 = 50; // spirit Fox
+
+Line 1658:                 여우령 = 100;
+
+Line 2014:                     chr.귀문진시작(effect);
+
+Line 2376:                 int 최대에너지 = chr.getSkillLevel(5110014) > 0 ? 10000 : 5000;
+
+Line 2377:                 int 에너지충전량 = chr.getSkillLevel(5120018) > 0 ? 350 : chr.getSkillLevel(5110014) > 0 ? 300 : 150;
+
+Line 2378:                 int 에너지감소량 = 0;
+
+Line 2381:                         에너지감소량 = 85;
+
+Line 2384:                         에너지감소량 = 140;
+
+Line 2390:                         에너지감소량 = 180;
+
+Line 2394:                         에너지감소량 = 150;
+
+Line 2397:                         에너지감소량 = 260;
+
+Line 2401:                         에너지감소량 = 1500;
+
+Line 2404:                         에너지감소량 = 130;
+
+Line 2408:                 if (chr.에너지차지구분 == 0 && attack.skill != 400051015) {
+
+Line 2409:                     chr.acaneAim += (에너지충전량 * 2);
+
+Line 2410:                 } else if (chr.에너지차지구분 == 1 || attack.skill == 400051015) {
+
+Line 2411:                     chr.acaneAim -= 에너지감소량;
+
+Line 2413:                 int 현재에너지 = chr.acaneAim;
+
+Line 2414:                 if (현재에너지 <= 0 && chr.isActiveBuffedValue(400051015)) {
+
+Line 2417:                 if (chr.에너지차지구분 == 0 && attack.skill != 400051015) {
+
+Line 2418:                     if (현재에너지 >= 10000) {
+
+Line 2419:                         chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, true, false));
+
+Line 2421:                         chr.에너지차지구분 = 1;
+
+Line 2423:                         chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, chr.getBuffedValue(BuffStats.Stimulate) != null ? true : false, false));
+
+Line 2425:                 } else if (chr.에너지차지구분 == 1 || attack.skill == 400051015) {
+
+Line 2426:                     if (현재에너지 <= 0) {
+
+Line 2427:                         chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, chr.getBuffedValue(BuffStats.Stimulate) != null ? true : false, false));
+
+Line 2429:                         chr.에너지차지구분 = 0;
+
+Line 2432:                             chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, chr.getBuffedValue(BuffStats.Stimulate) != null ? true : false, true));
+
+Line 2433:                         } else if (attack.skill == 400051015 && chr.에너지차지구분 == 0) {
+
+Line 2434:                             chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, chr.getBuffedValue(BuffStats.Stimulate) != null ? true : false, false));
+
+Line 2435:                         } else if (attack.skill == 400051015 && chr.에너지차지구분 == 1) {
+
+Line 2436:                             chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, chr.getBuffedValue(BuffStats.Stimulate) != null ? true : false, true));
+
+Line 2499:                 if (skill.getName().contains("익시드 :")) {
+
+Line 2743:                 int 최대에너지 = chr.getSkillLevel(5110014) > 0 ? 10000 : 5000;
+
+Line 2744:                 int 에너지충전량 = chr.getSkillLevel(5120018) > 0 ? 350 : chr.getSkillLevel(5110014) > 0 ? 300 : 150;
+
+Line 2745:                 int 에너지감소량 = 0;
+
+Line 2748:                         에너지감소량 = 85;
+
+Line 2751:                         에너지감소량 = 140;
+
+Line 2757:                         에너지감소량 = 180;
+
+Line 2761:                         에너지감소량 = 150;
+
+Line 2764:                         에너지감소량 = 260;
+
+Line 2768:                         에너지감소량 = 1500;
+
+Line 2771:                         에너지감소량 = 130;
+
+Line 2775:                 if (chr.에너지차지구분 == 0 && attack.skill != 400051015) {
+
+Line 2776:                     chr.acaneAim += (에너지충전량 * 2);
+
+Line 2777:                 } else if (chr.에너지차지구분 == 1 || attack.skill == 400051015) {
+
+Line 2778:                     chr.acaneAim -= 에너지감소량;
+
+Line 2781:                 int 현재에너지 = chr.acaneAim;
+
+Line 2783:                 if (chr.에너지차지구분 == 0 && attack.skill != 400051015) {
+
+Line 2784:                     if (현재에너지 >= 10000) {
+
+Line 2785:                         chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, true, false));
+
+Line 2787:                         chr.에너지차지구분 = 1;
+
+Line 2789:                         chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, false, false));
+
+Line 2791:                 } else if (chr.에너지차지구분 == 1 || attack.skill == 400051015) {
+
+Line 2792:                     if (현재에너지 <= 0) {
+
+Line 2793:                         chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, false, false));
+
+Line 2795:                         chr.에너지차지구분 = 0;
+
+Line 2801:                             chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, false, true));
+
+Line 2802:                         } else if (attack.skill == 400051015 && chr.에너지차지구분 == 0) {
+
+Line 2803:                             chr.send(MainPacketCreator.giveEnergyCharge(현재에너지, 10000, 5120018, 10000, false, false));
+
+Line 2804:                         } else if (attack.skill == 400051015 && chr.에너지차지구분 == 1) {
+
+Line 2805:                             chr.send(MainPacketCreator.giveEnergyCharge(0, 0, 5120018, 현재에너지, false, false));
+
+Line 5004:         c.getSession().writeAndFlush(MainPacketCreator.openUnionUI(c)); // 패킷 출력

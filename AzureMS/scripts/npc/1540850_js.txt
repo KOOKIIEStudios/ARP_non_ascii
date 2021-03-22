@@ -1,0 +1,79 @@
+Line 4: var Stats = new Array(4); // 0 = 스우 HP, 1 = 스우 ATK, 2 = 데미안 HP, 3 = 데미안 ATK
+
+Line 14: 	cm.sendSimple("시아스타일 #b스우#k vs #b데미안#k 시스템 입니다.\r\n#Cgray#ㄴ승리할 것 같은 보스를 선택 해주세요.\r\n\r\n#b#L01#스우#l\r\n#L02#데미안#l");
+
+Line 26: 		cm.sendGetText("#b#z4310038# #k를 얼마나 배팅 하실 건가요 ?\r\n");
+
+Line 31: 			cm.sendOk("최소 100개 부터 배팅이 가능합니다.");
+
+Line 35: 			cm.sendOk("최대 500개 까지만 배팅이 가능합니다.");
+
+Line 40: 				cm.sendOk("입력한 만큼의 #v4310038##b#z4310038# #k아이템이 없습니다.");
+
+Line 57: 		cm.sendNext("                    설정된 보스의 스탯 수치입니다\r\n\r\n" + "스우 #rHP #k: #b" + Stats[0] + "\r\n#k스우 #rATK #k: #b" + Stats[1] + "#k\r\n\\r\n데미안 #rHP #k: #b" + Stats[2] + "\r\n#k데미안 #rATK #k: #b" + Stats[3]);
+
+Line 64: 		// 1 = 스우 , 2 = 데미안
+
+Line 73: 			Text += "                     선 공격자는 #b스우#k 입니다!\r\n\r\n";
+
+Line 75: 			Text += "                     선 공격자는 #b데미안#k 입니다!\r\n\r\n";
+
+Line 86: 						Text += "#d스우의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 88: 						Text += "#e스우의 공격 : #r" + Damage + "#k [치명타]#n\r\n";
+
+Line 94: 						Text += "#d스우의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 97: 						Text += "#d스우의 공격 : #b" + Damage + "#k [평타]\r\n";
+
+Line 104: 				Text += "#Cgray#데미안의 남은 HP : #B" + Stats[2] / finalHP2 * 100 + "##k\r\n";
+
+Line 105: 				Text += "───────────────────────────\r\n";
+
+Line 108: 					Text += "#b스우#k의 승리!\r\n";
+
+Line 120: 						Text += "#d데미안의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 122: 						Text += "#e데미안의 공격 : #r" + Damage + "#k [치명타]#n\r\n";
+
+Line 128: 						Text += "#d데미안의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 131: 						Text += "#d데미안의 공격 : #b" + Damage + "#k [평타]\r\n";
+
+Line 138: 				Text += "#Cgray#스우의 남은 HP : #B" + Stats[0] / finalHP1 * 100 + "##k\r\n";
+
+Line 139: 				Text += "───────────────────────────\r\n";
+
+Line 142: 					Text += "#b데미안#k의 승리!\r\n";
+
+Line 153: 						Text += "#d데미안의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 155: 						Text += "#e데미안의 공격 : #r" + Damage + "#k [치명타]#n\r\n";
+
+Line 161: 						Text += "#d데미안의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 164: 						Text += "#d데미안의 공격 : #b" + Damage + "#k [평타]\r\n";
+
+Line 171: 				Text += "#Cgray#스우의 남은 HP : #B" + Stats[0] / finalHP1 * 100 + "##k\r\n";
+
+Line 172: 				Text += "───────────────────────────\r\n";
+
+Line 175: 					Text += "#b데미안#k의 승리!\r\n";
+
+Line 187: 						Text += "#d스우의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 189: 						Text += "#e스우의 공격 : #r" + Damage + "#k [치명타]#n\r\n";
+
+Line 195: 						Text += "#d스우의 공격 : #Cgray#" + Damage + "#k [회피]\r\n";
+
+Line 198: 						Text += "#d스우의 공격 : #b" + Damage + "#k [평타]\r\n";
+
+Line 205: 				Text += "#Cgray#데미안의 남은 HP : #B" + Stats[2] / finalHP2 * 100 + "##k\r\n";
+
+Line 206: 				Text += "───────────────────────────\r\n";
+
+Line 209: 					Text += "#b스우#k의 승리!\r\n";
+
+Line 220: 			cm.sendOk("당신이 건 쪽이 승리 하였어요 ! 축하드려요 !\r\n\r\n#b#v4310038##z4310038# " + justice * 2 + "#k 획득 !");
+
+Line 224: 			cm.sendOk("아쉽지만 당신이 건 쪽이 패배 하셨어요.. 다음에 다시 도전 해주세요 !");

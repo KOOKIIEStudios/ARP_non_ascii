@@ -1,0 +1,225 @@
+Line 98:     public final static byte[] Host = new byte[]{(byte) 175, (byte) 207, (byte) 0, (byte) 33}; //본 메이플 서버 IPA.
+
+Line 273:                     if (!GameConstants.isPinkBean(evan)) { // 핑크빈 제외 모든직업 Extended SP.
+
+Line 308:         packet.writeMapleAsciiString(value); // 이것도 어떤 값이 있는거같음.
+
+Line 309:         packet.writeInt(array); // 값이 16진수로 1씩 늘어남.
+
+Line 310:         packet.writeInt(mode); // 0: 처음, 1: 두번째, 2: 세번째
+
+Line 333:             packet.write(num_ == 0 ? -1 : num_); // 존재하면 num_
+
+Line 352:         if (!GameConstants.isPinkBean(chr.getJob())) { // 핑크빈 제외 모든직업 Extended SP.
+
+Line 381:         packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정.
+
+Line 382:         packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정.
+
+Line 393:         packet.writeShort(chr.getTodayCharisma()); // 오늘의 카리스마
+
+Line 394:         packet.writeShort(chr.getTodayInsight()); // 오늘의 통찰력
+
+Line 395:         packet.writeShort(chr.getTodayWillPower()); // 오늘의 의지
+
+Line 396:         packet.writeShort(chr.getTodayDiligence()); // 오늘의 손재주
+
+Line 397:         packet.writeShort(chr.getTodayEmpathy()); // 오늘의 감성
+
+Line 398:         packet.writeShort(chr.getTodayCharm()); // 오늘의 매력
+
+Line 401:         packet.write(0xFF); // 1.2.220+ 스타포스 관련 패킷 추정.
+
+Line 402:         packet.writeInt(0); // 1.2.220+ 스타포스 관련 패킷 추정.
+
+Line 516:         packet.write(AvatarLook ? 1 : 0); // 미러 이미징, 쉐도우 서번트
+
+Line 692:                 case 14111024: // 쉐도우 서번트
+
+Line 693:                 case 14121054: // 쉐도우 일루전
+
+Line 710:                 case 14121003: // 다크니스 오멘
+
+Line 711:                 case 36121002: // 홀로그램 그래피티 : 관통
+
+Line 712:                 case 36121013: // 홀로그램 그래피티 : 역장
+
+Line 713:                 case 36121014: // 홀로그램 그래피티 : 지원
+
+Line 714:                 case 5321052: // 롤링 캐논 레인보우
+
+Line 943:                 packet.write(0); // 타입
+
+Line 944:                 // 데이터 (전광판같은거)
+
+Line 1032:         packet.write(0); // 엘프귀
+
+Line 1105: 		 * 0 : 카리스마 1 : 통찰력 2 : 의지 3 : 손재주 4 : 감성 5 : 매력
+
+Line 1446:                 case 17: // 레어
+
+Line 1449:                 case 18: // 에픽
+
+Line 1452:                 case 19: // 유니크
+
+Line 1455:                 case 20: // 레전드리
+
+Line 1505:         /* 버프마스크 종료 */
+
+Line 1600:         // flag |= 1; 에반이면서 용 있을때
+
+Line 1602:         // flag |= 8; // PVP 분노효과 시간 int로 보내줘야됨
+
+Line 1603:         // flag |= 0x10; 8과 else로 처리됨. PVP 챔피언 효과. int로 보내줘야됨
+
+Line 1604:         // flag | 0x20 HitPeriodRemain_Revive int로 보내줌.
+
+Line 1624:         // 라이딩일시
+
+Line 1625:         // 아이템 코드가 1932249 일시
+
+Line 1626:         // int로 갯수 보내줌. 갯수만큼 int로 커스텀 라이딩 보내줌.
+
+Line 1640:             // 스타플래닛 정보
+
+Line 1642:             packet.write(0); // 랭킹?
+
+Line 1644: 			 * 위에 보낸값이 10보다 크다면 10만큼만 아니면 그 갯수대로
+
+Line 1927:                             packet.writeLong(eachd.left | -Long.MAX_VALUE); // 이쪽 내일 수정 바람.
+
+Line 2033:         packet.write(12); // 8 = sell, 0 = buy, 0x20 = due to an error <- 160은 (4) 168은 (5)
+
+Line 2578:         packet.writeInt(hp.getFame()); // 인기도
+
+Line 2579:         packet.write(0); // 결혼
+
+Line 2581:         packet.write(professions.size()); // 전문기술갯수
+
+Line 2955:     public static byte[] FlameDischarge(byte 개수, int duration) {
+
+Line 2965:         packet.writeShort(개수);
+
+Line 3014:         /* Stack Buff 처리 구간, 시작 */
+
+Line 3046:         /* Stack Buff 처리 구간, 종료 */
+
+Line 3060:         /* 스킬 딜레이 시작 */
+
+Line 3074:         /* 스킬 딜레이 종료 */
+
+Line 3076:         /* SkillType 시작 */
+
+Line 3078:         /* SkillType 종료 */
+
+Line 3079:         packet.writeLong(0); // 1.2.251+, 모든 버프 팅김 방지.
+
+Line 3174:             packet.writeShort(2350); // 머리위에 뜨기까지의 시간
+
+Line 3738:                 pw.writeMapleAsciiString("테스트");
+
+Line 3874:         if (isZero) { // 임시처리, 추후 수정바람.
+
+Line 3979:                 packet.write(create ? 1 : 0);// 에반 용 이펙트
+
+Line 3982:                 packet.write(create ? 1 : 0);// 리인카네이션 이펙트
+
+Line 4115:      * 운영자 채팅 색상 코드
+
+Line 4117:      * <code>색상 코드</code>:<br>
+
+Line 4118:      * 0 : 일반 채팅(흰색) 1 : 귓속말 채팅(초록색) 2 : 파티 채팅(분홍색) 3 : 친구 채팅(주황색) 4 : 길드
+
+Line 4119:      * 채팅(보라색) 5 : (옅은 초록색) 6 : (약간 크고 진한 분홍색) 7 : (회색) 8 : (노란색) 9 : (연한 노란색)
+
+Line 4120:      * 10 : (파란색) 11 : 운영자 채팅(흰색바탕에 검은색) 12 : (갈색) 13 : (옅은파란바탕에 파란색) 15 :
+
+Line 4121:      * (빨간바탕에 검은색) 17 : (진보라색) 18 : (연한파란색바탕에 분홍색) 19 : (갈색바탕에 검은색) 20 : (갈색바탕에
+
+Line 4122:      * 흰색) 21 : (노란색바탕에 검은색) 22 : (초록색바탕에 흰색) 23 : (초록색바탕에 갈색[W:-1]) 25 : (노란색)
+
+Line 4123:      * 26 : (하늘색) 27 : (작은 글씨체)
+
+Line 4143: 	 * 추가로 매개변수가 필요하지 않은 이펙트 *
+
+Line 4145: 	 * 0x01 : 레벨업 0x0A : RESIST 0x0C : 포탈사운드 0x0D : 직업변경 0x12 : 몬스터북 0x14 : 장비제작 (또는
+
+Line 4146: 	 * 대난투) 레벨업
+
+Line 4383:     /* 창고 패킷 시작 */
+
+Line 4493:     /* 창고 패킷 종료 */
+
+Line 4951:                 packet.write0(260); // 메모 + 그룹
+
+Line 4973:             packet.writeAsciiString("그룹 미지정", 18);
+
+Line 4974:             packet.write0(280); //메모 + 그룹.
+
+Line 4981:             packet.writeAsciiString("그룹 미지정", 18);
+
+Line 4983:             packet.writeInt(0); //IP, 계정친구 등록.
+
+Line 4984:             packet.writeAsciiString(" ", 13); //닉네임
+
+Line 4985:             packet.writeAsciiString(" ", 270); //메모
+
+Line 5244:         packet.writeInt(g.getAccruedGP()); //명성치
+
+Line 5245:         packet.writeInt(500); //명성치
+
+Line 5296:             packet.writeInt(1); //명성치
+
+Line 5297:             packet.writeInt(1); //명성치
+
+Line 5511:         packet.writeInt(expelledGuild.getAccruedGP()); //명성치
+
+Line 5512:         packet.writeInt(500); //명성치
+
+Line 5562:         packet.write(newGuild.getLevel()); //길드레벨
+
+Line 5765:                 packet.write(gg.getLevel()); //길드레벨
+
+Line 5834:                 packet.write(gg.getLevel()); //길드레벨
+
+Line 5970:         packet.writeInt(g.getId()); // 검색한 길드 id
+
+Line 5988:         packet.writeInt(g.getAccruedGP()); //명성치
+
+Line 5989:         packet.writeInt(500); //명성치
+
+Line 6023:         packet.writeInt(guilds.size()); //검색 결과 갯수
+
+Line 6440:         mplew.write(GameConstants.isArcaneSymbol(item.getItemId()) ? (symbollevelup ? 2 : 1) : 0); //아케인심볼 true
+
+Line 6449:         mplew.write(GameConstants.isArcaneSymbol(item.getItemId()) ? (symbollevelup ? 2 : 1) : 0); //아케인심볼 true
+
+Line 7332:         /* 스킬 도입부 시작 */
+
+Line 7343:         /* 스킬 도입부 종료 */
+
+Line 7786:         packet.writeInt(70);// 최대게이지
+
+Line 7898:         packet.writeShort(514); // 02 02, 의미가 있을 듯.
+
+Line 8163:             packet.writeInt(Randomizer.nextInt()); // 1.2.220+ 그리고 유동
+
+Line 8234:         /* 스킬 도입부 시작 */
+
+Line 8248:         /* 스킬 도입부 종료 */
+
+Line 8267:             packet.writeMapleAsciiString("데미지스킨");
+
+Line 8284:                 packet.writeMapleAsciiString("데미지스킨");
+
+Line 8982:     public static byte[] 카디널디스차지(MapleCharacter chr, List<Integer> moblist, int skillid) {
+
+Line 9014:     public static byte[] 스플릿미스텔(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+
+Line 9053:     public static byte[] 에디셔널디스차지(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+
+Line 9090:     public static byte[] 에디셔널블래스트(MapleCharacter chr, List<MapleMonster> monsters, int skillid) {
+
+Line 9127:     public static byte[] 에인션트가이던스이펙트(int skillid) {
+
+Line 9351:     public static byte[] 퀴버풀버스트(MapleCharacter player, MapleMonster mob, int skillid) {

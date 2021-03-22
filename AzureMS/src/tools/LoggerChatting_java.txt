@@ -1,0 +1,73 @@
+Line 18:     public static String givercLog = "후원포인트지급.txt";
+
+Line 19:     public static String givehbLog = "홍보포인트지급.txt";
+
+Line 20:     public static String giveadLog = "추가데미지지급.txt";
+
+Line 21:     public static String Leon = "반레온토벌.txt";
+
+Line 22:     public static String Kaung = "카웅토벌.txt";
+
+Line 23:     public static String Papulatus = "파풀라투스토벌.txt";
+
+Line 24:     public static String Archive = "아카이럼토벌.txt";
+
+Line 25:     public static String Signus = "시그너스토벌.txt";
+
+Line 26:     public static String demLog = "데미안토벌.txt";
+
+Line 27:     public static String Heila = "힐라토벌.txt";
+
+Line 28:     public static String Belum = "벨룸토벌.txt";   
+
+Line 29:     public static String Half = "반반토벌.txt";   
+
+Line 30:     public static String BloodyQueen = "블러디퀸토벌.txt";   
+
+Line 31:     public static String Pierre = "피에르토벌.txt";   
+
+Line 32:     public static String Pinkbin = "핑크빈토벌.txt";   
+
+Line 33:     public static String Zacum = "자쿰토벌.txt";
+
+Line 34:     public static String Magnus = "매그너스토벌.txt";
+
+Line 35:     public static String swooLog = "스우토벌.txt";
+
+Line 36:     public static String lucLog = "루시드토벌.txt";
+
+Line 37:     public static String wLog = "윌토벌.txt";
+
+Line 38:     public static String crLog = "크로스토벌.txt";
+
+Line 39:     public static String dorosiLog = "도로시토벌.txt";
+
+Line 40:     public static String dcLog = "캐릭터삭제.txt";
+
+Line 41:     public static String commandLog = "GM명령어로그.txt";
+
+Line 42:     public static String commandLog2 = "유저명령어로그.txt";
+
+Line 43:     public static String tradeLog = "교환로그.txt";
+
+Line 83:         sb.append(local.getChr().getName() + "이(가) 받은 아이템, 메소 \r\n");
+
+Line 84:         sb.append(local.exchangeMeso + " 메소\r\n");
+
+Line 86:             sb.append(item.getItemId() + " " + item.getQuantity() + "개\r\n");
+
+Line 89:         sb.append(partner.getChr().getName() + "이(가) 받은 아이템, 메소\r\n");
+
+Line 90:         sb.append(partner.exchangeMeso + " 메소\r\n");
+
+Line 92:             sb.append(item.getItemId() + " " + item.getQuantity() + "개\r\n");
+
+Line 98:         return "[" + type + "] " + chr.getName() + " : " + chattext + " 현재맵 : " + chr.getMap().getStreetName() + "-"
+
+Line 103:         return "[" + type + "] 캐릭터 이름 : " + chr.getName() + "사용한 명령어 : " + chattext + " 현재맵 : "
+
+Line 108:         return "[" + type + "] 지급자 : " + chr.getName() + " / 피지급자 : " + victim.getName() + " / 지급량 : " + qty;
+
+Line 112:         return "[" + type + "] 닉네임 : " + chr.getName() + " /  계정ID : " + chr.getAccountID();
+
+Line 116:         return "[" + type + "] 닉네임 : " + chr + " /  계정ID : " + ac;

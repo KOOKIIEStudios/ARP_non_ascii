@@ -1,0 +1,5 @@
+Line 107:                 if (StringUtil.getLeftPaddedStr(String.valueOf(id / 10000), '0', 3).equals("8000")) { // 소울, 룬 스킬 등.
+
+Line 110:                 if (MapleDataTool.getInt("attackCount", data, 0) > 0 || MapleDataTool.getInt("mobCount", data, 0) > 0 || MapleDataTool.getInt("damage", data, 0) > 0) { //공격 스킬.
+
+Line 117: 				if (id == 21101005) // 아란 - 드레인

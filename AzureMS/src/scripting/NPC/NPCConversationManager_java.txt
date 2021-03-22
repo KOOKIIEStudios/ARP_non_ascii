@@ -1,0 +1,257 @@
+Line 77: import static launcher.Utility.WorldCommunity.사피;
+
+Line 114:     public boolean is사피() {
+
+Line 115:         return 사피;
+
+Line 118:     public void 사피() {
+
+Line 119:         WorldCommunity.사피();
+
+Line 122:     public void 사피끝() {
+
+Line 123:         WorldBroadcasting.broadcastMessage(MainPacketCreator.getGMText(11, "여러분 아쉽지만 이벤트가 끝나 버렸어요... 다음에 또 만나요~"));
+
+Line 124:         사피 = false;
+
+Line 360:                 // 여기까지 UI잠금 
+
+Line 370:                 // 여기까지 뭔지 모르겠음 의미없어보임
+
+Line 1314:         getClient().getSession().writeAndFlush(MainPacketCreator.OnAddPopupSay(1052230, 3500, "#face1#프로즌 링크 몬스터수를 충전했어!", ""));
+
+Line 1602:     public void increaseGuildCapacity() { //길드 인원 늘리기
+
+Line 1604:             c.getSession().writeAndFlush(MainPacketCreator.serverNotice(1, "1000만 메소가 충분하지 않습니다."));
+
+Line 2081:             MapleRing.makeRing(itemid, chr, item.getUniqueId(), item1.getUniqueId()); //내꺼
+
+Line 2082:             MapleRing.makeRing(itemid, getPlayer(), item1.getUniqueId(), item.getUniqueId());//파트너꺼
+
+Line 2087:             sendOk("선택하신 반지를 제작 완료 하였습니다. 인벤토리를 확인해 봐주시길 바랍니다.");
+
+Line 2088:             chr.dropMessage(5, getPlayer().getName() + "님으로 부터 반지가 도착 하였습니다. 인벤토리를 확인해 주시길 바랍니다.");
+
+Line 2090:             sendOk("반지를 제작하는데 오류가 발생 하였습니다.");
+
+Line 3515:             cm.sendOk("검색어는 2글자 이상이어야 합니다.");
+
+Line 3519:         c.send(UIPacket.greenShowInfo(gomgo + "(으)로 검색중입니다. 잠시만 기다려주세요."));
+
+Line 3537:             chat = "발견된 아이템이 없습니다.";
+
+Line 3642: 						{ // 스킬창에 안보이는 스킬은 올리지않음
+
+Line 3678:                     c.getPlayer().dropMessage(5, "누적 데미지 : " + c.getPlayer().getDamageMeter() + " 기록이 저장 되었습니다.");
+
+Line 3688:                                         //chr.dropMessage(5, "ZI존 딜량1등 자격이 박탈되어, 칭호가 회수되었습니다.");
+
+Line 3693:                         WorldBroadcasting.broadcastMessage(MainPacketCreator.OnAddPopupSay(9000036, 3000, "#b" + c.getPlayer().getName() + "#k님이 새로운 #e딜량 미터기 1위#k가 되었습니다.", ""));
+
+Line 3728:                 text += "#r#e" + (i != 10 ? "0" : "") + i + "#n#b위 #r닉네임#b " + rs.getString("name") + " #r누적 데미지#b " + Comma(rs.getLong("damage")) + "\r\n";
+
+Line 3738:             text = "#r아직까지 딜량 미터기를 갱신한 유저가 없습니다.";
+
+Line 3879: 		String[] ret = Named.namedTime.replaceAll("분", "").replaceAll("초", "").split(" ");
+
+Line 3889:             sendOk("이번 회차에 배팅 할 수 있는 시간을 초과 하였습니다.");
+
+Line 3895:             sendOk("10000이하 후원포인트는 배팅이 불가능합니다.");
+
+Line 3900:         sendOk("배팅을 완료 하였습니다. 좋은 결과가 나오면 좋겠네요");
+
+Line 3970: 			{ // 레어
+
+Line 3973: 				{ // 에픽
+
+Line 3977: 				{ // 유니크
+
+Line 4238: 		String t = "초월 강화로 변화된 스탯 입니다.\r\n#i" + eq.getItemId() + "##b#t" + eq.getItemId() + "##k (#b" + nextE
+
+Line 4239: 				+ "강#k)\r\n\r\n";
+
+Line 4266: 			t += "공격력 : #e" + eq.getWatk() + "#n -> ";
+
+Line 4272: 			t += "마력 : #e" + eq.getMatk() + "#n -> ";
+
+Line 4288: 		eq.setOwner(nextE + "강");
+
+Line 4320:             getClient().getSession().writeAndFlush(UIPacket.greenShowInfo("선택하신 [" + SkillFactory.getSkillName(moneybuff[skillid][0]) + "] 버프는 후원포인트가 부족하여 구매 하실 수 없습니다..."));
+
+Line 4325:             getClient().getSession().writeAndFlush(UIPacket.greenShowInfo("선택하신 [" + SkillFactory.getSkillName(moneybuff[skillid][0]) + "] 버프는 이미 구매하여 구매 하실 수 없습니다..."));
+
+Line 4332:         getClient().getSession().writeAndFlush(UIPacket.greenShowInfo("선택하신 [" + SkillFactory.getSkillName(moneybuff[skillid][0]) + "] 버프를 구매 완료 하였습니다.."));
+
+Line 4338: 		return !t.contains("강") ? "0강" : t;
+
+Line 4343: 		return Integer.parseInt(getEnhance(t).replaceAll("강", ""));
+
+Line 4379:             // 모든 직업 상점 시작
+
+Line 4381:             10021, // 전사 - 모자 상점
+
+Line 4382:             10018, // 전사 - 상의 상점
+
+Line 4383:             10017, // 전사 - 하의 상점
+
+Line 4384:             10016, // 전사 - 신발 상점
+
+Line 4385:             10019, // 전사 - 전신 상점
+
+Line 4386:             10020, // 전사 - 장갑 상점
+
+Line 4387:             10022, // 전사 - 방패 상점
+
+Line 4389:             3000136, // 전사 - 데스페라도 상점
+
+Line 4390:             10023, // 전사 - 한손 도끼 상점
+
+Line 4391:             10024, // 전사 - 두손 도끼 상점
+
+Line 4392:             10025, // 전사 - 한손 둔기 상점
+
+Line 4393:             10026, // 전사 - 두손 둔기 상점
+
+Line 4394:             10027, // 전사 - 한손검 상점
+
+Line 4395:             10028, // 전사 - 두손검 상점
+
+Line 4396:             10029, // 전사 - 창
+
+Line 4397:             10030, // 전사 - 폴암
+
+Line 4399:             10003, // 법사 - 모자 상점
+
+Line 4400:             10001, // 법사 - 전신 상점 
+
+Line 4401:             10123, // 법사 - 상의 상점
+
+Line 4402:             12124, // 법사 - 하의 상점
+
+Line 4403:             10000, // 법사 - 신발 상점
+
+Line 4404:             10002, // 법사 - 장갑 상점
+
+Line 4405:             10004, // 법사 - 방패 상점
+
+Line 4407:             3000137, // 법사 - 샤이닝 로드 상점
+
+Line 4408:             10125, // 법사 - 드래곤 장비 상점
+
+Line 4409:             10005, // 법사 - 완드
+
+Line 4410:             10006, // 법사 - 스태프
+
+Line 4412:             10034, // 궁수 - 모자 상점
+
+Line 4413:             10121, // 궁수 - 상의 상점
+
+Line 4414:             10122, // 궁수 - 하의 상점
+
+Line 4415:             10032, // 궁수 - 전신 상점
+
+Line 4416:             10031, // 궁수 - 신발 상점
+
+Line 4417:             10033, // 궁수 - 장갑 상점
+
+Line 4419:             10035, // 궁수 - 활 상점
+
+Line 4420:             10036, // 궁수 - 석궁 상점
+
+Line 4421:             10108, // 궁수 - 듀얼궁 상점
+
+Line 4422:             10110, // 궁수 - 마법화살 상점
+
+Line 4423:             10037, // 궁수 - 화살 상점
+
+Line 4425:             10012, // 도적 - 모자 상점
+
+Line 4426:             10008, // 도적 - 상의 상점
+
+Line 4427:             10009, // 도적 - 하의 상점
+
+Line 4428:             10010, // 도적 - 전신 상점
+
+Line 4429:             10007, // 도적 - 신발 상점
+
+Line 4430:             10011, // 도적 - 장갑 상점
+
+Line 4431:             10013, // 도적 - 방패 상점
+
+Line 4433:             3000135, // 도적 - 에너지소드 상점
+
+Line 4434:             10014, // 도적 - 단검 상점
+
+Line 4435:             10015, // 도적 - 아대 상점
+
+Line 4436:             10106, // 도적 - 블레이드 상점
+
+Line 4437:             10109, // 도적 - 케인 상점
+
+Line 4438:             2003, // 도적 - 카드 상점
+
+Line 4439:             10038, // 도적 - 표창 상점
+
+Line 4441:             10090, // 해적 - 모자상점
+
+Line 4442:             10091, // 해적 - 전신상점
+
+Line 4443:             10093, // 해적 - 신발상점
+
+Line 4444:             10092, // 해적 - 장갑상점
+
+Line 4446:             10087, // 해적 - 너클상점
+
+Line 4447:             10088, // 해적 - 총상점
+
+Line 4448:             10107, // 해적 - 핸드캐논상점
+
+Line 4449:             11100, // 해적 - 소울슈터상점
+
+Line 4450:             10089, // 해적 - 볼릿상점
+
+Line 4452:             // 모든 직업 상점 종료
+
+Line 4454:             // 세트 아이템 상점 시작
+
+Line 4456:             1401004, // 템페스트 상점
+
+Line 4457:             9250028, // 여제 상점
+
+Line 4458:             2040000, // 타일런트 상점
+
+Line 4459:             9250027, // 루타비스 상점
+
+Line 4460:             1201002, // 앱솔랩스 상점
+
+Line 4462:             9999999, // 아케인 무기 상점
+
+Line 4463:             9999998, // 아케인 방어구 상점
+
+Line 4465:             // 세트 아이템 상점 종료
+
+Line 4467:             // 공용 상점 시작
+
+Line 4469:             2232100, // 소비 상점
+
+Line 4470:             8000, // 악세 상점 - 얼굴 장식
+
+Line 4471:             8001, // 악세 상점 - 눈장식
+
+Line 4472:             8002, // 악세 상점 - 펜던트
+
+Line 4473:             8003, // 악세 상점 - 견장
+
+Line 4474:             8004, // 악세 상점 - 반지
+
+Line 4475:             8005, // 악세 상점 - 뱃지
+
+Line 4476:             9110005, // 의자 상점
+
+Line 4478:             444446, // 블래스터 무기상점
+
+Line 4490:             c.getSession().writeAndFlush(MainPacketCreator.OnAddPopupSay(9000267, 3000, "#face1#빙고 이용시 최소 5명이 필요하다구YO!", ""));
+
+Line 4532: 	equip.setGMLog(CurrentTime.getAllCurrentTime() + "에 " + GM_LOG + "에서 호출된 gainItem 스크립트로 얻은 아이템.");
+
+Line 4548:         equip.setGMLog(CurrentTime.getAllCurrentTime() + "에 " + GM_LOG + "에서 호출된 gainItem 스크립트로 얻은 아이템.");

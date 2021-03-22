@@ -1,0 +1,59 @@
+Line 2: var 이지맵 = 209000001;
+
+Line 3: var 이지보스 = 9303154;
+
+Line 5: var 노말맵 = 209000002;
+
+Line 6: var 노말보스 = 9303153;
+
+Line 8: var 하드맵 = 209000003;
+
+Line 9: var 하드보스 = 8880120;
+
+Line 11: var 헬맵 = 209000004;
+
+Line 12: var 헬보스 = 9300864;
+
+Line 27: 		var chat = "#e사냥을 원하시는 #r보스#k를 선택해 주십시오#n\r\n\r\n";
+
+Line 28: 		chat += "#L0##d이지 레이드#l#k#n\r\n";
+
+Line 29: 		chat += "#L1##b노말 레이드#l#k#n\r\n";
+
+Line 30: 		chat += "#L2##r하드 레이드#l#k#n\r\n";
+
+Line 31: 		chat += "#L3##e#r헬 레이드#l#k#n";
+
+Line 36: 				cm.resetMap(이지맵);
+
+Line 37: 				cm.warp(이지맵);
+
+Line 38: 				cm.spawnMob(이지보스, cm.getPlayer().getPosition().getX(), cm.getPlayer().getPosition().getY());
+
+Line 39: 				cm.sendOk("#e건투를 빕니다.#n");
+
+Line 42: 				cm.resetMap(노말맵);
+
+Line 43: 				cm.warp(노말맵);
+
+Line 44: 				cm.spawnMob(노말보스, cm.getPlayer().getPosition().getX(), cm.getPlayer().getPosition().getY());
+
+Line 45: 				cm.sendOk("#e건투를 빕니다.#n");
+
+Line 48: 				cm.resetMap(하드맵);
+
+Line 49: 				cm.warp(하드맵);
+
+Line 50: 				cm.spawnMob(하드보스, cm.getPlayer().getPosition().getX(), cm.getPlayer().getPosition().getY());
+
+Line 51: 				cm.sendOk("#e건투를 빕니다.#n");
+
+Line 54: 				cm.resetMap(헬맵);
+
+Line 55: 				cm.warp(헬맵);
+
+Line 56: 				cm.spawnMob(헬보스, cm.getPlayer().getPosition().getX(), cm.getPlayer().getPosition().getY());
+
+Line 57: 				cm.sendOk("#e건투를 빕니다.#n");
+
+Line 61: 			cm.sendOk("#e파티가 없습니다.#n");

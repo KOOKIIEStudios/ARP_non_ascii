@@ -1,0 +1,17 @@
+Line 63:             富 = "Coolest hunting ground in AzureMS!\r\n";
+
+Line 64:             富 += "#b<Frozen-Link>#kSincerely welcome to FZL~!\r\n\r\n";
+
+Line 65:             富 += "#b#L0#I want to changed monster type.\r\n";
+
+Line 66:             富 += "#b#L1# I'll charge #k to hunt monsters.\r\n";
+
+Line 67:             cm.sendSimple(富);
+
+Line 73:             富 = "Please select the monster to change or summon.\r\n\r\n";
+
+Line 78:                     富 += "#L" + i + "# #b(Lv." + gS + ") #o" + mobid[i] + "#\r\n"
+
+Line 81:             cm.sendSimple(富);
+
+Line 88:             cm.sendGetNumber("#fs11#How many times will you charge?\r\n\r\n#rConsumes 100 Frozen Link coins and charges 500 monsters per time..\r\n\r\n#b( Holding #z" + ccoin + "# : " + cm.itemQuantity(ccoin) + "俺)", 1, 1, limit);

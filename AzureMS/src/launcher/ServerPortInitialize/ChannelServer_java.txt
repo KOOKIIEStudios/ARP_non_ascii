@@ -1,0 +1,11 @@
+Line 74:     public boolean is얼리기 = false;
+
+Line 115:             System.out.println("[Notification] channel " + (getChannel() == 0 ? 1 : getChannel() == 1 ? "20세이상" : getChannel())
+
+Line 922:     public boolean 얼리기() {
+
+Line 923:         return this.is얼리기;
+
+Line 926:     public void 얼리기(boolean a) {
+
+Line 927:         this.is얼리기 = a;

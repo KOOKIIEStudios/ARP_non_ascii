@@ -1,0 +1,11 @@
+Line 15:      * 카이저 모프게이지 버프패킷.
+
+Line 36:      * 윌 오브 소드/어드밴스드 윌 오브 소드.
+
+Line 38:      * @param characterid - 캐릭터 아이디
+
+Line 39:      * @param swordSize - 소드 사이즈, ex) 2th - 3, 4th - 5
+
+Line 40:      * @param swordCount - 랜덤값
+
+Line 41:      * @param skillid - 스킬코드

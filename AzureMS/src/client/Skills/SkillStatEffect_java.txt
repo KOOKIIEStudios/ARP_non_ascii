@@ -1,0 +1,15 @@
+Line 460:                 case 37120012: // Combination Training Ⅱ
+
+Line 482:                 case 13101022: // Tripling 윔 I
+
+Line 568:                 case 13121005: // 샤Sharp eyes
+
+Line 2532: 		for (IItem item : applyto.getInventory(MapleInventoryType.EQUIPPED)) { //잠재
+
+Line 3580:                         applyto.dropMessage(5, "2 Double Lucky Dice Skill이 [" + rand2 + "]Activated Burn Effect.");
+
+Line 4310:                         if (SkillFactory.getSkill(sourceid).getDecs().contains("고공")) {
+
+Line 4331:             applyto.에너지차지구분 = 1;
+
+Line 5110:                 || sourceid == 155121006 || sourceid == 400041041 || sourceid == 400011058 // 윌 오브 소드 : 스트라이크

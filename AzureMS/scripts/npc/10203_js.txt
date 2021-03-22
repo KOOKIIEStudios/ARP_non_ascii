@@ -1,0 +1,1 @@
+Line 258:         var text = "#fs11##dHello Oz Planet #rTyrant Random Exchange Shop#k #d¿‘¥œ¥Ÿ#k\r\n\r\n#rTyrant#k Max Min Number Ball, Do : #r50 ~ 200#k  All Stat : #r100 ~ 200#k\r\n#d\r\n\r\n"

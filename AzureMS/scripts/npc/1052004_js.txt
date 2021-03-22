@@ -1,0 +1,135 @@
+Line 1: 제작 : (Dhae) dhae0107
+
+Line 2: 목적 : 공부및 배포용
+
+Line 3: 코드 : 11100 (@변생[변생하기] - 루시)
+
+Line 4: 설명 : 변생 진행 엔피시
+
+Line 15: 별 = "#fUI/UIToolTip/Item/Equip/Star/Star#"
+
+Line 16: 숫자1 = "#fUI/UIWindow4.img/monsterCollection/number/1#"
+
+Line 17: 숫자2 = "#fUI/UIWindow4.img/monsterCollection/number/2#"
+
+Line 19: 후포 = (50000); // Currency that is necessary for rebirth
+
+Line 20: 변렙 = (250) // Transformation level
+
+Line 21: 이동 = (109090200) // Where is former N Fish
+
+Line 53: 	cm.sendOk("#r#e※Cautions when changing※#k#n\n#fs20#\r\n\r\n"+숫자1+"#fs# Before rebirth #b#eUnmount all items being equipped#n#k Do.\r\n"+숫자2+"\r\n\r\n#fnSunny gothic##e#d< We are not responsible for any disadvantages caused by not knowing the above items.\r\n#r#eYou will not gain Rebirth Points if you change job.\r\nBecause this is basically a reward.");
+
+Line 57: 	말 = "Hi #b#h ##ksir\r\n\r\n"
+
+Line 58: 	말+= "#fnSunny gothic##k#n#e#b#h ##k'S level : #d"+cm.getPlayerStat("LVL") + " / "+변렙+  "#n#k#fn#\r\n\r\n"
+
+Line 59: 	말+= "#L0#"+별+" #b#eWe proceed transformation#n I'll do it.\r\n"
+
+Line 60: 	말+= "#L1#"+별+" #eWhat is rebirth #nIs it?"
+
+Line 61: 	cm.sendSimple(말);
+
+Line 66: 	if (cm.getPlayer().getLevel() >= 변렙) {
+
+Line 67: 	말 = "#b#e< Adventurer & Cygnus >#k#n\r\n"
+
+Line 68: 	말+= "#L0# Adventurer #L301# Pathfinder #L1000# Cygnus #L5000# Mikhail \r\n\r\n\r\n#l"
+
+Line 69: 	말+= "#b#e< Hero Class >#k#n\r\n"
+
+Line 70: 	말+= "#L2000# Aran #L2001# Evan #L2002# Mercedes #L2003# Phantom #L2004# Luminous #L2005# Silverwall\r\n\r\n\r\n#l"
+
+Line 71: 	말+= "#b#e< Resistance >#n#k\r\n"
+
+Line 72: 	말+= "#L3000# Resistance #L3001# Daemon #L3002# Xenon\r\n\r\n\r\n#l"
+
+Line 73: 	말+= "#b#e< Nova >#n#k\r\n"
+
+Line 74: 	말+= "#L6000# Kaiser #L6001# Angelic Buster #L6002# Cadena\r\n\r\n\r\n#l "
+
+Line 75: 	말+= "#b#e< Lev >#n#k\r\n"
+
+Line 76: 	말+= "#L15500# Ark \r\n\r\n\r\n#l "
+
+Line 77: 	cm.sendSimple(말);
+
+Line 79: 	cm.sendOk("#e#b#h ##k'S Level : #r"+cm.getPlayerStat("LVL")+"#k / #dRequired level#k :#r "+변렙+"");
+
+Line 90: 	직업 = selection;
+
+Line 91: 	if (직업 == 0) {
+
+Line 92: 	이름 = "#b< Adventurer >#k가" 
+
+Line 93: 	}else if(직업 == 1000) {
+
+Line 94: 	이름 = "#b< Cygnus >#k가"
+
+Line 95: 	}else if(직업 == 301) {
+
+Line 96: 	이름 = "#b< Pathfinder >#k가"
+
+Line 97: 	}else if(직업 == 2000) {
+
+Line 98: 	이름 = "#b< Aran >#k이"
+
+Line 99: 	}else if(직업 == 2001) {
+
+Line 100: 	이름 = "#b< Evan >#k이"
+
+Line 101: 	}else if(직업 == 2002) {
+
+Line 102: 	이름 = "#b< Mercedes >#k가" 
+
+Line 103: 	}else if(직업 == 2003) {
+
+Line 104: 	이름 = "#b< Phantom >#k이"
+
+Line 105: 	}else if(직업 == 2004) {
+
+Line 106: 	이름 = "#b< Luminous >#k가"
+
+Line 107: 	}else if(직업 == 2005) {
+
+Line 108: 	이름 = "#b< Silverwall >#k이"
+
+Line 109: 	}else if(직업 == 3000) {
+
+Line 110: 	이름 = "#b< Resistance >#k가"
+
+Line 111: 	}else if(직업 == 3001) {
+
+Line 112: 	이름 = "#b< Daemon >#k가"
+
+Line 113: 	}else if(직업 == 3002) {
+
+Line 114: 	이름 = "#b< Xenon >#k이"
+
+Line 115: 	}else if(직업 == 5000) {
+
+Line 116: 	이름 = "#b< Mikhail >#k이"
+
+Line 117: 	}else if(직업 == 6000) {
+
+Line 118: 	이름 = "#b< Kaiser >#k가"
+
+Line 119: 	}else if(직업 == 6001) {
+
+Line 120: 	이름 = "#b< Angelic Buster >#k가"
+
+Line 121: 	}else if(직업 == 6002) {
+
+Line 122: 	이름 = "#b< Cadena >#k가"
+
+Line 123: 	}else if(직업 == 15500) {
+
+Line 124: 	이름 = "#b< Ark >#k가"
+
+Line 125: 	}if (직업 != 1){
+
+Line 126: 	cm.sendYesNo("The job you choose "+이름+" Is that correct?");}
+
+Line 132:         cm.warp(이동);
+
+Line 135: 	cm.changeJob(직업);

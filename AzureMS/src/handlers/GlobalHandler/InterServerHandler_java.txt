@@ -1,0 +1,5 @@
+Line 195:         if (!AdminToolStart.현재접속자.contains(player.getName())) {
+
+Line 196:             AdminToolStart.동접(player.getName());
+
+Line 197:             AdminToolStart.접속자수.setText(String.valueOf((int) (Integer.parseInt(AdminToolStart.접속자수.getText()) + 1)));

@@ -1,0 +1,3 @@
+Line 6: // 세팅
+
+Line 10: var name = "경주용 카트"

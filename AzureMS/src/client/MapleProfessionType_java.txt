@@ -1,0 +1,9 @@
+Line 34:                 return "약초채집";
+
+Line 36:                 return "채광";
+
+Line 38:                 return "장비제작";
+
+Line 40:                 return "장신구제작";
+
+Line 42:                 return "연금술";

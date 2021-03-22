@@ -1,0 +1,27 @@
+Line 1107:                 packet.writeInt(skillid == 61121217 ? 4 : 2); // 스킬구분
+
+Line 1108:                 packet.writeInt(5); // 머리위에 뜨는 무기의 갯수
+
+Line 1109:                 packet.writeInt(weapon.getItemId()); // 착용중인 두손검
+
+Line 1115:                 packet.writeInt(skillid == 61110211 ? 3 : 1); // 스킬구분
+
+Line 1116:                 packet.writeInt(3); // 머리위에 뜨는 무기의 갯수
+
+Line 1117:                 packet.writeInt(weapon.getItemId()); // 착용중인 두손검
+
+Line 6563:                 p.writeInt(buffid == 61121217 ? 4 : 2); // 스킬구분
+
+Line 6564:                 p.writeInt(5); // 머리위에 뜨는 무기의 갯수
+
+Line 6565:                 p.writeInt(weapon.getItemId()); // 착용중인 두손검
+
+Line 6571:                 p.writeInt(buffid == 61110211 ? 3 : 1); // 스킬구분
+
+Line 6572:                 p.writeInt(3); // 머리위에 뜨는 무기의 갯수
+
+Line 6573:                 p.writeInt(weapon.getItemId()); // 착용중인 두손검
+
+Line 6849:             p.writeInt(0); // 단계?
+
+Line 6876:             p.writeInt(0); // 단계?

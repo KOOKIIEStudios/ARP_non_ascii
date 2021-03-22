@@ -1,0 +1,1 @@
+Line 83:         packet.writeMapleAsciiString("고용상인");

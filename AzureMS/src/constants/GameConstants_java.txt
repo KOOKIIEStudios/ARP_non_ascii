@@ -1,0 +1,31 @@
+Line 2067:                 return MapleWeaponType.에인션트보우;
+
+Line 3950:     public static boolean isEightRockScroll(int scrollId) { // 8 樂 Order
+
+Line 4315:     public static boolean 용사의의지(int 스킬) { // Will of the Champion
+
+Line 4316:         switch (스킬) {
+
+Line 4347:     public static final List<Integer> 용사의의지() { // Will of the Champion
+
+Line 4843:     public static List<Integer> 은월하이퍼() { // Eunwol Hyper
+
+Line 5946:     public static boolean 환생의불꽃아이템(int id) { // Flame Item of Reincarnation
+
+Line 5960:     public static String 랭크(int a) { // Rank
+
+Line 5963:             name = "챌린저(Challenger)";
+
+Line 5965:             name = "다이아몬드(Diamond)";
+
+Line 5967:             name = "플레티넘(Platinum)";
+
+Line 5969:             name = "골드(Gold)";
+
+Line 5971:             name = "실버(Silver)";
+
+Line 5973:             name = "브론즈(Bronze)";
+
+Line 5975:             name = "언 랭크(Unrank)";
+
+Line 5980:     public static boolean 엠블렘(int code) { // Emblem

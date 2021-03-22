@@ -1,0 +1,127 @@
+Line 57:         //전용접속기
+
+Line 61:             c.send(MainPacketCreator.serverNotice(1,"전용 접속기로만 접속 가능 합니다."));
+
+Line 75:                 //생성 가능한 아이디일때
+
+Line 166:         System.out.println("[Notice] " + c.getSessionIPAddress().toString() + " in " + c.getAccountName() + " Into account " + (channel == 0 ? 1 : channel == 1 ? "20세이상" : channel) + " Attempting to connect to channel.");
+
+Line 234:     //전용접속기
+
+Line 278:         /* 로그인 시작 */
+
+Line 512: 		    System.out.println("카이저 지급 완료 ");
+
+Line 540:                 newchar.changeSkillLevel(SkillFactory.getSkill(10001003), (byte) 1, (byte) 1); // 장인의 혼
+
+Line 541:                 newchar.changeSkillLevel(SkillFactory.getSkill(10001244), (byte) 1, (byte) 1); // 엘리멘탈 슬래시
+
+Line 542:                 newchar.changeSkillLevel(SkillFactory.getSkill(10001245), (byte) 1, (byte) 1); // 져니 홈
+
+Line 543:                 newchar.changeSkillLevel(SkillFactory.getSkill(10000246), (byte) 1, (byte) 1); // 엘리멘탈 하모니
+
+Line 544:                 newchar.changeSkillLevel(SkillFactory.getSkill(10000252), (byte) 1, (byte) 1); // 엘리멘탈 쉬프트
+
+Line 546:             case Aran: //아란
+
+Line 547:                 newchar.changeSkillLevel(SkillFactory.getSkill(20001295), (byte) 1, (byte) 1); //컴뱃 스탭
+
+Line 549:             case Mercedes: //메르세데스
+
+Line 550:                 newchar.changeSkillLevel(SkillFactory.getSkill(20020109), (byte) 1, (byte) 1); // 엘프의 회복
+
+Line 551:                 newchar.changeSkillLevel(SkillFactory.getSkill(20021110), (byte) 1, (byte) 1); // 엘프의 축복
+
+Line 552:                 newchar.changeSkillLevel(SkillFactory.getSkill(20020111), (byte) 1, (byte) 1); // 스타일리쉬 무브
+
+Line 553:                 newchar.changeSkillLevel(SkillFactory.getSkill(20020112), (byte) 1, (byte) 1); // 왕의 자격
+
+Line 555:             case Demon: //데몬
+
+Line 556:                 newchar.changeSkillLevel(SkillFactory.getSkill(30011109), (byte) 1, (byte) 1); // 데빌 윙즈
+
+Line 557:                 newchar.changeSkillLevel(SkillFactory.getSkill(30010110), (byte) 1, (byte) 1); // 데몬 점프
+
+Line 559:             case Xenon: //제논
+
+Line 560:                 newchar.changeSkillLevel(SkillFactory.getSkill(30020232), (byte) 1, (byte) 1); // 서플러스 서플라이
+
+Line 561:                 newchar.changeSkillLevel(SkillFactory.getSkill(30020233), (byte) 1, (byte) 1); // 하이브리드 로직
+
+Line 562:                 newchar.changeSkillLevel(SkillFactory.getSkill(30020234), (byte) 1, (byte) 1); // 멀티래터럴 I
+
+Line 563:                 newchar.changeSkillLevel(SkillFactory.getSkill(30021235), (byte) 1, (byte) 1); // 프로멧사 어썰트
+
+Line 564:                 newchar.changeSkillLevel(SkillFactory.getSkill(30021236), (byte) 1, (byte) 1); // 멀티 모드 링커
+
+Line 565:                 newchar.changeSkillLevel(SkillFactory.getSkill(30021237), (byte) 1, (byte) 1); // 에비에이션 리버티
+
+Line 566:                 newchar.changeSkillLevel(SkillFactory.getSkill(30020240), (byte) 1, (byte) 1); // 카모플라쥬
+
+Line 568:             case Phantom: // 팬텀
+
+Line 569:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031203), (byte) 1, (byte) 1); // 리턴 오브 팬텀
+
+Line 570:                 newchar.changeSkillLevel(SkillFactory.getSkill(20030204), (byte) 1, (byte) 1); // 데들리 인스팅트
+
+Line 571:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031205), (byte) 1, (byte) 1); // 팬텀 슈라우드
+
+Line 572:                 newchar.changeSkillLevel(SkillFactory.getSkill(20030206), (byte) 1, (byte) 1); // 하이 덱스터러티
+
+Line 573:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031207), (byte) 1, (byte) 1); // 스틸 스킬
+
+Line 574:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031208), (byte) 1, (byte) 1); // 스킬 매니지먼트
+
+Line 575:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031209), (byte) 1, (byte) 1); // 저지먼트
+
+Line 576:                 newchar.changeSkillLevel(SkillFactory.getSkill(20031260), (byte) 1, (byte) 1); // 저지먼트 AUTO / MANUAL
+
+Line 578:             case Mihile: // 미하일
+
+Line 579:                 newchar.changeSkillLevel(SkillFactory.getSkill(50001214), (byte) 1, (byte) 1); // 빛의 수호
+
+Line 581:             case Luminous: // 루미너스
+
+Line 582:                 newchar.changeSkillLevel(SkillFactory.getSkill(20040219), (byte) 1, (byte) 1); // 이퀄리브리엄
+
+Line 583:                 newchar.changeSkillLevel(SkillFactory.getSkill(20040216), (byte) 1, (byte) 1); // 선파이어
+
+Line 584:                 newchar.changeSkillLevel(SkillFactory.getSkill(20040217), (byte) 1, (byte) 1); // 이클립스
+
+Line 585:                 newchar.changeSkillLevel(SkillFactory.getSkill(20040218), (byte) 1, (byte) 1); // 퍼미에이트
+
+Line 586:                 newchar.changeSkillLevel(SkillFactory.getSkill(20040221), (byte) 1, (byte) 1); // 파워오브라이트
+
+Line 587:                 newchar.changeSkillLevel(SkillFactory.getSkill(20041222), (byte) 1, (byte) 1); // 라이트 블링크
+
+Line 589:             case Kaiser: // 카이저
+
+Line 590:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001216), (byte) 1, (byte) 1); // 리셔플 스위치 : 방어모드
+
+Line 591:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001217), (byte) 1, (byte) 1); // 리셔플 스위치 : 공격모드
+
+Line 592:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001218), (byte) 1, (byte) 1); // 바티컬커넥트
+
+Line 593:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001219), (byte) 1, (byte) 1); // 아이언 윌
+
+Line 594:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001220), (byte) 1, (byte) 1); // 트랜스피규레이션
+
+Line 595:                 newchar.changeSkillLevel(SkillFactory.getSkill(60001225), (byte) 1, (byte) 1); // 커맨드
+
+Line 597:             case AngelicBuster: //엔젤릭버스터
+
+Line 600:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011216), (byte) 1, (byte) 1); // 석세서
+
+Line 601:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011218), (byte) 1, (byte) 1); // 매지컬 리프트
+
+Line 602:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011219), (byte) 1, (byte) 1); // 소울 컨트랙트
+
+Line 603:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011220), (byte) 1, (byte) 1); // 데이드림
+
+Line 604:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011221), (byte) 1, (byte) 1); // 코디네이트
+
+Line 605:                 newchar.changeSkillLevel(SkillFactory.getSkill(60011222), (byte) 1, (byte) 1); // 드레스 업
+
+Line 607:             case Zero: //제로
+
+Line 631:             case Kadena: //카데나

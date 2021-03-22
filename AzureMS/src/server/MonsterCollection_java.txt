@@ -1,0 +1,1 @@
+Line 118:                             if (_mobCollectionInfo.containsKey(mob.id) && mob.id != 9100049) { // 9100049 : 몬스터 컬렉션 더미 몬스터

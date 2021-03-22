@@ -1,0 +1,5 @@
+Line 54: 			//msg += "보상 아이템 : #b#i"+reward[i]['itemid']+"##z"+reward[i]['itemid']+"# (올스텟 : "+reward[i]['allstat']+" 공마 : "+reward[i]['atk']+")#k"+enter+enter;
+
+Line 91: 					msg += " Reward Item : #i"+fourth[i]['item']+"##z"+fourth[i]['item']+"# "+fourth[i]['qty']+"개"+enter;
+
+Line 102: 				msg += "#L"+i+"# ▣ #i"+sixth[i]['itemid']+"##z"+sixth[i]['itemid']+"# (All Stats : "+sixth[i]['allstat']+" ATT : "+sixth[i]['atk']+")"+enter;

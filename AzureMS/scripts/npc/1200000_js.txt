@@ -1,0 +1,11 @@
+Line 1: 	본 스크립트는 선히팩의 파일입니다.
+
+Line 2: 	선히팩은 KMS 기준으로 만들어졌습니다.
+
+Line 4: 	네이버 : 선우(seonwoo__@naver.com)
+
+Line 20: 		cm.sendOk("안녕히 가세요.");
+
+Line 28:             cm.sendYesNo("정말 창고를 이용하시겠습니까?")
+
+Line 35:                cm.sendOk("창고를 이용하실려면 120 레벨이상이 되셔야합니다.")

@@ -1,0 +1,13 @@
+Line 23:        // chat += "#r▶ #h0#'S support points are "+cm.getPlayer().getRC()+" Won.#k\r\n";
+
+Line 24:         //chat += "#b▶ #h0#'S #z4310070# The number of "+cm.itemQuantity(4310070)+" QTY.#k\r\n";
+
+Line 25:         //chat += "#L1#"+별보+"#d [HOT] Additional Damage\r\n";
+
+Line 26:         //chat += "#L4#"+별보+"#d [HOT] Additional Percent Damage\r\n";
+
+Line 27:         //chat += "#L5#"+별보+"#d [HOT] Support Skill\r\n";
+
+Line 28:         //chat += "#L2#"+별보+"#d [HOT] Enhance Donations [All Stat + 8 ATT + 15]\r\n";
+
+Line 29:        // chat += "#L10#"+별보+"#d [HOT] Donations Search Cash[All Stat 70 ATT 30]\r\n";

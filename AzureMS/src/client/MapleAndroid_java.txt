@@ -1,0 +1,3 @@
+Line 195:             ps.setString(2, "안드로이드");
+
+Line 224:         newandroid.setName("안드로이드");

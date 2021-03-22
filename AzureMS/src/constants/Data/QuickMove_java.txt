@@ -1,0 +1,11 @@
+Line 14:         towns.add(new QuickMoveTownProperties(100000000, true, true, true, true, true, true, true)); // 광장
+
+Line 16: 	towns.add(new QuickMoveTownProperties(101050000, true, true, true, true, true, true, true)); // 에우렐
+
+Line 38:                 asd.add(new QuickMoveEntry("", 9000202, 2, 10, "각종 퀘스트를 받을 수 있다."));
+
+Line 42:                         "파티원들과 힘을 합쳐 강력한 몬스터들을 공략할 수 있는 \n#c<보스맵>#으로 이동한다."));
+
+Line 45:                 asd.add(new QuickMoveEntry("", 9000159, 3, 0, "다른 유저들과 아이템을 거래할 수 있는 #c<자유 시장>#으로 이동한다."));
+
+Line 48:                 asd.add(new QuickMoveEntry("", 1530706, 6, 0, "사냥터 or 여러마을 컨텐츠 맵 등 이동 할 수 있다."));

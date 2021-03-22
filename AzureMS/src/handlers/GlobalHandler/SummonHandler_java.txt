@@ -1,0 +1,1 @@
+Line 383:                         chr.getMap().broadcastMessage(MainPacketCreator.absorbingMarkOfTheif(chr.getId(), monsters.get(0).getObjectId(), 4120019, monsters, pos1, chr.getKeyValue2("ǥâ"), count));

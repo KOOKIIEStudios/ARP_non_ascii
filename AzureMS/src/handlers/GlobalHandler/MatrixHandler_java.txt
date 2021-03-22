@@ -1,0 +1,27 @@
+Line 63:         // 모든 스킬 0으로 바꾼이후
+
+Line 65:             if (corez.getState() == 2) { // 장착중이라면
+
+Line 68:                     if (corez.getCrcid() == getValue(c, "core" + a)) { // 코어 crcid가 같다면
+
+Line 69:                         upcore = getValue2(c, "upcore" + a); // 코어칸 강화 구함
+
+Line 113:             case 1: { // 1: 해제 0: 장착
+
+Line 125:                                 c.getPlayer().dropMessage(6, "이미 착용중인 코어입니다.");
+
+Line 198:                 // 코어 레벨업시 스킬도 레벨업
+
+Line 210:             case 6: { // 여러개 분해
+
+Line 229:             case 5: {// 한개분해
+
+Line 242:             case 7: {//코어 제작
+
+Line 1009:             case 9: {// 코어 잼스톤 제작
+
+Line 1018:                         c.getPlayer().dropMessage(1, "이미 코어칸 강화가 끝났습니다.");
+
+Line 1026:                 c.getPlayer().dropMessage(1, "코어칸 강화를 하였습니다.");
+
+Line 1037:                 c.getPlayer().dropMessage(1, "초기화 완료.");

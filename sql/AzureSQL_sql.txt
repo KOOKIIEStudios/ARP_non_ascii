@@ -1,0 +1,17 @@
+Line 465:   `groupname` varchar(16) NOT NULL DEFAULT '±×·ì ¹ÌÁöÁ¤',
+
+Line 575:   `hope` varchar(45) NOT NULL DEFAULT 'Àå·¡Èñ¸Á ¾øÀ½',
+
+Line 589: 	(2, 1, 'Souls', 1, 0, 12, 5, 4, 4, 50, 5, 50, 5, 0, 0, 0, 301, 0, 0, 0, -1, 0, 46026, 0, 27135, 0, 0, 0, 0, 410000002, 0, 0, -1, 50, '2020-09-09 10:41:23', 1, 0, 1, 0, 0, 5, 0, 0, 4, 0, 3, 0, '0,0,0,0,0,0,0,0,0,0', 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, '-1,-1,-1', 0, 0, 0, 3, 0, 0, 'false', 0, 0, 0, 0, 0, 0, 0, 0, 100, 'Àå·¡Èñ¸Á ¾øÀ½', 0, 0);
+
+Line 956:   `rank1title` varchar(45) NOT NULL DEFAULT '¸¶½ºÅÍ',
+
+Line 957:   `rank2title` varchar(45) NOT NULL DEFAULT 'ºÎ¸¶½ºÅÍ',
+
+Line 958:   `rank3title` varchar(45) NOT NULL DEFAULT '¸â¹ö',
+
+Line 959:   `rank4title` varchar(45) NOT NULL DEFAULT '¸â¹ö',
+
+Line 960:   `rank5title` varchar(45) NOT NULL DEFAULT '¸â¹ö',
+
+Line 1019:   KEY `ÀÎµ¦½º 2` (`name`)

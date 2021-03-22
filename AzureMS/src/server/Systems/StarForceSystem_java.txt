@@ -1,0 +1,217 @@
+Line 57:                     scrollstring[0] = "이노센트 주문서 30%";
+
+Line 58:                     scrollstring[1] = "순백의 주문서 5%";
+
+Line 61:                 if (scroll.startsWith("순백")) {
+
+Line 63:                 } else if (scroll.startsWith("이노센트")) {
+
+Line 66:                     per = Integer.valueOf(scroll.split("%")[0]); // % 이전 맨 앞에서 값 출력
+
+Line 240:                     || GameConstants.getWeaponType(item.getItemId()) == MapleWeaponType.에인션트보우) {
+
+Line 297:                     || GameConstants.getWeaponType(item.getItemId()) == MapleWeaponType.에인션트보우) {
+
+Line 740:         } else if (success == 2) {// 실패&펑
+
+Line 1218:                 } else {// 유지
+
+Line 1228:     public static void Itemupgrade(MapleClient c, Equip item, int scrollnumber, boolean success, MapleCharacter chr, boolean zeroWeapon) {//숫자별로
+
+Line 1229:         int 주흔코드 = 4001832;
+
+Line 1233:         	if (scrollstring[scrollnumber].startsWith("이노센트")) {
+
+Line 1234:                 chr.gainItem(주흔코드, (short) -5000, false, 0, null);
+
+Line 1264:         	} else if (scrollstring[scrollnumber].startsWith("순백")) {
+
+Line 1266:                 chr.gainItem(주흔코드, (short) -3000, false, 0, null);
+
+Line 1271:                 	case "힘":
+
+Line 1289:                 	case "민첩":
+
+Line 1307:                 	case "지력":
+
+Line 1325:                 	case "행운":
+
+Line 1343:                 	case "체력":
+
+Line 1358:                 	case "공격력":
+
+Line 1369:                 	case "마력":
+
+Line 1380:                 	case "방어력":
+
+Line 1392:                 	case "공격력(힘)": 
+
+Line 1401:                 	case "마력(지력)":
+
+Line 1410:                 	case "공격력(민첩)":
+
+Line 1419:                 	case "공격력(행운)":
+
+Line 1436:             	if (!(scrollstring[scrollnumber].startsWith("이노센트") || scrollstring[scrollnumber].startsWith("순백"))) {
+
+Line 1441:             if (scrollstring[scrollnumber].startsWith("이노센트")) {
+
+Line 1442:                 chr.gainItem(주흔코드, (short) -5000, false, 0, null);
+
+Line 1444:             if (scrollstring[scrollnumber].startsWith("순백")) {
+
+Line 1445:             	chr.gainItem(주흔코드, (short) -3000, false, 0, null);
+
+Line 1452:             chr.gainItem(주흔코드, (short) -usejuhun[percent == 100 ? 0 : percent == 70 ? 1 : percent == 30 ? 2 : 3], false, 0, null);
+
+Line 1524:         	scrollstring[0] = "100% 공격력 주문서";
+
+Line 1525:         	scrollstring[1] = "70% 공격력 주문서";
+
+Line 1526:         	scrollstring[2] = "30% 공격력(힘) 주문서";
+
+Line 1527:         	scrollstring[3] = "15% 공격력(힘) 주문서";
+
+Line 1528:         	scrollstring[4] = "30% 공격력(민첩) 주문서";
+
+Line 1529:         	scrollstring[5] = "15% 공격력(민첩) 주문서";
+
+Line 1530:         	scrollstring[6] = "30% 공격력(행운) 주문서";
+
+Line 1531:         	scrollstring[7] = "15% 공격력(행운) 주문서";
+
+Line 1532:         	scrollstring[8] = "100% 마력 주문서";
+
+Line 1533:         	scrollstring[9] = "70% 마력 주문서";
+
+Line 1534:         	scrollstring[10] = "30% 마력(지력) 주문서";
+
+Line 1535:         	scrollstring[11] = "15% 마력(지력) 주문서";
+
+Line 1536:         	scrollstring[12] = "이노센트 주문서 30%";
+
+Line 1537:         	scrollstring[13] = "순백의 주문서 5%";
+
+Line 1538:         	scrollstring[14] = "이노센트 주문서 30%";
+
+Line 1539:         	scrollstring[15] = "순백의 주문서 5%";
+
+Line 1542:         	scrollstring[0] = "100% 공격력 주문서";
+
+Line 1543:         	scrollstring[1] = "70% 공격력 주문서";
+
+Line 1544:         	scrollstring[2] = "30% 공격력(힘) 주문서";
+
+Line 1545:         	scrollstring[3] = "15% 공격력(힘) 주문서";
+
+Line 1546:         	scrollstring[4] = "30% 공격력(민첩) 주문서";
+
+Line 1547:         	scrollstring[5] = "15% 공격력(민첩) 주문서";
+
+Line 1548:         	scrollstring[6] = "30% 공격력(행운) 주문서";
+
+Line 1549:         	scrollstring[7] = "15% 공격력(행운) 주문서";
+
+Line 1550:         	scrollstring[8] = "이노센트 주문서 30%";
+
+Line 1551:         	scrollstring[9] = "순백의 주문서 5%";
+
+Line 1554:         	scrollstring[0] = "100% 마력 주문서";
+
+Line 1555:         	scrollstring[1] = "70% 마력 주문서";
+
+Line 1556:         	scrollstring[2] = "30% 마력(지력) 주문서";
+
+Line 1557:         	scrollstring[3] = "15% 마력(지력) 주문서";
+
+Line 1558:         	scrollstring[4] = "이노센트 주문서 30%";
+
+Line 1559:         	scrollstring[5] = "순백의 주문서 5%";
+
+Line 1562:         	scrollstring[0] = "100% 힘 주문서";
+
+Line 1563:         	scrollstring[1] = "70% 힘 주문서";
+
+Line 1564:         	scrollstring[2] = "30% 힘 주문서";
+
+Line 1565:         	scrollstring[3] = "100% 지력 주문서";
+
+Line 1566:         	scrollstring[4] = "70% 지력 주문서";
+
+Line 1567:         	scrollstring[5] = "30% 지력 주문서";
+
+Line 1568:         	scrollstring[6] = "100% 민첩 주문서";
+
+Line 1569:         	scrollstring[7] = "70% 민첩 주문서";
+
+Line 1570:         	scrollstring[8] = "30% 민첩 주문서";
+
+Line 1571:         	scrollstring[9] = "100% 행운 주문서";
+
+Line 1572:         	scrollstring[10] = "70% 행운 주문서";
+
+Line 1573:         	scrollstring[11] = "30% 행운 주문서";
+
+Line 1574:         	scrollstring[12] = "100% 체력 주문서";
+
+Line 1575:         	scrollstring[13] = "70% 체력 주문서";
+
+Line 1576:         	scrollstring[14] = "30% 체력 주문서";
+
+Line 1577:         	scrollstring[15] = "이노센트 주문서 30%";
+
+Line 1578:         	scrollstring[16] = "순백의 주문서 5%";
+
+Line 1581:         	scrollstring[0] = "70% 공격력 주문서";
+
+Line 1582:         	scrollstring[1] = "30% 공격력 주문서";
+
+Line 1583:         	scrollstring[2] = "70% 마력 주문서";
+
+Line 1584:         	scrollstring[3] = "30% 마력 주문서";
+
+Line 1585:         	scrollstring[4] = "100% 방어력 주문서";
+
+Line 1586:         	scrollstring[5] = "이노센트 주문서 30%";
+
+Line 1587:         	scrollstring[6] = "순백의 주문서 5%";
+
+Line 1718:     	} else if (scroll.contains("이노센트")) {
+
+Line 1720:     	} else if (scroll.contains("순백")) {
+
+Line 1728:     	if (scroll.contains("공격력") || scroll.contains("마력")) {
+
+Line 1729:     		if (((scroll.startsWith("100%") || scroll.startsWith("70%")) && scroll.contains("공격력")) || scroll.equals("30% 공격력 주문서")) {
+
+Line 1731:     		} else if (((scroll.startsWith("100%") || scroll.startsWith("70%")) && scroll.contains("마력")) || scroll.equals("30% 마력 주문서")) {
+
+Line 1733:     		} else if (scroll.contains("힘")) {
+
+Line 1735:     		} else if (scroll.contains("민첩")) {
+
+Line 1737:     		} else if (scroll.contains("행운")) {
+
+Line 1741:     		if (scroll.contains("힘")) {
+
+Line 1743:     		} else if (scroll.contains("민첩")) {
+
+Line 1745:     		} else if (scroll.contains("지력")) {
+
+Line 1747:     		} else if (scroll.contains("행운")) {
+
+Line 1749:     		} else if (scroll.contains("체력")) {
+
+Line 1751:     		} else if (scroll.contains("방어력")) {
+
+Line 1767: 		} else if (string.startsWith("이노센트")) {
+
+Line 1769: 		} else if (string.startsWith("순백")) {
+
+Line 1791:                     scrollstring[0] = "이노센트 주문서 30%";
+
+Line 1792:                     scrollstring[1] = "순백의 주문서 5%";
+
+Line 1798:                     packet.writeInt(scrollstring[i].contains("순백") ? 2 : scrollstring[i].contains("이노센트") ? 1 : 0); // 특수 주문서
+
+Line 1799:                     packet.writeInt((scrollstring[i].contains("이노센트") || scrollstring[i].contains("순백")) ? 1 : 0); // 특수 주문서

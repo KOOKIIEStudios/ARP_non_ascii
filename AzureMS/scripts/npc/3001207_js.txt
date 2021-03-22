@@ -1,0 +1,35 @@
+Line 4: var 상점 = [
+
+Line 26: var 올스탯최소 = 1, 올스탯최대 = 200;
+
+Line 27: var 공마최소 = 1, 공마최대 = 150;
+
+Line 28: var 보공최소 = 1, 보공최대 = 30;
+
+Line 29: var 올스탯퍼최소 = 1, 올스탯퍼최대 = 10;
+
+Line 30: var 방무최소 = 1, 방무최대 = 20;
+
+Line 49: 		for (i = 0; i < 상점.length; i++) msg += "#L"+i+"##b#i"+상점[i]['itemid']+"##z"+상점[i]['itemid']+"# "+상점[i]['qty']+"개#k"+enter+"　ㄴPrice : #b"+상점[i]['price']+"P#k"+enter;
+
+Line 63: 			msg += "Item : #b#i"+상점[seld]['itemid']+"##z"+상점[seld]['itemid']+"##k"+enter;
+
+Line 64: 			msg += "Count : #b"+상점[seld]['qty']+"개 #k"+enter;
+
+Line 65: 			msg += "Price : "+상점[seld]['price']+"P#k"+enter;
+
+Line 70: 		item = 상점[seld]['itemid'];
+
+Line 71: 		qty = 상점[seld]['qty'];
+
+Line 72: 		price = 상점[seld]['price'];
+
+Line 76: 			s1 = Randomizer.rand(올스탯최소, 올스탯최대);
+
+Line 77: 			s2 = Randomizer.rand(공마최소, 공마최대);
+
+Line 78: 			s3 = Randomizer.rand(방무최소, 방무최대);
+
+Line 79: 			s4 = Randomizer.rand(보공최소, 보공최대);
+
+Line 80: 			s5 = Randomizer.rand(올스탯퍼최소, 올스탯퍼최대);

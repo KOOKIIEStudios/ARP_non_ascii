@@ -1,0 +1,57 @@
+Line 18:     /* 서버 설정 */
+
+Line 55:     /* DB 설정 */
+
+Line 61:     /* Message 설정 및 이벤트 설정 */
+
+Line 67:     public static String serverHint = "원석님 바보";
+
+Line 74:     public static String serverCheckMessage = "현재 " + serverName + " 서버 점검 중입니다.\r\n 자세한 내용은 홈페이지를 참고하여 주십시오.\r\n [사유 : 시스템 안정화]";
+
+Line 76:     /* 개발 설정 */
+
+Line 83:     /* 기타 설정 */
+
+Line 92:     /* 패킷테스트 
+
+Line 101:     /* 버전 설정 */
+
+Line 106:     /* 기타 설정 2 */
+
+Line 139:     /*커넥터 설정*/
+
+Line 140:     public static final Map<String, Triple<String, String, String>> authlist = new ConcurrentHashMap<>();//모두포함
+
+Line 141:     public static final Map<String, Triple<String, String, String>> authlist2 = new ConcurrentHashMap<>();//모두포함
+
+Line 158:             String[] temp = setting_.getProperty(toUni("커스텀퀘스트")).split(",");
+
+Line 176:             serverName = new String(setting_.getProperty(toUni("서버이름")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 177:             serverMessage = new String(setting_.getProperty(toUni("서버메세지")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 178:             serverWelcome = new String(setting_.getProperty(toUni("서버환영메세지")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 179:             eventMessage = new String(setting_.getProperty(toUni("이벤트메세지")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 180:             beginner = new String(setting_.getProperty(toUni("처음시작공지")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 181:             serverNotititle = new String(setting_.getProperty(toUni("서버공지제목")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 182:             serverNotification = new String(setting_.getProperty(toUni("서버공지내용")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 183:             recommendMessage = new String(setting_.getProperty(toUni("추천메세지")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 184:             serverHint = new String(setting_.getProperty(toUni("서버힌트")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 194:             serverHint = new String(setting_.getProperty(toUni("서버힌트")).getBytes("ISO-8859-1"), "euc-kr");
+
+Line 202:             serverCheck = Boolean.parseBoolean(setting_.getProperty(toUni("서버점검")));
+
+Line 203:             showPackets = Boolean.parseBoolean(setting_.getProperty(toUni("패킷출력")));
+
+Line 204:             useMaxDrop = Boolean.parseBoolean(setting_.getProperty(toUni("최대드랍사용")));
+
+Line 205:             useBossMaxDrop = Boolean.parseBoolean(setting_.getProperty(toUni("최대보스드랍사용")));
+
+Line 267:             System.err.println("[오류] 서버 세팅파일을 불러오는데 실패하였습니다.");

@@ -1,0 +1,17 @@
+Line 3: 소스: Dbg.client의 DbgPlayer.java에 다음을 추가해주세요.
+
+Line 32: 	       var chat = "#fn나눔고딕 Extrabold# 안녕하세요 #h0#님! 핫타임코인으로 아이템을 받을수있다쿰.\r\n";
+
+Line 33: 	       chat += "#fn나눔고딕 Extrabold# 현재 #h0#님의 핫타임코인는 #r#e"+ leaf +" #n#k개 입니다.#b"
+
+Line 34: 	       chat += "\r\n\r\n           #e#r핫타임 아이템 목록 = 알려고하지마!!><#n#k"
+
+Line 35: 	       chat += "\r\n#b        #fn나눔고딕 Extrabold##fs13#     #L400#핫타임 아이템 받기#k";
+
+Line 41: 		        cm.sendOk("#fn나눔고딕 Extrabold# 핫타임 아이템이 지급되었습니다 !");
+
+Line 43: 	                cm.gainSponserItem(1142322 ,'[추석]',1000,500,500);
+
+Line 46: 		        cm.sendOk("장비칸에 빈 공간이 없습니다.");
+
+Line 50: 		    cm.sendOk("#fn나눔고딕 Extrabold# 핫타임 코인이 부족합니다.");

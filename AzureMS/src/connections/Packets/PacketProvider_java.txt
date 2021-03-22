@@ -1,0 +1,15 @@
+Line 88:         {"2790", "1"}, {"2708", "1"}, {"20750", "탐색중"}, {"3995", "0"}, {"20760", "0"},
+
+Line 259:         /* 정령의 축복 */
+
+Line 267:         /* 여제의 축복 */
+
+Line 397:     public static final void addWildHunterInfo(final WritingPacket packet, final MapleCharacter chr) { //재규어
+
+Line 570:         // 펜던트 만료일
+
+Line 918:         w.write(0); // 엘프귀
+
+Line 1726:         p.writeMapleAsciiString("테스트"); // sName
+
+Line 1735:         p.writeMapleAsciiString("테스트");

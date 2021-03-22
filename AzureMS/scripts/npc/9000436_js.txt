@@ -1,0 +1,17 @@
+Line 2: 무단 수정 및 배포는 엄격히 금지하고 있습니다.
+
+Line 10: // spenditem :: 사용아이템
+
+Line 13: // giveitem :: 나오는 아이템
+
+Line 37: 		//cm.sendOk("아직은 이용하실 수 없습니다.")
+
+Line 38:         cm.sendYesNo("#k의자상점에 오신걸 환영해요.\r\n의자상점에서는 #b각종 희귀한 의자#k가 나온답니다!#k#n\r\n\r\n이용하시려면 #i" + spenditem + "# #b#z" + spenditem + "##k 이 필요합니다.");
+
+Line 45:                     cm.sendOk("#i" + giveitem[0][0] + "# #b#z" + giveitem[0][0] + "# #k" + giveitem[0][1] + " 개를 획득하셨습니다.");
+
+Line 49:                     cm.sendOk("아쉽게도 꽝이 나왓습니다.");
+
+Line 54:                 cm.sendOk("인벤토리 공간부족이 부족합니다.");
+
+Line 58:             cm.sendOk("#i"+spenditem+"##b봄온라인코인#k 을 가지고있지 않습니다.");

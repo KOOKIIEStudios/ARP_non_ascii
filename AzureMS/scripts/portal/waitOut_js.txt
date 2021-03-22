@@ -1,0 +1,1 @@
+Line 2:     pi.playerMessage("태양의 불꽃을 돌려받았습니다.");	

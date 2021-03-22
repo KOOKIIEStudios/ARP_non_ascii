@@ -1,0 +1,15 @@
+Line 40:         if (GameConstants.환생의불꽃아이템(item.getItemId())) {
+
+Line 42:                 item = (IItem) InventoryHandler.환생의불꽃((Equip) item);
+
+Line 200:                 if (GameConstants.환생의불꽃아이템(nEquip.getItemId())) {
+
+Line 202:                         nEquip = (Item) InventoryHandler.환생의불꽃((Equip) nEquip);
+
+Line 295:                             if (GameConstants.환생의불꽃아이템(eItem.getItemId())) {
+
+Line 297:                                     eItem = InventoryHandler.환생의불꽃((Equip) eItem);
+
+Line 692:                             .isFull(bottom != null && GameConstants.isOverall(top.getItemId()) ? 1 : 0)) { // If the top is worn, the free space 두칸은 필요.
+
+Line 1042:         return InventoryHandler.환생의불꽃((Equip) ItemInformation.getInstance().getEquipById(boxid));

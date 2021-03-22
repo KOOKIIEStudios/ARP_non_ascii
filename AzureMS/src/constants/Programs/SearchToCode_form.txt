@@ -1,0 +1,11 @@
+Line 36:                       <Component id="장비" min="-2" max="-2" attributes="0"/>
+
+Line 38:                       <Component id="아이템" min="-2" max="-2" attributes="0"/>
+
+Line 44:                       <Component id="검색어" min="-2" pref="670" max="-2" attributes="0"/>
+
+Line 59:                   <Component id="검색어" alignment="3" min="-2" max="-2" attributes="0"/>
+
+Line 64:                   <Component id="장비" alignment="3" min="-2" max="-2" attributes="0"/>
+
+Line 65:                   <Component id="아이템" alignment="3" min="-2" max="-2" attributes="0"/>

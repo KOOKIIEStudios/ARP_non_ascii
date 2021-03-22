@@ -1,0 +1,11 @@
+Line 4: var strings = Array("#fUI/UIWindow2.img/MobGage/Mob/8800000# 노말 자쿰", "#fUI/UIWindow2.img/MobGage/Mob/8800000# #e카오스 자쿰#n", "#fUI/UIWindow2.img/MobGage/Mob/8810018# 노말 혼테일", "#fUI/UIWindow2.img/MobGage/Mob/8810018# #e카오스 혼테일#n", "#fUI/UIWindow2.img/MobGage/Mob/8870000# 노말 힐라", "#fUI/UIWindow2.img/MobGage/Mob/8870000# #e하드 힐라#n", "#fUI/UIWindow2.img/MobGage/Mob/8900100# 노말 피에르", "#fUI/UIWindow2.img/MobGage/Mob/8900100# #e카오스 피에르#n", "#fUI/UIWindow2.img/MobGage/Mob/8910100# 노말 반반", "#fUI/UIWindow2.img/MobGage/Mob/8910100# #e카오스 반반#n", "#fUI/UIWindow2.img/MobGage/Mob/8920100# 노말 블러디 퀸", "#fUI/UIWindow2.img/MobGage/Mob/8920100# #e카오스 블러디 퀸#n", "#fUI/UIWindow2.img/MobGage/Mob/8930100# 노말 벨룸", "#fUI/UIWindow2.img/MobGage/Mob/8930100# #e카오스 벨룸#n", "#fUI/UIWindow2.img/MobGage/Mob/8840000# 이지 반 레온", "#fUI/UIWindow2.img/MobGage/Mob/8840000# #e노말 반 레온#n", "#fUI/UIWindow2.img/MobGage/Mob/8860000# 이지 아카이럼", "#fUI/UIWindow2.img/MobGage/Mob/8860000# #e노말 아카이럼#n", "#fUI/UIWindow2.img/MobGage/Mob/8880000# 이지 매그너스", "#fUI/UIWindow2.img/MobGage/Mob/8880000# 노말 매그너스", "#fUI/UIWindow2.img/MobGage/Mob/8880000# #e하드 매그너스#n", "#fUI/UIWindow2.img/MobGage/Mob/8820001# 노말 핑크빈", "#fUI/UIWindow2.img/MobGage/Mob/8820001# #e카오스 핑크빈#n", "#fUI/UIWindow2.img/MobGage/Mob/8850011# #e시그너스 여제#n");
+
+Line 26:         var text = "#e#r메이플스토리 어떤 보스몬스터와 대련하시겠습니까?#n#k\r\n#e※주의!!#n 보스몬스터를 소환할때 #b동전#k이 드는 보스몬스터도 있습니다.";
+
+Line 28:             text += "\r\n#L" + i + "##b[Lv." + lev[i] + "]#k　" + strings[i] + "#l";
+
+Line 33:         cm.sendYesNo("#fUI/UIWindowBT.img/MonsterBattle/start/1#\r\n#e#r " + strings[selection] + "#k #b와(과) 대련하시겠습니까?#k#n ");
+
+Line 54:                     cm.sendOk("다른 유저가 이미 입장한 상태입니다. 잠시후 다시 도전해주세요.");
+
+Line 58:                 cm.sendOk("파티를 구성한 뒤 입장해 주세요.");

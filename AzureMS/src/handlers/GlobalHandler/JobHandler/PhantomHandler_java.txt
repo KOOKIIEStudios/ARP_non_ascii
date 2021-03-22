@@ -1,0 +1,11 @@
+Line 57:         if (action == 0) { // 훔침
+
+Line 66:                 // 원래있던 스킬의 슬롯을 저장
+
+Line 67:                 // 그 슬롯에있던 데이터 지움 -> 거기에 새로운스킬 저장
+
+Line 79:         } else if (action == 1) { // 삭제
+
+Line 82:                 ha.getPlayer().message(1, "해당 스킬을 찾을 수 없습니다.");
+
+Line 83:                 System.err.println("[오류] 스틸 스킬을 삭제하다가 오류가 발생했습니다. - 일치하는 스킬을 발견하지 못했습니다.");

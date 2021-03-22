@@ -1,0 +1,1 @@
+Line 161:                 chr.dropMessage(1, "GM으로 설정 되었습니다.");

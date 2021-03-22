@@ -1,0 +1,21 @@
+Line 26:     private static List<String> EXCPET_ITEM_NAMES = Arrays.asList("위젯");
+
+Line 196:                 shopname = MapleWeaponType.getMapleWeaponTypeById(value - EquipType.무기.shopIdAlter()).name();
+
+Line 306:         return !MapleWeaponType.getWeaponType(itemId).equals(MapleWeaponType.무기아님);
+
+Line 310:         모자("cp", 1), 가발("hrcp", 1), 얼굴장식("af", 2), 눈장식("ay", 3), 귀고리("ae", 4), 신발("so", 5), 망토("sr", 6), 상의("ma",
+
+Line 311:                 7), 장갑("gv", 8), 한벌옷("mapn", 9), 하의("pn", 10), 반지("ri", 11), 방패("si", 12), 펜던트("pe", 13), 허리띠("be",
+
+Line 312:                 13), 어깨장식("sh", 13), 훈장("me", 14), 무기("wp", 15), 보조무기("wpsi", 15), 쓰레기("gbg", 0),;
+
+Line 346:         무기아님(0), 한손도끼(1), 두손도끼(2), 한손둔기(3), 두손둔기(4), 활(5), 아대(6), 석궁(7), 단검(8), 총(9), 너클(10), 폴암(11), 창(12), 스태프(
+
+Line 347:                 13), 한손검(14), 두손검(15), 완드(16), 샤이닝로드(17), 소울슈터(18), 블레이드(19), 보조무기(20), 케인(21), 듀얼보우건(22),;
+
+Line 361:             MapleWeaponType[] type = {무기아님, 샤이닝로드, 소울슈터, 무기아님, 무기아님, 무기아님, 무기아님, 무기아님, 무기아님, 무기아님, 한손검, 한손도끼, 한손둔기, 단검,
+
+Line 362:                 블레이드, 보조무기, 케인, 완드, 스태프, 무기아님, 두손검, 두손도끼, 두손둔기, 창, 폴암, 활, 석궁, 아대, 너클, 총, 무기아님, 무기아님, 듀얼보우건};
+
+Line 364:                 return 무기아님;

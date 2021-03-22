@@ -1,0 +1,5 @@
+Line 261:     public static byte[] 플레임디스차지여우(MapleCharacter chr) {
+
+Line 293:     public static byte[] 플레임디스차지여우재생성(MapleCharacter chr, MapleMonster monster) {
+
+Line 341:         mplew.writeInt(90);  //각도

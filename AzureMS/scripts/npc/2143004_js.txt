@@ -1,0 +1,11 @@
+Line 19:             cm.sendSimple("#e<시그너스 원정>#n\r\n" + "타락한 시그너스에게 맞설 준비는 되셨습니까?\r\n\r\n" + "#L0##b 시그너스 입장을 신청한다.");
+
+Line 21:             cm.sendYesNo("시그너스 원정을 그만하고 나가시겠습니까?");
+
+Line 26:                 cm.sendOk("파티를 맺고 입장해 주세요.");
+
+Line 29:                 cm.sendOk("파티장만 입장신청이 가능합니다");
+
+Line 32: 		cm.sendOk("이미 다른 파티가 시그너스를 처치중 입니다.");
+
+Line 38:                 cm.getPlayer().getMap().startMapEffect("이곳을 찾아 온 사람을 보는 것은 정말 오랜만이에요. 하지만 무사히 돌아간 분도 없었답니다.", 5120043);
